@@ -8,7 +8,11 @@
 		
 		<span class="sec_one_header">$100+ Million Recovered our Clients</span><!-- sec_one_header -->
 		
-		<a class="" href="#consultation">Get Your Free Consultation</a>
+		<a class="consultation_button" href="#consultation">
+			
+			<span>Get Your Free Consultation</span>
+		
+		</a><!-- consultation_button -->
 		
 	</div><!-- sec_one_left -->
 	
@@ -20,7 +24,6 @@
 		
 	</div><!-- sec_one_right -->
 
-	
 </div><!-- sec_one_content -->
 
 <picture>
