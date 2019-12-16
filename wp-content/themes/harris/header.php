@@ -48,11 +48,35 @@
 
 <body <?php body_class(); ?>>
 	
-	test
-	
 	<header>
 		
-		<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+		<div class="header_left">
+			
+			<a class="logo" href="">
+				
+				<?php echo file_get_contents("wp-content/themes/harris/images/logo.svg"); ?>
+				
+			</a>
+			
+		</div><!-- header_left -->
+		
+		<div class="header_right">
+			
+			<div class="tagline_wrapper">
+				
+				<ul class="tagline">
+					<li>No win</li>
+					<li>No fee</li>
+					<li>Free Consultation</li>
+				</ul>
+				
+				<a class="phone" href="tel:7023841414">(702) 384-1414</a>
+				
+			</div><!-- tagline_wrapper -->
+			
+			<nav><?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?></nav>
+			
+		</div><!-- header_right -->
 		
 	</header>
 				
