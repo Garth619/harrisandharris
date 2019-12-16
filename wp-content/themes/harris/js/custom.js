@@ -330,5 +330,27 @@ var macyInstance = Macy({
 $("ul > li.menu-item-has-children > a[href='#']").removeAttr("href");
 
 
+
+
+// nav 
+
+
+// active states
+
+$('nav ul.menu > li.current-menu-ancestor > a, nav ul.menu > li.current-menu-ancestor > ul.sub-menu > li.current-menu-ancestor > a').addClass('active');
+	
+	
+
+
+$('nav ul.menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > a').on('click', function(e) {
+  
+  $(this).toggleClass('active');
+  
+  $(this).next('ul.sub-menu').slideToggle(300);
+
+});
+
+
+
   
 }); // document ready
