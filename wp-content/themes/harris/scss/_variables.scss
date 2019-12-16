@@ -1,15 +1,64 @@
-$themePath: '/wp-content/themes/starter/';
+$themePath: '/wp-content/themes/harris/';
 
 
+// fonts
 
 
-/*
-@mixin quatro_reg {
-  font-family: quatro, sans-serif;
+@mixin barlow_reg {
+  font-family: 'Barlow', sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
 
-@include quatro_reg;
 
-*/
+@mixin barlow_med {
+  font-family: 'Barlow', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@mixin barlow_semibold {
+  font-family: 'Barlow', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+@mixin barlow_bold {
+  font-family: 'Barlow', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+@mixin barlow_black {
+  font-family: 'Barlow', sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+@mixin barlow_black_italic {
+  font-family: 'Barlow', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
+// colors
+
+
+$redlight: #f24948;
+$red: #b40d1a;
+$redgrad: linear-gradient(to bottom,  #f24948 15%,#f24948 15%,#b30d19 100%); /* https://colorzilla.com/gradient-editor/#f24948+15,f24948+15,b30d19+100 */
+
+$yellow: #eda31a;
+
+$blackone: #0c1321;
+$blacktwo: #161622;
+$blackgrad: linear-gradient(to bottom,  #29293e 0%,#0c1321 100%); /* https://colorzilla.com/gradient-editor/#29293e+0,0c1321+100 */
+
+
+
+
+

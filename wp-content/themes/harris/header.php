@@ -34,6 +34,8 @@
 
 <?php the_field( 'review_css','option'); ?>
 
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,600,700,900,900i&display=swap');
+
 </style>
 
 <?php wp_head(); ?>
@@ -46,6 +48,7 @@
 
 <body <?php body_class(); ?>>
 	
+	test
 	
 	<header>
 		
