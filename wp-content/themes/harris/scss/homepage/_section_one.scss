@@ -56,6 +56,7 @@
 	flex-grow:1;
 	position: relative;
 	margin-left:-40px;
+	margin-top:-45px;
 	img {
 		position: absolute;
 		top:0;
@@ -159,13 +160,52 @@ a.consultation_button {
   }
 	
 	.sec_one_right {
+		margin-top:80px;
 		img.att_one {
-			width:400px;
+			width:430px;
+		}
+		img.att_two {
+			width:510px;
+			left:290px;
+			top: -5px;
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1355px) {
+	
+	
+	#section_one {
+		height:922px;
+		img.hero_img {
+			object-position: 96% 0%;
+		}
+	}
+	
+	.sec_one_content {
+		max-width: 1104px;
+	}
+	
+	.sec_one_right {
+		margin-left: -81px;
+		img.att_two {
+			left: 282px;
+		}
+	}
+	
+	
+	.sec_one_right {
+		margin-top:10px;
+		img.att_one {
+			width:390px;
 		}
 		img.att_two {
 			width:490px;
-			left:290px;
-			//right:-175px;
+			left:285px;
+			top: -12px;
 		}
 	}
 	
