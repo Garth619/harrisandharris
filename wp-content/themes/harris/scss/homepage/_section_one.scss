@@ -140,4 +140,34 @@ a.consultation_button {
 	}
 	
 	
+	.sec_one_content {
+		max-width: 1309px;
+		span.sec_one_header {
+			margin-top:16px;
+			font-size: 80px;
+			line-height: 80px;
+		}
+	}
+	
+	
+	a.consultation_button {
+		margin-top: 31px;
+	}
+	
+	.sec_one_left {
+    flex-basis: 575px;
+  }
+	
+	.sec_one_right {
+		img.att_one {
+			width:400px;
+		}
+		img.att_two {
+			width:490px;
+			left:290px;
+			//right:-175px;
+		}
+	}
+	
+	
 } /* Media Query */

@@ -52,7 +52,7 @@
 		
 		<div class="header_left">
 			
-			<a class="logo" href="">
+			<a class="logo" href="<?php bloginfo('url');?>">
 				
 				<?php echo file_get_contents("wp-content/themes/harris/images/logo.svg"); ?>
 				

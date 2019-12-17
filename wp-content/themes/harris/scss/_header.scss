@@ -16,6 +16,7 @@ header {
 	flex-shrink:0;
 	padding-top:37px;
 	a {
+		display: block;
 		svg {
 			width:275px;
 			height:68px;
@@ -136,8 +137,13 @@ nav.nav_desktop {
 		}
 		> li.menu-item-has-children {
 				position: relative;
-				padding-bottom: 32px;
+				padding-bottom: 42px;
 				&:hover {
+					> a {
+							&:after {
+								content:"-";
+							}
+					}
 					> ul.sub-menu {
 						opacity: 1;
 						visibility: visible;
@@ -150,13 +156,10 @@ nav.nav_desktop {
 				 }
 				 &:after {
 					 content:"+";
+					 display: inline-block;
 					 position: relative;
 					 margin-left:6px;
-/*
-					 position: absolute;
-					 top:1px;
-					 right:-12px;
-*/
+					 width:10px;
 				 }
 			 }
 			 > a.active {
@@ -270,8 +273,9 @@ nav.nav_desktop {
 	}
 	
 	.header_left {
-		a.logo {
-			flex-basis:223px;
+		flex-basis:223px;
+		padding-top: 33px;
+		a {
 			svg {
 				width:223px;
 				height:68px;
@@ -281,8 +285,12 @@ nav.nav_desktop {
 	
 	
 	ul.tagline {
+		top: 3px;
 		li {
 			font-size: 19px;
+			&:after {
+				margin: 8px 1px 0 3px;
+			}
 		}
 	}
 	
@@ -292,10 +300,11 @@ nav.nav_desktop {
 	
 	
 	nav.nav_desktop {
+		margin-top: 35px;
 		ul.menu {
 			> li {
 					font-size: 15px;
-					margin:0 21px 0 0;
+					margin:0 0px 0 17px;
 			}
 		}
 	}
