@@ -27,8 +27,10 @@
 </div><!-- sec_one_content -->
 
 <picture>
-
+	
+	<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-tablet.png">
 	<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-laptop.png">
+	
 		
 	<img class="hero_img" src="<?php bloginfo('template_directory');?>/images/hero-bg-desktop.png"/>
 
