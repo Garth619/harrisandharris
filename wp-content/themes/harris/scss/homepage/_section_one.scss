@@ -211,3 +211,47 @@ a.consultation_button {
 	
 	
 } /* Media Query */
+
+
+@media screen and (max-width: 1190px) {
+	
+	
+	
+	.sec_one_content {
+		span.sec_one_header {
+			font-size:70px;
+			line-height: 70px;
+			max-width: 510px;
+		}
+	}
+	
+	
+	.sec_one_left {
+		flex-basis: 510px;
+	}
+
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1170px) {
+	
+	
+	
+	#section_one {
+		margin-top:92px;
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1110px) {
+	
+	
+	
+	
+	
+} /* Media Query */

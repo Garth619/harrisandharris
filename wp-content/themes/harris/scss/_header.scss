@@ -312,3 +312,42 @@ nav.nav_desktop {
 	
 } /* Media Query */
 
+
+
+@media screen and (max-width: 1170px) {
+	
+	
+	header {
+		position: fixed;
+		padding:0;
+		height:92px;
+	}
+	
+	
+	.header_left {
+		background: #fff;
+		padding-top:0;
+		flex-basis:306px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		a {
+			svg {
+				width:209px;
+			}
+		}
+	}
+	
+	
+	.header_right {
+		background:$blueone;
+	}
+	
+	nav {
+		display: none;
+	}
+	
+	
+	
+} /* Media Query */
+
