@@ -19,8 +19,8 @@
 .sec_one_content {
 	position: relative;
 	z-index:1;
-	max-width:1515px;
-	margin:200px auto 0;
+	max-width: 1543px;
+	margin:199px auto 0;
 	display: flex;
 	span {
 		display: block;
@@ -47,10 +47,25 @@
 .sec_one_left {
 	flex-basis:640px;
 	flex-shrink:0;
+	position: relative;
+	z-index:1;
 }
 
 .sec_one_right {
 	flex-grow:1;
+	position: relative;
+	margin-left:-40px;
+	img {
+		position: absolute;
+		top:0;
+		
+	}
+	img.att_one {
+		left:0;
+	}
+	img.att_two {
+		left:360px;
+	}
 }
 
 a.consultation_button {
