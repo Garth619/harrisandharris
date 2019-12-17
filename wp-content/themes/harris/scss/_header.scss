@@ -386,6 +386,7 @@ nav.nav_desktop {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		cursor: pointer;
 		//margin-left:72px;
 		.menu_inner {
 			span.menu_bar {
@@ -641,6 +642,24 @@ nav.nav_desktop {
 				}
 			}
 		}
+	}
+	
+	
+	
+	nav.nav_tablet {
+		top: 76px;
+		background: transparent;
+		ul {
+			li {
+				font-size: 16px;
+			}
+		}
+	}
+	
+	.menu-header {
+		box-shadow: none;
+		margin-left:0;
+		width:100%;
 	}
 	
 	
