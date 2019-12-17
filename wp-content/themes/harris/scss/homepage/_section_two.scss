@@ -1,5 +1,36 @@
 
 
 #section_two {
-	height:3000px;
+	position: relative;
+	z-index: 1;
+}
+
+.sec_two_inner {
+	max-width:1730px;
+	margin:0 auto;
+	height:500px;
+}
+
+
+.sec_two_slider {
+	display: flex;
+	justify-content: space-between;
+	margin:-207px 0 0;
+}
+
+
+.sec_two_slide {
+	text-align: center;
+	flex-basis:24.2%;
+	background: #fff;
+	box-shadow: 0px 5px 19.6px 0.4px rgba(0, 0, 0, 0.2);
+	padding:65px 0 0;
+}
+
+
+
+.svg_wrapper {
+	svg {
+		
+	}
 }
