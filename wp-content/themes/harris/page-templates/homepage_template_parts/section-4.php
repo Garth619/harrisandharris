@@ -12,7 +12,7 @@
 			
 			<span class="sec_four_title">Case Results</span><!-- sec_four_title -->
 			
-			<a class="view_cr" href="">View All Results</a><!-- view_cr -->
+			<a class="view_cr top" href="">View All Results</a><!-- view_cr -->
 			
 			<div class="sec_four_cr_wrapper">
 				
@@ -149,6 +149,8 @@
 				</div><!-- sec_four_cr -->
 								
 			</div><!-- sec_four_cr_wrapper -->
+			
+			<a class="view_cr bottom" href="">View All Results</a><!-- view_cr -->
 			
 		</div><!-- sec_four_inner -->
 		
