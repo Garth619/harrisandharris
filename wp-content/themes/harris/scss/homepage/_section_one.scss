@@ -363,12 +363,12 @@ a.consultation_button {
 } /* Media Query */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	
 	
 
 	#section_one {
-		background: #f6f6f6;
+		padding-left:0;
 		img.hero_img {
 			left: 0px;
 			top: 63px;
@@ -397,7 +397,7 @@ a.consultation_button {
 	}
 	
 	.sec_one_right {
-		margin:27px 0 0 0;
+		margin:27px auto 0;
 		max-width:500px;
 		display: flex;
 		justify-content: center;
