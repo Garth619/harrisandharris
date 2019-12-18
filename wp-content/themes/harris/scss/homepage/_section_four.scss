@@ -73,13 +73,20 @@ a.view_cr {
 	position: relative;
 	margin-bottom: 24px;
 	text-align: center;
-	.sec_four_reg {
-		background: #fff;
+	&:hover {
+		.sec_four_hov {
+			opacity: 1;
+		}
+	}
+	.sec_four_reg, .sec_four_hov {
 		position: absolute;
 		top:0;
 		left:0;
 		width:100%;
 		height:100%;
+	}
+	.sec_four_reg {
+		background: #fff;
 		box-shadow: 0px 5px 19.6px 0.4px rgba(0, 0, 0, 0.2);
 		padding:83px 0 0 0;
 		img {
@@ -104,6 +111,36 @@ a.view_cr {
 			letter-spacing: 0.2em;
 			margin-top:16px;
 			@include barlow_black;
+		}
+	}
+	.sec_four_hov {
+		background: $redgrad;
+		z-index:1;
+		display: block;
+		padding:90px 30px 0;
+		opacity: 0;
+		transition: all 200ms ease-in-out;
+		span {
+			color:#fff;
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		span.large_header {
+			text-transform: uppercase;
+			font-size: 20px;
+			line-height: 24px;
+			letter-spacing: 0.2em;
+			max-width: 290px;
+			@include barlow_black;
+		}
+		span.description {
+			font-size: 18px;
+			line-height: 27px;
+			letter-spacing: 0.05em;
+			margin:28px auto 0;
+			max-width:437px;
+			@include barlow_med;
 		}
 	}
 }
