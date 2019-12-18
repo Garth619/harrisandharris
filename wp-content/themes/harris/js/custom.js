@@ -345,6 +345,68 @@ $('.sec_two_slider').slick({
  
  
  
+ 
+ $('.sec_four_cr_wrapper').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  mobileFirst:true,
+	dots:true,
+	arrows:false,
+	autoplay: true,
+  autoplaySpeed: 4500,
+	responsive: [
+   {
+      breakpoint: 990,
+      settings: "unslick"
+    }
+	]
+ });
+ 
+ 
+ 
+ function crHov() {
+	 
+	 $(this).find('.sec_four_hov').toggleClass('active');
+	 
+ }
+ 
+ 
+ if ($(window).width() > 990) {
+	
+		$('.sec_four_cr').off('click', crHov);
+	
+	}
+ 
+ 
+ 
+	if ($(window).width() <= 990) {
+	
+		$('.sec_four_cr').off().on('click', crHov);
+	
+	}
+
+	
+	$(window).resize(_.debounce(function() {
+		
+		if ($(window).width() > 990) {
+	
+			$('.sec_four_cr').off('click', crHov);
+	
+		}
+ 
+ 
+		if ($(window).width() <= 990) {
+	
+			$('.sec_four_cr').off().on('click', crHov);
+	
+		}
+	
+	}, 100)); // timeouts functions
+ 
+ 
+ 
+ 
 // macy http://macyjs.com/
 
 /*
@@ -395,6 +457,8 @@ $('.menu_wrapper').on('click', function(e) {
   $('nav.nav_tablet').toggleClass('active');
   
 });
+
+
 
 
 
