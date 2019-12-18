@@ -311,16 +311,18 @@ $('.sec_two_slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   mobileFirst:true,
-	arrows:true,
-	prevArrow:".sec_two_arrow_left",
-	nextArrow:".sec_two_arrow_right",
+	dots:true,
+	autoplay: true,
+  autoplaySpeed: 4500,
 	responsive: [
     {
       breakpoint: 1040,
       settings: {
       slidesToShow: 2,
+      arrows:true,
+      prevArrow:".sec_two_arrow_left",
+			nextArrow:".sec_two_arrow_right",
       slidesToScroll: 2,
-      dots:true,
      }
    },
    {

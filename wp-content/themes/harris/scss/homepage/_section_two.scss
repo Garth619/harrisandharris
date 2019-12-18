@@ -263,9 +263,50 @@ span.sec_two_slide_description {
 	}
 	
 	
-	#section_two {
-		//display: none;
+	.sec_two_slider {
+		.slick-dots {
+			bottom: 6px;
+		}
 	}
 	
 	    
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	#section_two {
+		padding:0 30px;
+	}
+	
+	.sec_two_arrow {
+		display: none;
+	}
+	
+	
+	.sec_two_inner {
+    margin: -66px auto 0;
+    max-width:555px;
+  }
+	
+	
+	.sec_two_slider {
+		width:100%;
+		padding:0;
+	}
+	
+	
+	.sec_two_slide {
+		height:auto;
+		padding: 65px 25px 55px;
+	}
+	
+	
+	span.sec_two_slide_description {
+		 max-width: 237px;
+	}
+	   
+	
+	
+	
 } /* Media Query */
