@@ -456,3 +456,21 @@ a.consultation_button {
 	
 	
 } /* Media Query */
+
+@media screen and (max-width: 365px) {
+	
+	
+	.sec_one_left {
+		span.sec_one_subheader {
+			max-width: 180px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		span.sec_one_header {
+			font-size: 40px;
+			line-height: 45px;
+		}
+	}
+	
+	
+} /* Media Query */

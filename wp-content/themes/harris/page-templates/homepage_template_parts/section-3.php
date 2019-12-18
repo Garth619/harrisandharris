@@ -26,7 +26,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			
 			<div class="sec_three_right">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/content-atts-01.png"/>
+				<div class="sec_three_img">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/content-atts-01.png"/>
+				
+				</div><!-- sec_three_img -->
 				
 				<div class="sec_three_quote_wrapper">
 					
