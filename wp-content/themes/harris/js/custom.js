@@ -326,6 +326,17 @@ $('.sec_two_slider').slick({
      }
    },
    {
+      breakpoint: 1067,
+      settings: {
+      slidesToShow: 2,
+      arrows:true,
+      dots:false,
+      prevArrow:".sec_two_arrow_left",
+			nextArrow:".sec_two_arrow_right",
+      slidesToScroll: 2,
+     }
+   },
+   {
       breakpoint: 1450,
       settings: "unslick"
     }
