@@ -344,7 +344,7 @@ a.view_cr.bottom {
 	
 	#section_four {
 		img.wave.bottom {
-			left: -543px;
+			left: -483px;
 		}
 	}
 	    
@@ -364,6 +364,22 @@ a.view_cr.bottom {
 	#section_four {
 		margin-top: 3px;
 	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 890px) {
+	
+	
+	
+	#section_four {
+		img.wave.bottom {
+			left: -543px;
+		}
+	}
+	
+		
 	
 	
 } /* Media Query */

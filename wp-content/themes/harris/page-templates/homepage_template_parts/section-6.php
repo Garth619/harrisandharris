@@ -66,6 +66,8 @@
 				
 			</div><!-- sec_six_test_wrapper -->
 			
+			<a class="view_cr bottom" href="">View All Results</a><!-- view_cr -->
+			
 		</div><!-- sec_six_inner -->
 	
 	</div><!-- sec_six_bg -->

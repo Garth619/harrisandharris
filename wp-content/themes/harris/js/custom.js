@@ -364,6 +364,24 @@ $('.sec_two_slider').slick({
  });
  
  
+ $('.sec_six_test_wrapper').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  mobileFirst:true,
+	dots:false,
+	arrows:false,
+	//autoplay: true,
+  //autoplaySpeed: 4500,
+	responsive: [
+   {
+      breakpoint: 990,
+      settings: "unslick"
+    }
+	]
+ });
+ 
+ 
  
  function crHov() {
 	 
