@@ -58,9 +58,56 @@
 	box-shadow: 0px 5px 19.6px 0.4px rgba(0, 0, 0, 0.2);
 	height:687px;
 	text-align: center;
-	padding:70px 0 0;
+	padding:70px 30px 0;
 	img {
 		
+	}
+	span {
+		display: block;
+	}
+	span.test_large_quote {
+		margin-top:53px;
+		font-size: 35px;
+		line-height: 40px;
+		height:80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		@include barlow_black_italic;
+	}
+	span.test_large_quote.long_count {
+		height:auto;
+		display: block;
+	}
+	.testi_description {
+		font-size: 19px;
+		line-height: 30px;
+		margin-top:47px;
+		max-width: 400px;
+		margin:47px auto 0;
+		&:before {
+			content:"";
+			display: block;
+			width:100px;
+			height:4px;
+			margin:0 auto 28px;
+			background: $red;
+		}
+		@include barlow_med;
+		p {
+			margin-bottom:30px;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+	span.name {
+		font-size: 18px;
+		margin-top:34px;
+		line-height: 30px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		@include barlow_black;
 	}
 }
 	

@@ -432,6 +432,27 @@ $("ul > li.menu-item-has-children > a[href='#']").removeAttr("href");
 
 
 
+// cr count text if it gets to be longer than three lines, if so add a class to adjust the height and disable flexbox
+
+
+$('.test_large_quote').each(function(){
+    
+ var textCount = $(this).text().length;
+
+ if(textCount >= 48) {
+	 
+	 $(this).addClass('long_count');
+	 
+ }
+ 
+});
+
+
+
+
+
+
+
 
 // nav 
 
