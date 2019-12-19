@@ -369,10 +369,11 @@ $('.sec_two_slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   mobileFirst:true,
+  adaptiveHeight: true,
 	dots:false,
 	arrows:false,
-	//autoplay: true,
-  //autoplaySpeed: 4500,
+	autoplay: true,
+  autoplaySpeed: 4500,
 	responsive: [
    {
       breakpoint: 990,
