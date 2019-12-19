@@ -16,7 +16,11 @@
 			
 			<div class="sec_six_test_wrapper">
 				
-				<div class="sec_six_test"></div><!-- sec_six_test -->
+				<div class="sec_six_test">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
+					
+				</div><!-- sec_six_test -->
 				
 				<div class="sec_six_test"></div><!-- sec_six_test -->
 				
