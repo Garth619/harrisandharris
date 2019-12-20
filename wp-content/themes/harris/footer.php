@@ -114,7 +114,7 @@
 					<li><a href="">Privacy Policy</a></li>
 				</ul>
 				
-				<a class="ilawyer" href="">
+				<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/ilawyer-logo.svg"/>
 					
