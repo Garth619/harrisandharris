@@ -14,8 +14,8 @@
 						
 						<ul>
 							<li><a href="">Car Accidents</a></li>
-							<li><a href="">Car Accidents</a></li>
-							<li><a href="">Car Accidents</a></li>
+							<li><a href="">Trucking Accidents</a></li>
+							<li><a href="">Catastrophic Injury</a></li>
 						</ul>
 						
 					</div><!-- sec_seven_col -->
@@ -23,9 +23,9 @@
 					<div class="sec_seven_col">
 							
 						<ul>
-							<li><a href="">Car Accidents</a></li>
-							<li><a href="">Car Accidents</a></li>
-							<li><a href="">Car Accidents</a></li>
+							<li><a href="">Brain Injury</a></li>
+							<li><a href="">Wrongful Death</a></li>
+							<li><a href="">Dangerous Properties</a></li>
 						</ul>
 							
 					</div><!-- sec_seven_col -->
