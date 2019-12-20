@@ -7,6 +7,10 @@
 	img.wave {
 		display: block;
 		width:1920px;
+		position: relative;
+	}
+	img.wave.bottom {
+		left:-1px;
 	}
 }
 
@@ -438,7 +442,7 @@ a.view_cr.bottom {
 } /* Media Query */
 
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 600px) {
 	
 	
 	
