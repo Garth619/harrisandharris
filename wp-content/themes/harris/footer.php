@@ -50,6 +50,34 @@
 					
 				</div><!-- footer_contact_wrapper -->
 				
+				<div class="social_media">
+					
+					<a class="" href="">
+						
+						<?php echo file_get_contents("wp-content/themes/harris/images/social-fb.svg"); ?>
+						
+					</a>
+					
+					<a class="" href="">
+						
+						<?php echo file_get_contents("wp-content/themes/harris/images/social-insta.svg"); ?>
+						
+					</a>
+					
+					<a class="" href="">
+						
+						<?php echo file_get_contents("wp-content/themes/harris/images/social-fb.svg"); ?>
+						
+					</a>
+					
+					<a class="" href="">
+						
+						<?php echo file_get_contents("wp-content/themes/harris/images/social-fb.svg"); ?>
+						
+					</a>
+					
+				</div><!-- social_media -->
+				
 			</div><!-- footer_left -->
 			
 			<div class="footer_right"></div><!-- footer_right -->
