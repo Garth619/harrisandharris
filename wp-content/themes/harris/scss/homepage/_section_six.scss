@@ -2,6 +2,7 @@
 
 #section_six {
 	overflow: hidden;
+	//background: pink;
 	img.wave {
 		display: block;
 		width:1920px;
@@ -13,7 +14,6 @@
 	background:$offwhite;
 	height:395px;
 	margin:-1px 0;
-	
 }
 
 
@@ -112,7 +112,10 @@
 		@include barlow_black;
 	}
 }
-	
+
+
+
+
 
 
 
@@ -255,26 +258,38 @@
 
 @media screen and (max-width: 990px) {
 	
+	
+	#section_six {
+		position: relative;
+		img.wave.bottom {
+			left: -180px;
+			
+		}
+	}
+	
 	.sec_six_inner {
 		text-align: center;
 		a.view_cr {
 			top:0;
 			margin-top: 32px;
+			margin-bottom:25px;
+		}
+		span.sec_six_title {
+			margin-top:-363px;
 		}
 	}
 	
 	.sec_six_test_wrapper {
 		max-width:495px;
 		margin:42px auto 0;
-		
 		.slick-slide {
 		   margin: 0 27px;
 		 }
-		  /* the parent */
-		  .slick-list {
-		    margin: 0 -27px;
-		    padding-top:20px;
-		    padding-bottom:30px;
+		 /* the parent */
+		 .slick-list {
+		   margin: 0 -27px;
+		   padding-top:20px;
+		   padding-bottom:30px;
 		  }
 		}
 		
@@ -300,7 +315,34 @@
 			
 			}
 		}
+		
+		// fixed height is messing with adaptive height on the slider
+		
+		
+		.sec_six_bg {
+    	height: auto;
+			background: transparent;
+   	}
+   	
+   	.sec_six_wave_top {
+	 		&:after {
+		 		content:"";
+		 		display: block;
+		 		width:100%;
+		 		background: pink;
+		 		height: 280px;
+	 		}
+		}
+		
+		
+		.sec_six_wave_bottom {
+			position: absolute;
+			top: 570px;
+			left:0;
+		}
 	
+
+
 	
 	
 } /* Media Query */
@@ -309,9 +351,46 @@
 @media screen and (max-width: 767px) {
 	
 	
+	#section_six {
+		
+	}
+	
+		.sec_six_wave_top {
+	 		&:after {
+		 		height:0px;
+	 		}
+		}
+	
 	.sec_six_inner {
     padding: 1px 30px 0;
+    span.sec_six_title {
+	    font-size: 55px;
+	    line-height: 60px;
+	    margin: -167px auto 0;
+    }
+    a.view_cr {
+	    width:100%;
+	    margin-top: 40px;
+	    
+    }
   }
+  
+  .sec_six_test {
+	  img {
+		  width:176px;
+	  }
+	  span.test_large_quote {
+		  height:auto;
+		  display: block;
+		  max-width:235px;
+		  margin-top: 48px;
+	  }
+	  .testi_description {
+		 	margin: 45px auto 0;
+	  }
+  }
+  
+
 	
 	
 } /* Media Query */

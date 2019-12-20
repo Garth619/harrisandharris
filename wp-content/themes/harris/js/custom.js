@@ -372,8 +372,8 @@ $('.sec_two_slider').slick({
   adaptiveHeight: true,
 	dots:false,
 	arrows:false,
-	autoplay: true,
-  autoplaySpeed: 4500,
+	//autoplay: true,
+  //autoplaySpeed: 4500,
 	responsive: [
    {
       breakpoint: 990,
