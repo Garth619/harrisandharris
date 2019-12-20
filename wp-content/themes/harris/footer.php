@@ -60,23 +60,29 @@
 					
 					<a class="" href="">
 						
+						<?php echo file_get_contents("wp-content/themes/harris/images/social-twitter.svg"); ?>
+						
+					</a>
+					
+					<a class="" href="">
+						
+						<?php echo file_get_contents("wp-content/themes/harris/images/social-linked.svg"); ?>
+						
+					</a>
+					
+					<a class="" href="">
+						
 						<?php echo file_get_contents("wp-content/themes/harris/images/social-insta.svg"); ?>
 						
 					</a>
 					
-					<a class="" href="">
-						
-						<?php echo file_get_contents("wp-content/themes/harris/images/social-fb.svg"); ?>
-						
-					</a>
-					
-					<a class="" href="">
-						
-						<?php echo file_get_contents("wp-content/themes/harris/images/social-fb.svg"); ?>
-						
-					</a>
-					
 				</div><!-- social_media -->
+				
+				<div class="location_tagline">
+					
+					<span>Fighting for the injured in Nevada, Utah and Arizona.</span>
+					
+				</div><!-- location_tagline -->
 				
 			</div><!-- footer_left -->
 			
