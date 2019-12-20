@@ -86,14 +86,46 @@
 				
 			</div><!-- footer_left -->
 			
-			<div class="footer_right"></div><!-- footer_right -->
+			<div class="footer_right">
+				
+				<span class="footer_right_subheader">Get help now. No win, no fee policy.</span><!-- footer_right_subheader -->
+				
+				<span class="footer_right_large_header">request your<br/> free consultation</span><!-- footer_right_large_header -->
+				
+				<div class="form_wrapper">
+					
+					<?php gravity_form(1, false, false, false, '', true, 12); ?>
+					
+					<span class="required_fields">Required Fields<span class="ast">*</span></span>
+					
+				</div><!-- form_wrapper -->
+				
+			</div><!-- footer_right -->
 			
 		</div><!-- footer_inner -->
 		
+		<div class="copyright_wrapper">
+			
+			<div class="copyright_inner">
+				
+				<ul>
+					<li>&copy; 2020 Harris & Harris Injury Lawyers</li>
+					<li><a href="">Terms & Conditions</a></li>
+					<li><a href="">Privacy Policy</a></li>
+				</ul>
+				
+				<a class="ilawyer" href="">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/ilawyer-logo.svg"/>
+					
+				</a>
+				
+			</div><!-- copyright_inner -->
+			
+		</div><!-- copyright_wrapper -->
+		
 	</div><!-- footer_bg -->
 	
-	<?php // gravity_form(1, false, false, false, '', true, 12); ?>
-		
 </footer>
 
 

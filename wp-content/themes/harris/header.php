@@ -27,14 +27,14 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-
+<link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700,900,900i&display=swap" rel="stylesheet">
 
 <style>
 
 
 <?php the_field( 'review_css','option'); ?>
 
-@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,600,700,900,900i&display=swap');
+
 
 </style>
 

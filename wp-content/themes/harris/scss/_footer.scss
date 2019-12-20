@@ -2,6 +2,7 @@
 
 footer {
 	margin-top:100px;
+	overflow: hidden;
 	img.footer_wave {
 		width:1920px;
 		display: block;
@@ -12,20 +13,20 @@ footer {
 .footer_bg {
 	width:100%;
 	background: $blueone;
-	height:5000px;
+	margin-top:-1px;
 }
 
 .footer_inner {
 	max-width: 1485px;
 	margin:0 auto;
-	height:400px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .footer_left {
-	width: 355px;
-	padding-left:15px;
+	flex-basis: 365px;
+	flex-shrink:0;
+	padding-left:25px;
 	margin-top:160px;
 	span {
 		display: block;
@@ -110,7 +111,7 @@ span.contact_us_title {
 
 .social_media {
 	margin-top:66px;
-	margin-left:53px;
+	margin-left:45px;
 	a {
 		text-decoration: none;
 		margin-right:5px;
@@ -145,6 +146,155 @@ span.contact_us_title {
 		line-height: 29px;
 		letter-spacing: 0.025em;
 		@include barlow_med;
+	}
+}
+
+.footer_right {
+	flex-grow:1;
+	margin-top:145px;
+	padding:0 0px 0 205px;
+	span {
+		display: block;
+	}
+	span.footer_right_subheader {
+		color:$red;
+		font-size: 22px;
+		line-height: 26px;
+		letter-spacing: 0.025em;
+		@include barlow_semibold;
+	}
+	span.footer_right_large_header {
+		font-size: 85px;
+		line-height: 90px;
+		letter-spacing: 0.025em;
+		color:#fff;
+		text-transform: uppercase;
+		margin-top:14px;
+		margin-bottom:3px;
+		@include barlow_black_italic;
+	}
+}
+
+
+.form_wrapper {
+	margin-top:37px;
+	.gform_wrapper {
+		ul {
+			list-style: none;
+			display: flex;
+			flex-wrap:wrap;
+			justify-content: space-between;
+			li {
+				flex-basis:49%;
+				display: block;
+				position: relative;
+				margin-bottom:23px;
+				label {
+					position: absolute;
+					top:27px;
+					left:20px;
+					display: block;
+					font-size: 20px;
+					letter-spacing: 0.025em;
+					@include barlow_med;
+					span.gfield_required {
+						display: inline-block;
+						color:$red;
+					}
+				}
+				input, textarea {
+					font-size: 20px;
+					letter-spacing: 0.025em;
+					width: 100%;
+					border:none;
+					box-shadow:inset 0px 0px 0px 1px $yellow;
+					transition: all 200ms ease-in-out;
+					padding:0 20px;
+						@include barlow_med;
+					&:focus {
+						box-shadow:inset 0px 0px 0px 4px $yellow;
+					}
+				}
+				input {
+					height:77px;
+				}
+				textarea {
+					height:180px;
+					padding-top:15px;
+				}
+			}
+			li#field_1_6 {
+				flex-basis:100%;
+				label {
+					top:17px;
+				}
+			}
+			li#field_1_7 {
+				display: none;
+			}
+		}
+	}
+	.gform_footer {
+		display: flex;
+		justify-content: flex-end;
+	}
+	input[type="submit"] {
+		background: $yellow;
+		border:2px solid $yellow;
+		color:#fff;
+		text-transform: uppercase;
+		font-size: 25px;
+		letter-spacing: 0.08em;
+		height:67px;
+		width:183px;
+		border-radius: 45px;
+		transition: all 200ms ease-in-out;
+		cursor: pointer;
+		@include barlow_black;
+		&:hover {
+			background: transparent;
+		}
+	}
+	.gfield_description, .validation_message {
+		color:$yellow;
+		margin-top:3px;
+		font-size: 16px;
+		line-height: 18px;
+		letter-spacing: 0.025em;
+		@include barlow_semibold;
+	}
+	span.required_fields {
+		color:#fff;
+		text-transform: lowercase;
+		font-size: 20px;
+		letter-spacing: 0.025em;
+		margin-top:-74px;
+		@include barlow_med;
+		span {
+			display: inline-block;
+			color:$red;
+		}
+	}
+}
+
+
+
+.copyright_wrapper {
+	.copyright_inner {
+		max-width: 1725px;
+		margin:0 auto;
+		display: flex;
+		justify-content: space-between;
+		ul {
+			li {
+				color:#fff;
+				display: inline-block;
+				a {
+					color:#fff;
+					text-decoration: none;
+				}
+			}
+		}
 	}
 }
 
