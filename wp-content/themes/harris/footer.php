@@ -50,6 +50,8 @@
 					
 				</div><!-- footer_contact_wrapper -->
 				
+				<div class="sm_loc_wrapper">
+				
 				<div class="social_media">
 					
 					<a class="" href="">
@@ -83,6 +85,8 @@
 					<span>Fighting for the injured in Nevada, Utah and Arizona.</span>
 					
 				</div><!-- location_tagline -->
+				
+				</div><!-- sm_loc_wrapper -->
 				
 			</div><!-- footer_left -->
 			
