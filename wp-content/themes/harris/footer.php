@@ -82,7 +82,7 @@
 				
 				<div class="location_tagline">
 					
-					<span>Fighting for the injured in Nevada, Utah and Arizona.</span>
+					<span>Fighting for the injured<br/> in Nevada, Utah and Arizona.</span>
 					
 				</div><!-- location_tagline -->
 				
