@@ -352,11 +352,27 @@ a.view_pa {
 } /* Media Query */
 
 
+
+
 @media screen and (max-width: 420px) {
 	
 	
 	a.view_pa {
 		width:100%;
+	}
+	
+	
+} /* Media Query */
+
+@media screen and (max-width: 358px) {
+	
+	
+	.sec_seven_quote_wrapper {
+		justify-content: center;
+	}
+	
+	.sec_seven_quote {
+		flex-basis: 100%;
 	}
 	
 	
