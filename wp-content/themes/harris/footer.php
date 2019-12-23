@@ -96,7 +96,7 @@
 				
 				<span class="footer_right_large_header">request<br class="mobile"/> your<br class="desktop"/> free consultation</span><!-- footer_right_large_header -->
 				
-				<div class="form_wrapper">
+				<div id="consultation" class="form_wrapper">
 					
 					<?php gravity_form(1, false, false, false, '', true, 12); ?>
 					
