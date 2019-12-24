@@ -445,13 +445,26 @@ span.contact_us_title {
 } /* Media Query */
 
 
+@media screen and (max-width: 1330px) {
+	
+	
+	
+	footer {
+		img.footer_wave {
+			position: relative;
+			left: -480px;
+		}
+	}
+	
+	
+} /* Media Query */
+
 
 @media screen and (max-width: 1066px) {
 	
 	
 	footer {
 		img.footer_wave {
-			position: relative;
 			left: -700px;
 		}
 	}
