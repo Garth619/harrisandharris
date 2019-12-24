@@ -278,6 +278,69 @@ nav.nav_desktop {
 	display: none;
 }
 
+body:not(.page-template-template-home):not(.page-template-default) {
+	header {
+		box-shadow: 0px 5px 19.6px 0.4px rgba(0, 0, 0, 0.2);
+		height:120px;
+	}
+	.header_right {
+		padding-top:22px;
+	}
+	.header_left {
+		padding-top: 27px;
+		a {
+			svg {
+				width:235px;
+			}
+		}
+	}
+	ul.tagline {
+		top: 1px;
+		li {
+			font-size: 20px;
+			line-height: 26px;
+			&:after {
+				margin: 11px 2px 0 5px;
+			}
+		}
+	}
+	a.phone {
+		color:$red;
+		font-size: 34px;
+	}
+	nav.nav_desktop {
+   margin-top: 18px;
+   ul.menu {
+	   > li {
+		   font-size: 16px;
+		   margin: 0 0px 0 25px;
+	   }
+	   > li.menu-item-has-children {
+		     padding-bottom: 34px;
+		     > a {
+			     	&:after {
+				     	color:$red;
+			     	}
+		     }
+		     > ul.sub-menu {
+			     	top: 46px;
+			     	> li.menu-item-has-children {
+				     	> a {
+					     	&:after {
+						     	//color:$red;
+					     	}
+				     	}
+			     	}
+		     }
+	   }
+   }
+  }
+}
+
+
+
+
+
 
 @media screen and (max-width: 1450px) {
 	
