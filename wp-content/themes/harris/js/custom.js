@@ -468,9 +468,31 @@ $('.test_large_quote').each(function(){
 
 
 
+// sidebar 
 
 
+$(".sidebar_box h3, .sidebar_box ul > li.menu-item-has-children > a").append("<span class='dropdown_arrow'></span>");
 
+
+$('.sidebar_box ul > li.menu-item-has-children > a').on('click', function(e) {
+	
+	$(this).toggleClass('active');
+  
+	$(this).next('ul.sub-menu').slideToggle(300);
+
+});
+
+
+$('.sidebar_box h3').on('click', function(e) {
+	
+	$(this).parent().parent().toggleClass('active');
+  
+  $(this).toggleClass('active');
+  
+  $(this).next('ul').slideToggle(300);
+
+
+});
 
 
 // nav 
