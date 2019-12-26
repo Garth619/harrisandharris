@@ -711,6 +711,25 @@ body:not(.page-template-template-home):not(.page-template-default) {
 		margin-top:6px;
 	}	
 	
+	
+	
+	
+	body:not(.page-template-template-home):not(.page-template-default) {
+		
+	ul.tagline {
+		li {
+			font-size: 14px;
+			letter-spacing: 0.025em;
+			&:after {
+				margin: 10px -2px 0 3px;
+			}
+		}
+	}
+
+		
+	}
+	
+	
 } /* Media Query */
 
 
@@ -743,7 +762,6 @@ body:not(.page-template-template-home):not(.page-template-default) {
 	}
 	
 	ul.tagline {
-		
 		li {
 			font-size: 14px;
 			display: none;
@@ -787,6 +805,28 @@ body:not(.page-template-template-home):not(.page-template-default) {
 		box-shadow: none;
 		margin-left:0;
 		width:100%;
+	}
+	
+	
+	body:not(.page-template-template-home):not(.page-template-default) {
+		header {
+			height:76px;
+		}
+		ul.tagline {
+			li {
+				color:#fff;
+			}
+		}
+		a.phone {
+			font-size: 20px;
+			margin-left:0;
+			margin-top:0;
+			top:-3px;
+			position: relative;
+		}
+		.header_right {
+			background: $blueone;
+		}
 	}
 	
 	
