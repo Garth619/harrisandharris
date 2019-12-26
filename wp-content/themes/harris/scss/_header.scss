@@ -825,6 +825,13 @@ body.page-template-default {
 		margin-left:0;
 	}
 	
+	.tagline_wrapper {
+/*
+		align-items: flex-end;
+		padding-right:40px;
+*/
+	}
+	
 	.menu_wrapper {
 		width:56px;
 		.menu_inner {
@@ -836,6 +843,7 @@ body.page-template-default {
 			}
 		}
 	}
+	
 	
 	
 	
@@ -945,6 +953,20 @@ body.page-template-default {
 	a.phone {
 		font-size: 16px;
 	}
+	
+	
+body:not(.page-template-template-home){
+	ul.tagline {
+		li {
+			font-size: 11px;
+		}
+	}
+	
+	
+	a.phone {
+		font-size: 16px;
+	}
+}
 	
 } /* Media Query */
 
