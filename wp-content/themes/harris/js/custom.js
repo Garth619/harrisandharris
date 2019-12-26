@@ -548,7 +548,7 @@ function topMenu() {
 }
 
 
-if ($(window).width() > 1170) {
+if ($(window).width() > 1190) {
 	
 	navDesktop();
 	
@@ -559,7 +559,7 @@ if ($(window).width() > 1170) {
 }
 
 
-if ($(window).width() <= 1170) {
+if ($(window).width() <= 1190) {
 	
 	navTablet();
 	
@@ -569,7 +569,7 @@ if ($(window).width() <= 1170) {
 
 $(window).resize(_.debounce(function() {
 	
-	if ($(window).width() > 1170) {
+	if ($(window).width() > 1190) {
 	
 		navDesktop();
 		
@@ -579,7 +579,7 @@ $(window).resize(_.debounce(function() {
 	
 	}
 
-	if ($(window).width() <= 1170) {
+	if ($(window).width() <= 1190) {
 	
 		navTablet();
 		
