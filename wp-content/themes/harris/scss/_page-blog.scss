@@ -13,3 +13,85 @@ body:not(.page-template-default) {
 		margin-top:20px;
 	}
 }
+
+
+.blog_feed  {
+	padding-top:9px;
+}
+
+.single_blog_post {
+	padding-bottom:94px;
+	border-bottom: 2px solid #cccccc;
+	margin-bottom: 82px;
+	h2 {
+		a {
+			color:$red;
+			transition: all 200ms ease-in-out;
+			&:hover {
+				color:$yellow;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+
+
+
+.meta_data {
+	text-transform: uppercase;
+	margin-bottom: 21px;
+	.date {
+		display: inline;
+		font-size: 18px;
+		line-height: 23px;
+		letter-spacing: 0.2em;
+		@include barlow_black;
+	}
+	ul {
+		display: inline;
+		margin:0;
+		li {
+			display: inline;
+			padding:0;
+			margin:0;
+			font-size: 18px;
+			line-height: 23px;
+			letter-spacing: 0.2em;
+			&:before {
+				display: inline-block;
+				width:5px;
+				height:5px;
+				position: static;
+				margin:14px 15px 0 10px;
+				vertical-align: top;
+			}
+			@include barlow_black;
+			a {
+				color:$blueone;
+				@include barlow_black;
+			}
+		}
+	}
+}
+
+
+a.blog_read_more {
+	background: $yellow;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	display: inline-block;
+	margin-top:42px;
+	letter-spacing: 0.08em;
+	border-radius: 45px;
+	padding:13px 27px;
+	border:2px solid $yellow;
+	transition: all 200ms ease-in-out;
+	@include barlow_bold;
+	&:hover {
+		background: transparent;
+		color:$yellow;
+		text-decoration: none;
+	}
+}
