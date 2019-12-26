@@ -484,8 +484,6 @@ $('.sidebar_box ul > li.menu-item-has-children > a').on('click', function(e) {
 
 
 $('.sidebar_box h3').on('click', function(e) {
-	
-	$(this).parent().parent().toggleClass('active');
   
   $(this).toggleClass('active');
   
