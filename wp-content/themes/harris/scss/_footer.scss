@@ -457,6 +457,15 @@ span.contact_us_title {
 	}
 	
 	
+	body:not(.page-template-template-home) {
+		.footer_right {
+			span.footer_right_subheader {
+				margin-top: -38px;
+			}
+		 }
+	}
+	
+	
 } /* Media Query */
 
 
@@ -597,6 +606,18 @@ span.contact_us_title {
 	}
 	
 	
+	body:not(.page-template-template-home) {
+		footer {
+			margin-top: 85px;
+		}
+		.footer_right {
+			span.footer_right_subheader {
+				margin-top: -52px;
+			}
+		 }
+	}
+	
+	
 } /* Media Query */
 
 
@@ -689,6 +710,14 @@ span.contact_us_title {
 	}
 	
 	
+	body:not(.page-template-template-home) {
+		.footer_right {
+			span.footer_right_subheader {
+				margin-top: -131px;
+			}
+		}
+	}
+	
 	
 } /* Media Query */
 
@@ -721,6 +750,10 @@ span.contact_us_title {
 	}
 	
 	
+	
+	
+	
+	
 	.footer_contact_row {
 		span.address {
 			max-width:285px;
@@ -738,6 +771,16 @@ span.contact_us_title {
     	width: 1850px;
 		}
 	}
+	
+	
+	body:not(.page-template-template-home) {
+		.footer_right {
+			span.footer_right_subheader {
+				margin-top: -181px;
+			}
+		}
+	}
+	
 	
 	
 	
