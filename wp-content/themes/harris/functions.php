@@ -178,7 +178,40 @@ function gform_tabindexer( $tab_index, $form = false ) {
 }
 
 
+// register blog
 
+
+			register_sidebar( array(
+        'name' => __( 'Blog PA', 'wpb' ),
+        'id' => 'blog-pa',
+        'description' => __( 'The main sidebar appears on the right on each page except the front page template', 'wpb' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+				) );
+			
+			
+			register_sidebar( array(
+        'name' => __( 'Blog Categories', 'wpb' ),
+        'id' => 'blog-cat',
+        'description' => __( 'The main sidebar appears on the right on each page except the front page template', 'wpb' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+				) );
+				
+				
+				register_sidebar( array(
+        'name' => __( 'Blog Archives', 'wpb' ),
+        'id' => 'blog-archive',
+        'description' => __( 'The main sidebar appears on the right on each page except the front page template', 'wpb' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+				) );
 
 
 /* Remove Unnecessary Scripts

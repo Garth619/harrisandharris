@@ -1,15 +1,24 @@
 <?php get_header(); ?>
 
 
+<div id="internal_main">
 
+<div class="default_container two_col">
+	
+	<div class="content_left content">
+		
+		<h1 class="default_header">Our Blog</h1><!-- default_header -->
+		
+		<?php get_template_part( 'loop', 'index' ); ?>
 				
-	<?php get_template_part( 'loop', 'index' );?>
-				
-			
-			
-	<?php // get_sidebar('blog'); ?>
-			
+	</div><!-- content_left -->
+	
+		<?php get_sidebar('blog'); ?>
+	
+</div><!-- default_container -->
 
+
+</div><!-- internal_main -->
 
 
 

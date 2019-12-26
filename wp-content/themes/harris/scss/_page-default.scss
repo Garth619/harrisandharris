@@ -4,6 +4,17 @@
 	min-height: 600px;
 }
 
+
+
+body:not(.page-template-default) {
+	.content_left {
+		margin-top:0;
+	}
+	.default_container {
+		padding:250px 120px 0;
+	}
+}
+
 .internal_banner {
 	position: relative;
 	overflow: hidden;
@@ -162,6 +173,7 @@ a.banner_button {
 	background: #fff;
 	box-shadow: 0px 5px 19.6px 0.4px rgba(0, 0, 0, 0.2);
 	padding:42px 0px 25px;
+	margin-bottom: 60px;
 	transition: all 200ms ease-in-out;
 	h3 {
 		text-transform: lowercase;

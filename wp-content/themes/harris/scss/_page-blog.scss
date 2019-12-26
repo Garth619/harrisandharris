@@ -1,0 +1,15 @@
+
+
+.default_header {
+	font-size: 80px;
+	line-height: 85px;
+	letter-spacing: 0.025em;
+}
+
+
+
+body:not(.page-template-default) {
+	.sidebar_wrapper {
+		margin-top:20px;
+	}
+}

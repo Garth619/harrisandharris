@@ -487,6 +487,8 @@ $('.sidebar_box h3').on('click', function(e) {
   
   $(this).toggleClass('active');
   
+  $(this).next('div').find('ul').slideToggle(300);
+  
   $(this).next('ul').slideToggle(300);
 
 
