@@ -474,6 +474,9 @@ $('.test_large_quote').each(function(){
 $(".sidebar_box h3, .sidebar_box ul > li.menu-item-has-children > a").append("<span class='dropdown_arrow'></span>");
 
 
+$('.sidebar_box.blog_cat h3, .sidebar_box.blog_archive h3').addClass('active');
+
+
 $('.sidebar_box ul > li.menu-item-has-children > a').on('click', function(e) {
 	
 	$(this).toggleClass('active');
@@ -484,10 +487,12 @@ $('.sidebar_box ul > li.menu-item-has-children > a').on('click', function(e) {
 
 
 $('.sidebar_box h3').on('click', function(e) {
+	
+	$(this).parent().parent().toggleClass('active');
   
   $(this).toggleClass('active');
   
-  $(this).next('div').find('ul').slideToggle(300);
+  $(this).next('div').find('ul.menu').slideToggle(300);
   
   $(this).next('ul').slideToggle(300);
 

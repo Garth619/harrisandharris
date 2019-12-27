@@ -7,13 +7,13 @@
 			
 		</div><!-- sidebar_box -->
 		
-		<div class="sidebar_box">
+		<div class="sidebar_box blog_cat">
 			
 			<?php dynamic_sidebar( 'blog-cat' ); ?>	
 			
 		</div><!-- sidebar_box -->
 		
-		<div class="sidebar_box">
+		<div class="sidebar_box blog_archive">
 			
 			<?php dynamic_sidebar( 'blog-archive' ); ?>	
 			

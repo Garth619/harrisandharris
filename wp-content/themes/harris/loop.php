@@ -48,26 +48,42 @@
 
 <?php endif; ?>
 
-<div class="pagination">
-
-	<?php wpbeginner_numeric_posts_nav(); ?>
-
-</div><!-- pagination -->
 
 </div><!-- blog_feed -->
 
 
-<!--
 <?php if (  $wp_query->max_num_pages > 1 ) : ?>
+
+	<div class="pagination">
 	
-	<div id="nav-below" class="navigation">
-		
-		<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts' ) ); ?></div>
+		<div id="nav-below" class="navigation_buttons">
 			
-		<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>') ); ?></div>
+			<div class="nav-next"><?php previous_posts_link( __( 'Prev') ); ?></div>
+			
+			<?php 
+				
+				$prev_link = get_previous_posts_link(__('Prev'));
+				$next_link = get_next_posts_link(__('Next'));
+				
+				if ($prev_link && $next_link) {
+					
+					echo "<div class='page_divider'></div>";
+ 
+				}
+			
+			?>
+		
+			<div class="nav-previous"><?php next_posts_link( __( 'Next' ) ); ?></div>
+			
+		</div>
 	
-	</div>
+		<?php wpbeginner_numeric_posts_nav(); ?>
+	
+	</div><!-- pagination -->
 
 <?php endif; ?>
--->
+
+
+
+
 
