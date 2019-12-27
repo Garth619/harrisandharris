@@ -1,14 +1,25 @@
 <?php get_header(); ?>
 
-
-		
-		<h1><?php
-					printf( __( '%s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
-				?></h1>
-		
 		
 				
-		<?php get_template_part( 'loop', 'index' );?>
+<div id="internal_main">
+
+<div class="default_container two_col">
+	
+	<div class="content_left content">
+		
+		<h1 class="internal_header"><?php single_cat_title();?></h1><!-- default_blog_header -->
+		
+		<?php get_template_part( 'loop', 'index' ); ?>
+				
+	</div><!-- content_left -->
+	
+		<?php get_sidebar('blog'); ?>
+	
+</div><!-- default_container -->
+
+
+</div><!-- internal_main -->
 				
 		
 

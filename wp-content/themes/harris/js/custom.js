@@ -505,11 +505,10 @@ $('.sidebar_box h3').on('click', function(e) {
 
 // active states
 
-$('nav ul.menu > li.current-menu-ancestor > a, nav ul.menu > li.current-menu-ancestor > ul.sub-menu > li.current-menu-ancestor > a').addClass('active');
+
+$('nav ul.menu > li.current-menu-ancestor > a, nav ul.menu > li.current-menu-ancestor > ul.sub-menu > li.current-menu-ancestor > a, .sidebar_box ul.menu > li.current-menu-ancestor > a').addClass('active');
 	
 	
-
-
 $('nav ul.menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > a').on('click', function(e) {
   
   $(this).toggleClass('active');
@@ -518,15 +517,22 @@ $('nav ul.menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-chil
 
 });
 
+var pgurl = window.location.href;
+	
+	$(".sidebar_box ul li").each(function(){
+  
+  if($(this).find('a').attr("href") == pgurl)
+    
+    $(this).addClass("active");
+	
+	})
+
 
 $('.menu_wrapper').on('click', function(e) {
   
   $('nav.nav_tablet').toggleClass('active');
   
 });
-
-
-
 
 
 function navDesktop() {

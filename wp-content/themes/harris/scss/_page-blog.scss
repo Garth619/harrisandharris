@@ -29,6 +29,7 @@ body:not(.page-template-default) {
 			&:hover {
 				color:$yellow;
 				text-decoration: none;
+				border:none;
 			}
 		}
 	}
@@ -69,7 +70,11 @@ body:not(.page-template-default) {
 			@include barlow_black;
 			a {
 				color:$blueone;
+				transition: all 200ms ease-in-out;
 				@include barlow_black;
+				&:hover {
+					color:$red;
+				}
 			}
 		}
 	}
@@ -94,6 +99,7 @@ a.blog_read_more {
 		background: transparent;
 		color:$yellow;
 		text-decoration: none;
+		border:2px solid $yellow;
 	}
 }
 
@@ -154,6 +160,13 @@ a.blog_read_more {
 .blog_cat, .blog_archive {
 	ul {
 		display: none;
+	}
+}
+
+
+.single {
+	.meta_data {
+		padding-top:55px;
 	}
 }
 

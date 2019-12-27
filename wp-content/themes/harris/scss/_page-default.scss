@@ -231,6 +231,13 @@ a.banner_button {
 			}
 		}
 	}
+	li.active {
+		> a {
+			color:$yellow;
+		}
+	}
+	
+	}
 	ul {
 		> li {
 				ul.sub-menu {
@@ -253,6 +260,10 @@ a.banner_button {
 					}
 				}
 		}
+		> li.current-menu-ancestor {
+			> ul.sub-menu {
+					display: block;
+			}
 	}
 }
 

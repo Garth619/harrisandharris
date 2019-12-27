@@ -76,11 +76,13 @@ h1,h2,h3,h4 {
 	a {
 		color:$yellow;
 		text-decoration: none;
-		@include barlow_bold;
+		padding-bottom:0px;
+		border-bottom: 1px solid transparent;
 		transition: all 200ms ease-in-out;
+		@include barlow_bold;
 		&:hover {
 			color:$red;
-			text-decoration: underline;
+			border-bottom: 1px solid $red;
 		}
 	}
 	p {
