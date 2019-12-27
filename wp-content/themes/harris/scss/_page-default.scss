@@ -236,17 +236,13 @@ a.banner_button {
 			color:$yellow;
 		}
 	}
-	
-	}
 	ul {
-		> li {
-				ul.sub-menu {
-					background: $offwhite;
-					display: none;
-				}
-		}
 		> li.menu-item-has-children {
 				position: relative;
+				> ul.sub-menu {
+						background: $offwhite;
+						display: none;
+				}
 				> a {
 					span.dropdown_arrow {
 						top: 30px;
@@ -267,6 +263,15 @@ a.banner_button {
 	}
 }
 
+}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	span.dropdown_arrow {

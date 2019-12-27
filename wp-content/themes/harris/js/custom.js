@@ -535,6 +535,9 @@ $('.menu_wrapper').on('click', function(e) {
 });
 
 
+$('.sidebar_box.blog_cat ul li.active, .sidebar_box.blog_archive ul li.active').parent().show();	
+
+
 function navDesktop() {
 		
 	$('nav').addClass('nav_desktop');
