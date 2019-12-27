@@ -4,8 +4,6 @@
 
 get_header(); ?>
 
-
-
 <div id="internal_main">
 	
 	<div class="cr_internal_block"></div><!-- cr_internal_block -->
@@ -18,150 +16,64 @@ get_header(); ?>
 	
 	<div class="cr_internal_wrapper">
 		
-		<div class="single_cr_internal">
+		<?php if(get_field('case_results_internal')): ?>
+		 
+			<?php while(has_sub_field('case_results_internal')): ?>
+		 
+				<div class="single_cr_internal">
+					
+					<?php if(get_sub_field('svg_choice') == 'Car') { ?>
 			
-			<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-05-01.svg"/>
+						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-01-01.svg"/>
+					
+					<?php } ?>
+					
+					<?php if(get_sub_field('svg_choice') == 'Truck') { ?>
 			
-			<span class="amount">$4.95M</span>
+						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-02-01.svg"/>
+					
+					<?php } ?>
+					
+					<?php if(get_sub_field('svg_choice') == 'Taxi') { ?>
 			
-			<span class="type">Motor Vehicle Accidents</span><!-- type -->
+						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-03-01.svg"/>
+					
+					<?php } ?>
+					
+					<?php if(get_sub_field('svg_choice') == 'Horse') { ?>
 			
-			<div class="description content">
+						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-04-01.svg"/>
+					
+					<?php } ?>
+					
+					<?php if(get_sub_field('svg_choice') == 'Motorcycle') { ?>
+			
+						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-05-01.svg"/>
+					
+					<?php } ?>
+					
+					<?php if(get_sub_field('svg_choice') == 'Cash') { ?>
+			
+						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
+					
+					<?php } ?>
+			
+					<span class="amount"><?php the_sub_field( 'amount' ); ?></span>
+			
+					<span class="type"><?php the_sub_field( 'type' ); ?></span><!-- type -->
+			
+				<div class="description content">
 				
-				<p>Client sustained injuries to his neck, back, and shoulder after being t-boned by a utility company truck. His injuries required multiple surgeries.</p>
-				
-			</div><!-- description -->
-			
-		</div><!-- single_cr_internal -->
-		
-		<div class="single_cr_internal">
-			
-			<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-04-01.svg"/>
-			
-			<span class="amount">$4.95M</span>
-			
-			<span class="type">Motor Vehicle Accidents</span><!-- type -->
-			
-			<div class="description content">
-				
-				<p>Client sustained injuries to his neck, back, and shoulder after being t-boned by a utility company truck. His injuries required multiple surgeries.</p>
-				
-			</div><!-- description -->
-			
-		</div><!-- single_cr_internal -->
-		
-		<div class="single_cr_internal">
-			
-			<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
-			
-			<span class="amount">$4.95M</span>
-			
-			<span class="type">Motor Vehicle Accidents</span><!-- type -->
-			
-			<div class="description content">
-				
-				<p>Client sustained injuries to his neck, back, and shoulder after being t-boned by a utility company truck. His injuries required multiple surgeries.</p>
-				
-			</div><!-- description -->
-			
-		</div><!-- single_cr_internal -->
-		
-		<div class="single_cr_internal">
-			
-			<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
-			
-			<span class="amount">$4.95M</span>
-			
-			<span class="type">Motor Vehicle Accidents</span><!-- type -->
-			
-			<div class="description content">
-				
-				<p>Client sustained injuries to his neck, back, and shoulder after being t-boned by a utility company truck. His injuries required multiple surgeries.</p>
+				<?php the_sub_field( 'description' ); ?>
 				
 			</div><!-- description -->
 			
 		</div><!-- single_cr_internal -->
-		
-		<div class="single_cr_internal">
-			
-			<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
-			
-			<span class="amount">$4.95M</span>
-			
-			<span class="type">Motor Vehicle Accidents</span><!-- type -->
-			
-			<div class="description content">
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 				
-				<p>Client sustained injuries to his neck, back, and shoulder after being t-boned by a utility company truck. His injuries required multiple surgeries.</p>
-				
-			</div><!-- description -->
-			
-		</div><!-- single_cr_internal -->
-		
-		<div class="single_cr_internal">
-			
-			<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
-			
-			<span class="amount">$4.95M</span>
-			
-			<span class="type">Motor Vehicle Accidents</span><!-- type -->
-			
-			<div class="description content">
-				
-				<p>Client sustained injuries to his neck, back, and shoulder after being t-boned by a utility company truck. His injuries required multiple surgeries.</p>
-				
-			</div><!-- description -->
-			
-		</div><!-- single_cr_internal -->
-		
-		<div class="single_cr_internal">
-			
-			<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
-			
-			<span class="amount">$4.95M</span>
-			
-			<span class="type">Motor Vehicle Accidents</span><!-- type -->
-			
-			<div class="description content">
-				
-				<p>Client sustained injuries to his neck, back, and shoulder after being t-boned by a utility company truck. His injuries required multiple surgeries.</p>
-				
-			</div><!-- description -->
-			
-		</div><!-- single_cr_internal -->
-		
-		<div class="single_cr_internal">
-			
-			<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
-			
-			<span class="amount">$4.95M</span>
-			
-			<span class="type">Motor Vehicle Accidents</span><!-- type -->
-			
-			<div class="description content">
-				
-				<p>Client sustained injuries to his neck, back, and shoulder after being t-boned by a utility company truck. His injuries required multiple surgeries.</p>
-				
-			</div><!-- description -->
-			
-		</div><!-- single_cr_internal -->
-		
-		<div class="single_cr_internal">
-			
-			<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
-			
-			<span class="amount">$4.95M</span>
-			
-			<span class="type">Motor Vehicle Accidents</span><!-- type -->
-			
-			<div class="description content">
-				
-				<p>Client sustained injuries to his neck, back, and shoulder after being t-boned by a utility company truck. His injuries required multiple surgeries.</p>
-				
-			</div><!-- description -->
-			
-		</div><!-- single_cr_internal -->
-		
 	</div><!-- cr_internal_wrapper -->
 	
 </div><!-- internal_container -->
