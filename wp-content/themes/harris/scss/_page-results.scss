@@ -23,7 +23,7 @@ img.cr_internal_wave {
 
 .cr_internal_wrapper {
 	max-width: 1595px;
-	margin:0 auto;
+	margin:0 auto 50px;
 	position: relative;
 	z-index:1;
 	display: flex;
@@ -43,6 +43,41 @@ img.cr_internal_wave {
 	margin-bottom: 30px;
 	background: #fff;
 	box-shadow: 0px 5px 19.6px 0.4px rgba(0, 0, 0, 0.2);
+	padding:110px 35px 0;
+	img.cr_svg {
+		display: block;
+		margin:0 auto;
+	}
+	span {
+		display: block;
+	}
+	span.amount {
+		text-transform: uppercase;
+		font-size: 90px;
+		line-height: 90px;
+		margin-top:25px;
+		@include barlow_black;
+	}
+	span.type {
+		text-transform: uppercase;
+		color:$red;
+		font-size: 18px;
+		letter-spacing: 0.2em;
+		margin-top:23px;
+		margin-bottom: 36px;
+		line-height: 23px;
+		@include barlow_black;
+	}
+	.description {
+		line-height: 27px;
+		letter-spacing: 0.05em;
+		p {
+			margin-bottom: 15px;
+			&:last-of-type {
+				margin-bottom:0;
+			}
+		}
+	}
 }
 
 

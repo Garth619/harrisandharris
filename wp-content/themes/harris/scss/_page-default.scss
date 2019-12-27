@@ -2,6 +2,7 @@
 
 #internal_main {
 	min-height: 600px;
+	overflow: hidden;
 }
 
 
@@ -135,6 +136,11 @@ a.banner_button {
 	padding:0 120px;
 }
 
+.internal_container {
+	padding:252px 120px 0;
+	
+}
+
 .two_col {
 	display: flex;
 	justify-content: space-between;
@@ -164,7 +170,7 @@ a.banner_button {
 		width:100px;
 		height:4px;
 		background: $red;
-		margin:50px auto 0;
+		margin:50px auto 150px;
 	}
 }
 
