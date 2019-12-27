@@ -7,7 +7,7 @@
 	
 	<div class="content_left content">
 		
-		<h1 class="internal_header">Our Blog</h1><!-- default_blog_header -->
+		<h1 class="blog_header">Our Blog</h1><!-- default_blog_header -->
 		
 		<?php get_template_part( 'loop', 'index' ); ?>
 				
