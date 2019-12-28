@@ -271,6 +271,7 @@ a.banner_button {
 				> ul.sub-menu {
 						background: $offwhite;
 						display: none;
+						padding-left:37px;
 				}
 				> a {
 					span.dropdown_arrow {
@@ -725,6 +726,11 @@ img.internal_banner_img {
 				a {
 					padding: 22px 50px;
 				}
+			}
+			> li.menu-item-has-children {
+				 > ul.sub-menu {
+					 padding-left:0;
+				 }
 			}
 		}
 	}
