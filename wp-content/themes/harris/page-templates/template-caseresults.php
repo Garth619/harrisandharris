@@ -12,7 +12,7 @@ get_header(); ?>
 
 <div class="internal_container">
 	
-	<h1 class="internal_header center cr_header"><?php the_title();?></h1>
+	<h1 class="internal_header center"><?php the_title();?></h1>
 	
 	<div class="cr_internal_wrapper">
 		

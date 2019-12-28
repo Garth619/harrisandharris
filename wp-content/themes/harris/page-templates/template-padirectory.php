@@ -6,7 +6,6 @@ get_header(); ?>
 
 <div id="internal_main">
 
-
 <div class="internal_container">
 	
 	<div class="pa_directory_wrapper">
@@ -23,12 +22,7 @@ get_header(); ?>
 	
 </div><!-- internal_container -->
 
-
 </div><!-- internal_main -->
 						
-
-		
-		
-
 
 <?php get_footer(); ?>
