@@ -8,7 +8,7 @@
 	
 	<div class="content_left content">
 		
-		<h1 class="internal_header">
+		<h1 class="large_internal_header">
 			
 			<?php if ( is_day() ) : ?>
 				
@@ -28,7 +28,7 @@
 			
 			<?php endif; ?>
 			
-		</h1><!-- default_blog_header -->
+		</h1><!-- large_internal_header -->
 		
 				
 			<?php rewind_posts();?>

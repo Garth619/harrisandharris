@@ -441,7 +441,18 @@ var macyInstance = Macy({
 */
 
 
+// not found go back button
+
+
+function goBack() {
+ 	window.history.back();
+}
 	
+$('span.go_back').on('click', function(e) {
+	
+	 goBack();
+  
+});
 
 /* Remove "#" from menu anchor items to avoid jump to the top of the page
 --------------------------------------------------------------------------------------- */

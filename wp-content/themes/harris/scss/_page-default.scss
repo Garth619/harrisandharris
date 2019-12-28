@@ -735,3 +735,30 @@ img.internal_banner_img {
 	
 	
 } /* Media Query */
+
+
+
+@media screen and (max-width: 400px) {
+	
+	
+	
+	.sidebar_box {
+		h3 {
+			padding:0 28px;
+		}
+		ul {
+			li {
+				a {
+					padding-left: 28px;
+					padding-right:28px;
+				}
+			}
+		}
+	}
+	
+	span.dropdown_arrow {
+    right: 30px;
+	}
+	
+	
+} /* Media Query */
