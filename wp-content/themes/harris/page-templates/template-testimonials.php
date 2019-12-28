@@ -12,146 +12,42 @@ get_header(); ?>
 	
 	<div class="client_reviews_wrapper">
 		
-		<div class="single_client_review">
+		<?php if(get_field('reviews')): ?>
+		 
+			<?php while(has_sub_field('reviews')): ?>
+		 
+				<div class="single_client_review">
 			
-			<div class="cr_inner">
+					<div class="cr_inner">
 			
-				<div class="cr_left">
+						<div class="cr_left">
 				
-					<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
+							<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
 				
-					<span class="cr_left_title">Exceptional service to someone needing help.</span><!-- cr_left_title -->
+							<span class="cr_left_title"><?php the_sub_field( 'review_quote' ); ?></span><!-- cr_left_title -->
 				
-				</div><!-- cr_left -->
+						</div><!-- cr_left -->
 			
-				<div class="cr_right">
+						<div class="cr_right">
 				
-					<div class="cr_content content">
+							<div class="cr_content content">
 					
-						<p>Exceptional service to someone needing help. I never felt like a name and case number alone like I've heard sometimes happens when dealing with larger firms. With Mr. Harris I knew I would be taken care of and was very pleased with my settlement.</p>
+								<?php the_sub_field( 'description' ); ?>
 					
-					</div><!-- cr_content -->
+							</div><!-- cr_content -->
 				
-					<span class="cr_name">Personal Injury Client</span><!-- cr_name -->
+						<span class="cr_name"><?php the_sub_field( 'name' ); ?></span><!-- cr_name -->
 				
-				</div><!-- cr_right -->
+					</div><!-- cr_right -->
 			
-			</div><!-- cr_inner -->
+				</div><!-- cr_inner -->
 			
-		</div><!-- single_client_review -->
-		
-		<div class="single_client_review">
-			
-			<div class="cr_inner">
-			
-				<div class="cr_left">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
-				
-					<span class="cr_left_title">Exceptional service to someone needing help.</span><!-- cr_left_title -->
-				
-				</div><!-- cr_left -->
-			
-				<div class="cr_right">
-				
-					<div class="cr_content content">
+			</div><!-- single_client_review -->
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 					
-						<p>Exceptional service to someone needing help. I never felt like a name and case number alone like I've heard sometimes happens when dealing with larger firms. With Mr. Harris I knew I would be taken care of and was very pleased with my settlement.</p>
-					
-					</div><!-- cr_content -->
-				
-					<span class="cr_name">Personal Injury Client</span><!-- cr_name -->
-				
-				</div><!-- cr_right -->
-			
-			</div><!-- cr_inner -->
-			
-		</div><!-- single_client_review -->
-		
-		<div class="single_client_review">
-			
-			<div class="cr_inner">
-			
-				<div class="cr_left">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
-				
-					<span class="cr_left_title">Exceptional service to someone needing help.</span><!-- cr_left_title -->
-				
-				</div><!-- cr_left -->
-			
-				<div class="cr_right">
-				
-					<div class="cr_content content">
-					
-						<p>Exceptional service to someone needing help. I never felt like a name and case number alone like I've heard sometimes happens when dealing with larger firms. With Mr. Harris I knew I would be taken care of and was very pleased with my settlement.</p>
-					
-					</div><!-- cr_content -->
-				
-					<span class="cr_name">Personal Injury Client</span><!-- cr_name -->
-				
-				</div><!-- cr_right -->
-			
-			</div><!-- cr_inner -->
-			
-		</div><!-- single_client_review -->
-		
-		<div class="single_client_review">
-			
-			<div class="cr_inner">
-			
-				<div class="cr_left">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
-				
-					<span class="cr_left_title">Exceptional service to someone needing help.</span><!-- cr_left_title -->
-				
-				</div><!-- cr_left -->
-			
-				<div class="cr_right">
-				
-					<div class="cr_content content">
-					
-						<p>Exceptional service to someone needing help. I never felt like a name and case number alone like I've heard sometimes happens when dealing with larger firms. With Mr. Harris I knew I would be taken care of and was very pleased with my settlement.</p>
-					
-					</div><!-- cr_content -->
-				
-					<span class="cr_name">Personal Injury Client</span><!-- cr_name -->
-				
-				</div><!-- cr_right -->
-			
-			</div><!-- cr_inner -->
-			
-		</div><!-- single_client_review -->
-		
-		<div class="single_client_review">
-			
-			<div class="cr_inner">
-			
-				<div class="cr_left">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
-				
-					<span class="cr_left_title">Exceptional service to someone needing help.</span><!-- cr_left_title -->
-				
-				</div><!-- cr_left -->
-			
-				<div class="cr_right">
-				
-					<div class="cr_content content">
-					
-						<p>Exceptional service to someone needing help. I never felt like a name and case number alone like I've heard sometimes happens when dealing with larger firms. With Mr. Harris I knew I would be taken care of and was very pleased with my settlement.</p>
-					
-					</div><!-- cr_content -->
-				
-					<span class="cr_name">Personal Injury Client</span><!-- cr_name -->
-				
-				</div><!-- cr_right -->
-			
-			</div><!-- cr_inner -->
-			
-		</div><!-- single_client_review -->
-			
 	</div><!-- client_reviews_wrapper -->
 	
 </div><!-- internal_container -->
