@@ -2,7 +2,7 @@
 
 .meet_team_wrapper {
 	max-width: 1315px;
-	margin:0 auto;
+	margin:0 auto -35px;
 }
 
 span.meet_team_header {
@@ -15,7 +15,7 @@ span.meet_team_header {
 	&:before {
 		content:"";
 		display: block;
-		width:295px;
+		width:100%;
 		height:4px;
 		background: $red;
 		margin-bottom:24px;
@@ -26,7 +26,7 @@ span.meet_team_header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin:55px 0 0;
+	margin:55px 0 63px;
 	&:after {
 		content:"";
 		flex-basis: 32%;
@@ -37,6 +37,14 @@ span.meet_team_header {
 .single_att {
 	flex-basis: 32%;
 	margin-bottom:85px;
+	&:hover {
+		.single_att_img {
+			.att_overlay {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
 	a {
 		text-decoration: none;
 	}
@@ -61,6 +69,9 @@ span.meet_team_header {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			opacity: 0;
+			visibility: hidden;
+			transition: all 200ms ease-in-out;
 			&:after {
 				content:"View Profile";
 				text-transform: uppercase;
@@ -96,3 +107,128 @@ span.meet_team_header {
 		@include barlow_black;
 	}
 }
+
+@media screen and (max-width: 1450px) {
+	
+	
+	.meet_team_wrapper {
+		
+	}
+	
+	.meet_team_section {
+		&:last-of-type {
+			margin-bottom:-85px;
+		}
+	}
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1315px) {
+	
+	
+	.single_att {
+		.single_att_img {
+			height: 420px;
+			img {
+				
+			}
+		}
+	}
+	
+	.meet_team_section {
+		&:last-of-type {
+			margin-bottom: -40px;
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1220px) {
+	
+	
+	.meet_team_inner {
+		&:after {
+			flex-basis: 31%;
+		}
+	}
+	
+	.single_att {
+  	flex-basis: 31%;
+  	.single_att_img {
+	  	height: 390px;
+  	}
+  }
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1190px) {
+	
+	
+	
+	.single_att {
+    flex-basis: 48%;
+    .single_att_img {
+	  	height: 520px;
+    }
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 900px) {
+	
+	.meet_team_inner {
+		margin: 55px 0 10px;
+	}
+	
+	.single_att {
+    .single_att_img {
+	  	height: 420px;
+    }
+    span.single_att_title {
+	  	margin-top: 25px;
+    }
+	}
+
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.meet_team_wrapper {
+		max-width: 445px;
+		text-align: center;
+	}
+	
+	.meet_team_section {
+		&::last-of-type {
+    	margin-bottom: -85px;
+			margin-top: 80px;
+		}	
+	}
+	
+	.meet_team_inner {
+		display: block;
+		margin: 40px 0 10px;
+	}
+	
+	.single_att {
+		margin-bottom: 55px;
+		.single_att_img {
+			height: 390px;
+		}
+	}
+	
+} /* Media Query */
