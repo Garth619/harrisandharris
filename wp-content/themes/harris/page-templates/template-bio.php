@@ -5,8 +5,20 @@
 get_header(); ?>
 
 
+<div id="internal_main">
+	
+	<div class="cr_internal_block"></div><!-- cr_internal_block -->
+	
+	<img class="cr_internal_wave" src="<?php bloginfo('template_directory');?>/images/test-bg-bottom.svg"/>
 
-	<?php get_template_part( 'loop', 'page' ); ?>
+	<div class="bio_content two_col">
+	
+	
+	
+	</div><!-- bio_content -->
+
+
+</div><!-- internal_main -->
 					 
 					 	
 <?php get_footer(); ?>
