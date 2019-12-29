@@ -155,6 +155,19 @@ span.contact_us_title {
 	}
 }
 
+
+body.page-template-template-contact {
+	.footer_right {
+		padding:0;
+		max-width: 1190px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+    
+
+
+
 .footer_right {
 	flex-grow:1;
 	margin-top:145px;
@@ -482,7 +495,11 @@ span.contact_us_title {
 		//spadding:0 90px;
 	}
 	
-	
+	body.page-template-template-contact {
+		.footer_right {
+			max-width: 100%;
+		}
+	}
 	
 	
 	.footer_right {

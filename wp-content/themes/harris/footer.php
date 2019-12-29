@@ -10,6 +10,8 @@
 		
 		<div class="footer_inner">
 			
+			<?php if(!is_page_template('page-templates/template-contact.php')) { ?>
+			
 			<div class="footer_left">
 				
 				<span class="contact_us_title">Contact Us</span><!-- contact_us_title -->
@@ -89,6 +91,9 @@
 				</div><!-- sm_loc_wrapper -->
 				
 			</div><!-- footer_left -->
+			
+			
+			<?php } ?>
 			
 			<div class="footer_right">
 				
