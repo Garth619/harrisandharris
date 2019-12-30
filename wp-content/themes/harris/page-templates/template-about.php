@@ -53,7 +53,6 @@ get_header(); ?>
 			
 			</div><!-- about_image -->
 
-			
 			<div class="about_quote_wrapper">
 				
 				<div class="about_quote">
@@ -69,6 +68,38 @@ get_header(); ?>
 	</div><!-- about_inner -->
 	
 </div><!-- about_container -->
+
+<div class="about_awards">
+
+	<div class="about_wave_top">
+		
+		<img class="wave top" src="<?php bloginfo('template_directory');?>/images/about-awards-bg.svg"/>
+		
+	</div><!-- about_wave_top -->
+	
+	<div class="about_awards_inner">
+		
+		<div class="about_slider_inner">
+		
+		<span class="about_slider_title">Awards & Recognition</span><!-- about_slider_title -->
+		
+		<div class="about_slider_wrapper">
+			
+			<div class="about_slider"></div><!-- about_slider -->
+			
+		</div><!-- about_slider_wrapper -->
+		
+		</div><!-- about_slider_inner -->
+		
+	</div><!-- about_awards_inner -->
+	
+	<div class="about_wave_bottom">
+		
+		<img class="wave bottom"  src="<?php bloginfo('template_directory');?>/images/about-awards-bg-bottom.svg"/>
+		
+	</div><!-- about_wave_bottom -->
+
+</div><!-- about_awards -->
 
 
 </div><!-- internal_main -->
