@@ -20,7 +20,7 @@
 						
 						<img src="<?php bloginfo('template_directory');?>/images/footer-phone-01.svg"/>
 						
-						<a class="contact_page_content" href="">(702) 384-1414</a>
+						<a class="contact_page_content" href="tel:<?php echo str_replace(['-', '(', ')', ' '], '', get_field('firm_phone', 'option')); ?>"><?php the_field( 'firm_phone','option'); ?></a>
 						
 					</div><!-- contact_page_row -->
 					

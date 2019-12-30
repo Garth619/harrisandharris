@@ -1,0 +1,68 @@
+
+
+body.page-template-template-about {
+	.internal_header {
+		&:after {
+			display: none;
+		}
+	}
+}
+
+
+.about_container {
+	padding:252px 120px 0;
+}
+
+.about_inner {
+	max-width: 1440px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about_left {
+	
+}
+
+.about_content {
+	margin-top:48px;
+	padding-right: 90px;
+}
+
+
+.about_right {
+	flex-basis: 645px;
+	flex-shrink: 0;
+}
+
+
+.about_quote_wrapper {
+	display: flex;
+	margin-top:40px;
+	justify-content: flex-end;
+}
+
+
+.about_quote {
+	flex-basis:457px;
+	flex-shrink:0;
+	&:before {
+		content:"";
+		display: block;
+		width:100%;
+		height:6px;
+		background: $red;
+		margin-bottom:23px;
+	}
+	span {
+		font-size: 30px;
+		line-height: 45px;
+		letter-spacing: 0.035em;
+		@include barlow_black_italic;
+		strong {
+			font-weight:normal;
+			color:$yellow;
+		}
+	}
+}
+

@@ -72,7 +72,8 @@
 						<li>Free Consultation</li>
 					</ul>
 					
-					<a class="phone" href="tel:7023841414">(702) 384-1414</a>
+					
+					<a class="phone" href="tel:<?php echo str_replace(['-', '(', ')', ' '], '', get_field('firm_phone', 'option')); ?>"><?php the_field( 'firm_phone','option'); ?></a>
 					
 				</div><!-- tagline_wrapper -->
 				
