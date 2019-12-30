@@ -1,0 +1,63 @@
+
+
+body.page-template-template-contact {
+	.internal_header {
+		display: inline-block;
+		&:after {
+			margin: 30px 0 54px;
+			width:100%;
+			height:6px;
+		}
+	}
+}
+
+
+.contact_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact_left {
+	span {
+		display: block;
+	}
+	a {
+		color:$blueone;
+		text-decoration: none;
+	}
+}
+
+.contact_page_wrapper {
+	flex-basis:445px;
+	flex-shrink: 0;
+}
+
+.contact_page_row {
+	font-size: 32px;
+	line-height: 38px;
+	letter-spacing: 0.025em;
+	display: flex;
+	align-items: center;
+	margin-bottom: 13px;
+	@include barlow_med;
+}
+
+a.map_button_contact_page {
+	display: block;
+  width: 91px;
+	margin-top: 37px;
+  background: $yellow;
+  border: 2px solid #eda31a;
+  border-radius: 45px;
+  text-transform: uppercase;
+  font-size: 17px;
+  color:#fff;
+  letter-spacing: 0.2em;
+  text-align: center;
+  transition: all 200ms ease-in-out;
+  @include barlow_black;
+}
+
+span.contact_page_content {
+	
+}
