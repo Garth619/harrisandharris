@@ -50,9 +50,9 @@
 					
 				</div><!-- contact_page_wrapper -->
 				
-				<div class="sm_loc_wrapper">
+				<div class="sm_loc_wrapper_contact_page">
 				
-				<div class="social_media">
+				<div class="social_media_contact_page">
 					
 					<a class="" href="">
 						
@@ -78,15 +78,15 @@
 						
 					</a>
 					
-				</div><!-- social_media -->
+				</div><!-- social_media_contact_page -->
 				
-				<div class="location_tagline">
+				<div class="location_tagline_contact_page">
 					
 					<span>Fighting for the injured<br/> in Nevada, Utah and Arizona.</span>
 					
-				</div><!-- location_tagline -->
+				</div><!-- location_tagline_contact_page -->
 				
-				</div><!-- sm_loc_wrapper -->
+				</div><!-- sm_loc_wrapper_contact_page -->
 			
 		</div><!-- contact_left -->
 		
