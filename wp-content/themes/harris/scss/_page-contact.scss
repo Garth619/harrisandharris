@@ -87,7 +87,7 @@ span.contact_address {
 
 .social_media_contact_page {
 	margin-top: 43px;
-	margin-left:45px;
+	margin-left:50px;
 	a {
 		text-decoration: none;
 		margin-right:5px;
@@ -220,6 +220,7 @@ span.contact_address {
 	
 	.contact_right {
     margin: 115px 0 0;
+    padding:0;
     img {
 	    margin-left:auto;
 	    margin-right:auto;
@@ -281,6 +282,9 @@ span.contact_address {
 		}
 		&:nth-of-type(2) {
 			order:3;
+			img {
+				margin-top: 10px;
+			}
 		}
 		&:nth-of-type(3) {
 			order:2;
@@ -344,7 +348,7 @@ span.contact_address {
 	}
 	
 	.contact_right {
-    margin: 85px 0 0;
+    margin: 65px 0 0;
 	}
 	
 
@@ -356,6 +360,17 @@ span.contact_address {
 	
 	.contact_page_wrapper {
 		display: block;
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 545px) {
+	
+	
+	span.contact_address {
+		max-width: 285px;
 	}
 	
 	
