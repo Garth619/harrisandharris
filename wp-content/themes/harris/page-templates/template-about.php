@@ -83,11 +83,83 @@ get_header(); ?>
 		
 		<span class="about_slider_title">Awards & Recognition</span><!-- about_slider_title -->
 		
-		<div class="about_slider_wrapper">
+		
 			
-			<div class="about_slider"></div><!-- about_slider -->
+			<div class="about_slider">
+				
+				<div class="about_single_slide">
+					
+					<div class="about_slide_inner">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
+					
+					</div><!-- about_slide_inner -->
+					
+				</div><!-- about_single_slide -->
+				
+				<div class="about_single_slide">
+					
+					<div class="about_slide_inner">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/aw-03.jpg"/>
+					
+					</div><!-- about_slide_inner -->
+					
+				</div><!-- about_single_slide -->
+				
+				<div class="about_single_slide">
+					
+					<div class="about_slide_inner">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/aw-04.jpg"/>
+					
+					</div><!-- about_slide_inner -->
+					
+				</div><!-- about_single_slide -->
+				
+				<div class="about_single_slide">
+					
+					<div class="about_slide_inner">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/aw-05.jpg"/>
+					
+					</div><!-- about_slide_inner -->
+					
+				</div><!-- about_single_slide -->
+				
+				<div class="about_single_slide">
+					
+					<div class="about_slide_inner">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/aw-06.jpg"/>
+					
+					</div><!-- about_slide_inner -->
+					
+				</div><!-- about_single_slide -->
+				
+				<div class="about_single_slide">
+					
+					<div class="about_slide_inner">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/aw-07.jpg"/>
+					
+					</div><!-- about_slide_inner -->
+					
+				</div><!-- about_single_slide -->
+				
+				<div class="about_single_slide">
+					
+					<div class="about_slide_inner">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/aw-01.jpg"/>
+					
+					</div><!-- about_slide_inner -->
+					
+				</div><!-- about_single_slide -->
+								
+			</div><!-- about_slider -->
 			
-		</div><!-- about_slider_wrapper -->
+	
 		
 		</div><!-- about_slider_inner -->
 		

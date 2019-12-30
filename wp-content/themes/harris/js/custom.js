@@ -384,6 +384,10 @@ $('.sec_two_slider').slick({
  
  
  
+ 
+ 
+ 
+ 
  function crHov() {
 	 
 	 $(this).find('.sec_four_hov').toggleClass('active');
@@ -424,6 +428,31 @@ $('.sec_two_slider').slick({
 	}, 100)); // timeouts functions
  
  
+ 
+ $('.about_slider').slick({
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 5,
+	dots:true,
+	arrows:false,
+	responsive: [
+    {
+      breakpoint: 1040,
+      settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+     }
+   },
+   {
+      breakpoint: 1067,
+      settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+     }
+   }
+	]
+ });
+
  
  
 // macy http://macyjs.com/
