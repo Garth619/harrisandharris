@@ -14,11 +14,13 @@ body.page-template-template-contact {
 
 .contact_wrapper {
 	display: flex;
+	max-width: 1385px;
+	margin:0 auto;
 	justify-content: space-between;
 }
 
 .contact_left {
-	flex-basis:445px;
+	flex-basis:510px;
 	flex-shrink: 0;
 	span {
 		display: block;
@@ -31,6 +33,7 @@ body.page-template-template-contact {
 
 .contact_page_wrapper {
 	margin-left: -21px;
+	width:445px;
 }
 
 .contact_page_row {
@@ -115,11 +118,12 @@ span.contact_address {
 	border-top:3px solid $yellow;
 	margin-top: 54px;
 	padding-top: 34px;
+	width: 445px;
 	span {
 		max-width:340px;
 		color:$blueone;
-		font-size: 24px;
-		line-height: 29px;
+		font-size: 28px;
+		line-height: 33px;
 		letter-spacing: 0.025em;
 		@include barlow_med;
 		br {
@@ -129,3 +133,145 @@ span.contact_address {
 }
 
 
+.contact_right {
+	margin:55px 0 0;
+	padding-left:80px;
+	img {
+		display: block;
+		max-width: 100%;
+		height:auto;
+	}
+}
+
+
+@media screen and (max-width: 1530px) {
+	
+	
+	
+	.contact_right {
+		img {
+			
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1330px) {
+	
+	
+	
+	body.page-template-template-contact {
+		.internal_header {
+			&:after {
+				margin: 30px 0 60px;
+			}
+		}
+	}
+    
+	
+	.contact_wrapper {
+		display: block;
+	}
+	
+	
+	
+	.contact_page_wrapper {
+		display: flex;
+		justify-content: space-between;
+		width:100%;
+	}
+	
+	.contact_page_row {
+		align-items: flex-start;
+		font-size: 28px;
+    line-height: 34px;
+		img {
+			margin-top:-12px;
+		}
+		&:nth-of-type(2) {
+			flex-basis: 350px;
+			img {
+				margin-top:-12px;
+			}
+		}
+	}
+	
+	
+	.sm_loc_wrapper_contact_page {
+		display: flex;
+	}
+	
+	.location_tagline_contact_page {
+		order:1;
+		max-width: 290px;
+		span {
+			max-width: 288px;
+		}
+	}
+	
+	.social_media_contact_page {
+		order:2;
+		margin-top: 115px;
+		margin-left: 95px;
+	}
+	
+	
+	.contact_right {
+    margin: 115px 0 0;
+    img {
+	    margin-left:auto;
+	    margin-right:auto;
+    }
+   }
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1190px) {
+	
+	
+	.contact_page_row {
+		font-size: 24px;
+    line-height: 29px;
+    &:nth-of-type(2) {
+	    flex-basis: 300px;
+    }
+		&:nth-of-type(3) {
+			font-size: 24px;
+			line-height: 29px;
+		}
+	}
+	
+	
+	.social_media_contact_page {
+		margin-left:10%;
+	}
+	
+	.location_tagline_contact_page {
+		max-width: 260px;
+		span {
+			font-size: 24px;
+			line-height: 29px;
+			 max-width: 250px;
+		}
+	}
+
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 985px) {
+	
+	
+	
+	
+	
+	
+} /* Media Query */

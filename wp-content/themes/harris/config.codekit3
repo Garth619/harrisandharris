@@ -675,6 +675,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/map.png": {
+		"ft": 32768,
+		"iS": 517485,
+		"oA": 0,
+		"oAP": "/images/map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/pa-no-win-no-fee-img.png": {
 		"ft": 32768,
 		"iS": 302973,

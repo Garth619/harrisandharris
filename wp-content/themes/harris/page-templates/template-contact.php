@@ -90,7 +90,15 @@
 			
 		</div><!-- contact_left -->
 		
-		<div class="contact_right"></div><!-- contact_right -->
+		<div class="contact_right">
+			
+			<a class="" href="" target="_blank" rel="noopener">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/map.png"/>
+				
+			</a>
+			
+		</div><!-- contact_right -->
 		
 	</div><!-- contact_wrapper -->
 	
