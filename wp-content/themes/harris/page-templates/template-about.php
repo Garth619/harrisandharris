@@ -159,19 +159,55 @@ get_header(); ?>
 								
 			</div><!-- about_slider -->
 			
-	
-		
 		</div><!-- about_slider_inner -->
 		
 	</div><!-- about_awards_inner -->
 	
 	<div class="about_wave_bottom">
 		
-		<img class="wave bottom"  src="<?php bloginfo('template_directory');?>/images/about-awards-bg-bottom.svg"/>
+		<img class="wave bottom" src="<?php bloginfo('template_directory');?>/images/about-awards-bg-bottom.svg"/>
 		
 	</div><!-- about_wave_bottom -->
 
 </div><!-- about_awards -->
+
+<div class="about_bottom">
+	
+	<div class="about_bottom_left">
+		
+		<div class="about_bottom_image">
+			
+				<img src="<?php bloginfo('template_directory');?>/images/pa-no-win-no-fee-img.png"/>
+			
+			</div><!-- about_bottom_image -->
+
+			<div class="about_bottom_quote_wrapper">
+				
+				<div class="about_bottom_quote">
+					
+					<span>No Win No Fee Policy</span>
+					
+				</div><!-- about_bottom_quote -->
+				
+			</div><!-- about_bottom_quote_wrapper -->
+		
+	</div><!-- about_bottom_left -->
+	
+	<div class="about_bottom_right content">
+		
+		<h2>Hire An Attorney Who Cares</h2>
+		
+		<p>Our personal injury attorneys develop close relationships with our clients. If we accept your case, our law firm will work closely with you through the entire process. We make sure to have an open line of contact with our clients as we know the legal process can be daunting, but regular points of contact can create transparency and add peace of mind.</p>
+
+		<h2>Settle Or Go To Trial?</h2>
+		
+		<p>Our attorneys do not hesitate to take a case to trial, spare no expense in preparation and have an impressive record of success. As your counsel, we will never recommend you settle for less than we feel your case is worth, and you will have full confidence that we are doing everything possible to obtain a favorable verdict or settlement. Insurance companies throughout Nevada, California and Utah are aware of our reputation as thorough, tenacious and successful advocates, a record that puts us in a strong negotiating position.</p>
+
+		<p>Contact Harris & Harris Injury Lawyers online or call (702) 384-1414 or toll free<br/> 1800 393-2350. Your consultation is free.</p>
+		
+	</div><!-- about_bottom_right -->
+	
+</div><!-- about_bottom -->
 
 
 </div><!-- internal_main -->
