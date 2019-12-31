@@ -34,6 +34,64 @@ get_header(); ?>
 		</div><!-- bio_right -->
 	
 	</div><!-- bio_content -->
+	
+	<div class="bio_bottom_content">
+		
+		<div class="bio_bottom_left">
+			
+			<div class="sidebar_box">
+				
+				<h3>Education</h3>
+				
+				<div class="education_list">
+				
+					<ul class="bio_list">
+					
+						<li><span>McGeorge School of Law, University of the Pacific, Sacramento, California – 2000</span>
+						
+							<ul>
+								
+								<li>Honors: Top 10% of his Class</li>
+								
+								<li>Honors: Top 10% of his Class</li>
+								
+								<li>Honors: Member, Phi Alpha Delta Legal Fraternity</li>
+								
+							</ul>
+						
+						</li>
+						
+						<li><span>Utah State University, Utah</span>
+						
+						<ul>
+										
+							<li>Bachelor’s Degree cum laude – 1998</li>
+							
+							<li>Major: Political Science</li>
+										
+						</ul>
+						
+						</li>
+					
+					</ul><!-- bio_list -->
+					
+					
+				
+				</div><!-- education_list -->
+				
+			</div><!-- sidebar_box -->
+			
+			<div class="sidebar_box">
+				
+				<h3>Bar Admissions</h3>
+				
+			</div><!-- sidebar_box -->
+			
+		</div><!-- bio_bottom_left -->
+		
+		<div class="bio_bottom_right"></div><!-- bio_bottom_right -->
+		
+	</div><!-- bio_bottom_content -->
 
 
 </div><!-- internal_main -->
