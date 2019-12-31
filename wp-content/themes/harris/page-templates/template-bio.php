@@ -10,8 +10,10 @@ get_header(); ?>
 	<div class="bio_internal_block"></div><!-- cr_internal_block -->
 	
 	<img class="bio_internal_wave" src="<?php bloginfo('template_directory');?>/images/bio-temp.jpg"/>
+	
+	<div class="bio_container">
 
-	<div class="bio_content two_col">
+	<div class="bio_content">
 	
 		<div class="bio_left">
 			
@@ -161,7 +163,8 @@ get_header(); ?>
 		</div><!-- bio_bottom_right -->
 		
 	</div><!-- bio_bottom_content -->
-
+	
+	</div><!-- bio_container -->
 
 </div><!-- internal_main -->
 					 
