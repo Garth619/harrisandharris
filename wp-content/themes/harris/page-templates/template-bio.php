@@ -75,8 +75,6 @@ get_header(); ?>
 					
 					</ul><!-- bio_list -->
 					
-					
-				
 				</div><!-- education_list -->
 				
 			</div><!-- sidebar_box -->
@@ -84,6 +82,24 @@ get_header(); ?>
 			<div class="sidebar_box">
 				
 				<h3>Bar Admissions</h3>
+				
+				<div class="bar_list">
+					
+					<ul class="bio_list">
+						
+						<li>Arizona</li>
+						
+						<li>Arizona</li>
+						
+						<li>Arizona</li>
+						
+						<li>Arizona</li>
+						
+						<li>Arizona</li>
+						
+					</ul>
+					
+				</div><!-- bar_list -->
 				
 			</div><!-- sidebar_box -->
 			
