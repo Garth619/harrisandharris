@@ -168,6 +168,26 @@ span.bio_description {
 			}
 		}
 	}
+	
+	
+	.bio_bottom_right {
+		padding-left: 183px;
+		padding-top:35px;
+	}
+	
+	.bio_bottom_right.content {
+		line-height: 33px;
+		h2 {
+			padding-bottom:30px;
+		}
+		ul {
+			li {
+				&:before {
+					bottom: 12px;
+				}
+			}
+		}
+	}
 
 
 @media screen and (min-width: 1920px) {
