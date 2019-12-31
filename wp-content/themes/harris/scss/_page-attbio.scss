@@ -86,7 +86,8 @@ span.bio_description {
 
 .bio_bottom_content {
 	display: flex;
-	max-width: 1440px;
+	max-width: 1680px;
+	padding:0 120px;
 	margin: 0px auto 0;
 }
 
@@ -273,7 +274,7 @@ span.bio_description {
 	
 	
 	img.bio_internal_wave {
-    left: -153px;
+    left: -195px;
 		 bottom: 45px;
 		 z-index:1;
 	}
@@ -320,6 +321,11 @@ span.bio_description {
 		flex-direction: column;
 	}
 	
+	
+	.bio_content {
+		padding-right:116px;
+	}
+	
 	.bio_bottom_left {
 		order:2;
 		width:400px;
@@ -329,9 +335,18 @@ span.bio_description {
 	.bio_bottom_right {
 		order:1;
 		padding-left:0;
-		padding-top: 85px;
+		padding-top: 81px;
 	}
 
 	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1250px) {
+	
+	.bio_bottom_right {
+		padding-top:38px;
+	}
 	
 } /* Media Query */
