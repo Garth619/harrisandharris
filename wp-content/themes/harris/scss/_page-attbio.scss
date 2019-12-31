@@ -263,6 +263,9 @@ span.bio_description {
 	}
 	
 	
+	
+	
+	
 	.bio_bottom_right {
 		padding-left:108px;
 		padding-top: 45px;
@@ -270,12 +273,27 @@ span.bio_description {
 	
 	
 	img.bio_internal_wave {
-    left: -150px;
-		bottom: 50px;
+    left: -153px;
+		 bottom: 45px;
+		 z-index:1;
 	}
 	
 	.bio_content {
 		margin: 109px auto 0;
+	}
+	
+	
+	.bio_wave_wrapper {
+		&:after {
+			content:"";
+			display: block;
+			width:100%;
+			height:300px;
+			position: absolute;
+			bottom:0;
+			left:0;
+			background: #fff;
+		}
 	}
 	
 	
