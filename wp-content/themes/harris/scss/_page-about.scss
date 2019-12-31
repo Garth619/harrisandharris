@@ -203,6 +203,7 @@ span.about_slider_title {
 
 .about_bottom {
 	padding:0 120px;
+	margin-bottom: -50px;
 }
 
 
@@ -216,10 +217,11 @@ span.about_slider_title {
 .about_bottom_left {
 	flex-basis: 515px;
 	flex-shrink: 0;
-	margin-top:120px;
+	margin-top: 74px;
 }
 
 .about_bottom_image {
+	flex-shrink: 0;
 	img {
 		max-width: 100%;
 		height: auto;
@@ -229,7 +231,7 @@ span.about_slider_title {
 
 .about_bottom_right {
 	padding-left:215px;
-	margin-top:204px;
+	margin-top: 161px;
 }
 
 
@@ -498,6 +500,10 @@ span.about_slider_title {
 		 margin-top: 30px;
 	}
 	
+	.about_bottom {
+		margin-bottom: 0px;
+	}
+	
 	   
 	    
 	
@@ -569,6 +575,7 @@ span.about_slider_title {
 	.about_bottom {
 		padding-left:30px;
 		padding-right:30px;
+		margin-bottom:-50px;
 	}
 	
 	.about_bottom_left {
@@ -628,10 +635,8 @@ span.about_slider_title {
 	}
 	
 	
-	
-	.about_bottom_quote {
-		flex-basis:100%;
-		max-width:275px;
+	.about_awards {
+		margin-top: -10px;
 	}
 	
 	
@@ -639,6 +644,16 @@ span.about_slider_title {
 		max-width: 290px;
 		margin-left:auto;
 		margin-right:auto;
+	}
+	
+	
+	.about_bottom_quote {
+		flex-basis:100%;
+		max-width: 235px;
+		span {
+			font-size: 65px;
+			line-height: 70px;
+		}
 	}
 	
 	
