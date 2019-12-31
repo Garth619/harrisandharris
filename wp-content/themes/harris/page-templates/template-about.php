@@ -90,18 +90,12 @@ get_header(); ?>
 				<div class="about_single_slide">
 					
 					<div class="about_slide_inner">
+						
+						<div class="about_slide_img_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
-					
-					</div><!-- about_slide_inner -->
-					
-				</div><!-- about_single_slide -->
-				
-				<div class="about_single_slide">
-					
-					<div class="about_slide_inner">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/aw-03.jpg"/>
+							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
+						
+						</div><!-- about_slide_img_wrapper -->
 					
 					</div><!-- about_slide_inner -->
 					
@@ -111,7 +105,11 @@ get_header(); ?>
 					
 					<div class="about_slide_inner">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/aw-04.jpg"/>
+						<div class="about_slide_img_wrapper">
+					
+							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
+						
+						</div><!-- about_slide_img_wrapper -->
 					
 					</div><!-- about_slide_inner -->
 					
@@ -121,7 +119,11 @@ get_header(); ?>
 					
 					<div class="about_slide_inner">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/aw-05.jpg"/>
+						<div class="about_slide_img_wrapper">
+					
+							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
+						
+						</div><!-- about_slide_img_wrapper -->
 					
 					</div><!-- about_slide_inner -->
 					
@@ -131,7 +133,11 @@ get_header(); ?>
 					
 					<div class="about_slide_inner">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/aw-06.jpg"/>
+						<div class="about_slide_img_wrapper">
+					
+							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
+						
+						</div><!-- about_slide_img_wrapper -->
 					
 					</div><!-- about_slide_inner -->
 					
@@ -141,7 +147,11 @@ get_header(); ?>
 					
 					<div class="about_slide_inner">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/aw-07.jpg"/>
+						<div class="about_slide_img_wrapper">
+					
+							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
+						
+						</div><!-- about_slide_img_wrapper -->
 					
 					</div><!-- about_slide_inner -->
 					
@@ -151,7 +161,25 @@ get_header(); ?>
 					
 					<div class="about_slide_inner">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/aw-01.jpg"/>
+						<div class="about_slide_img_wrapper">
+					
+							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
+						
+						</div><!-- about_slide_img_wrapper -->
+					
+					</div><!-- about_slide_inner -->
+					
+				</div><!-- about_single_slide -->
+				
+				<div class="about_single_slide">
+					
+					<div class="about_slide_inner">
+					
+						<div class="about_slide_img_wrapper">
+					
+							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
+						
+						</div><!-- about_slide_img_wrapper -->
 					
 					</div><!-- about_slide_inner -->
 					

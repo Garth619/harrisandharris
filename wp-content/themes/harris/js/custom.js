@@ -437,17 +437,31 @@ $('.sec_two_slider').slick({
 	arrows:false,
 	responsive: [
     {
-      breakpoint: 1040,
+      breakpoint: 1450,
+      settings: {
+      slidesToShow: 4,
+      slidesToScroll: 4,
+     }
+   },
+   {
+      breakpoint: 1250,
+      settings: {
+      slidesToShow: 3,
+      slidesToScroll: 3,
+     }
+   },
+   {
+      breakpoint: 850,
       settings: {
       slidesToShow: 2,
       slidesToScroll: 2,
      }
    },
    {
-      breakpoint: 1067,
+      breakpoint: 633,
       settings: {
-      slidesToShow: 2,
-      slidesToScroll: 2,
+      slidesToShow: 1,
+      slidesToScroll: 1,
      }
    }
 	]
