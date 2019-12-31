@@ -203,7 +203,8 @@ span.about_slider_title {
 
 .about_bottom {
 	padding:0 120px;
-	margin-bottom: -50px;
+	position: relative;
+	z-index:1;
 }
 
 
