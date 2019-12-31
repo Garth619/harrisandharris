@@ -6,14 +6,14 @@ get_header(); ?>
 
 <div id="internal_main">
 
-<div class="about_container">
-	
-	<div class="about_inner">
+	<div class="about_container">
+		
+		<h1 class="internal_header"><?php the_title();?></h1><!-- internal_header -->
+		
+		<div class="about_inner">
 	
 		<div class="about_left content">
 		
-			<h1 class="internal_header"><?php the_title();?></h1><!-- internal_header -->
-			
 			<div class="about_content">
 				
 				<p>At Harris & Harris Injury Lawyers, we have been helping the Las Vegas community for over 15 years, and it is our goal to provide every client with exceptional legal representation and excellent service. As personal injury attorneys, we represent clients who have survived serious car accidents, lost family members as a result of a wrongful death accident and experienced other life-changing accidents. We are committed to supporting our clients as they rebuild their lives, and to giving every case the attention necessary to recover maximum compensation on our client’s behalf.</p>
