@@ -201,6 +201,8 @@ get_header(); ?>
 
 <div class="about_bottom">
 	
+	<div class="about_bottom_inner">
+	
 	<div class="about_bottom_left">
 		
 		<div class="about_bottom_image">
@@ -234,6 +236,8 @@ get_header(); ?>
 		<p>Contact Harris & Harris Injury Lawyers online or call (702) 384-1414 or toll free<br/> 1800 393-2350. Your consultation is free.</p>
 		
 	</div><!-- about_bottom_right -->
+	
+	</div><!-- about_bottom_inner -->
 	
 </div><!-- about_bottom -->
 
