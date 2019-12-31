@@ -281,6 +281,7 @@ span.bio_description {
 	
 	.bio_left {
 		flex-basis:374px;
+		margin-top: 15px;
 	}
 	
 	
@@ -295,11 +296,14 @@ span.bio_description {
 	
 	.bio_bottom_left {
 		order:2;
+		width:400px;
+		margin-top: 25px;
 	}
 	
 	.bio_bottom_right {
 		order:1;
 		padding-left:0;
+		padding-top: 85px;
 	}
 
 	
