@@ -7,11 +7,13 @@ get_header(); ?>
 
 <div id="internal_main">
 	
-	<div class="bio_wave_wrapper">
+	<div class="bio_internal_block"></div><!-- cr_internal_block -->
 	
-		<img class="bio_internal_wave" src="<?php bloginfo('template_directory');?>/images/bio-temp.jpg"/>
+	<img class="bio_internal_wave" src="<?php bloginfo('template_directory');?>/images/bio-temp.jpg"/>
 	
-		<div class="bio_content">
+	<div class="bio_container">
+
+	<div class="bio_content">
 	
 		<div class="bio_left">
 			
@@ -20,7 +22,6 @@ get_header(); ?>
 				<img src="<?php bloginfo('template_directory');?>/images/att-bio-1.jpg"/>
 				
 			</div><!-- bio_img_wrapper -->
-			
 			
 		</div><!-- bio_left -->
 		
@@ -35,8 +36,6 @@ get_header(); ?>
 		</div><!-- bio_right -->
 	
 	</div><!-- bio_content -->
-	
-	</div><!-- bio_wave_wrapper -->
 	
 	<div class="bio_bottom_content">
 		
@@ -165,7 +164,7 @@ get_header(); ?>
 		
 	</div><!-- bio_bottom_content -->
 	
-
+	</div><!-- bio_container -->
 
 </div><!-- internal_main -->
 					 
