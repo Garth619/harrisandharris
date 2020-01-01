@@ -739,6 +739,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/placeholder.jpg": {
+		"ft": 16384,
+		"iS": 28249,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/placeholder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/social-fb.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1194,14 +1205,6 @@
 		"oAP": "/page-templates/template-about.php",
 		"oF": 0
 		},
-	"/page-templates/template-bio copy.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/page-templates/template-bio copy.php",
-		"oF": 0
-		},
 	"/page-templates/template-bio.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1380,19 +1383,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_page-about.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_page-attbio copy.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_page-attbio copy.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
