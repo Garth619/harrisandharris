@@ -14,225 +14,65 @@ get_header(); ?>
 	
 	<div class="meet_team_wrapper">
 		
-		<div class="meet_team_section">
+		<?php if(get_field('meet_the_team')): ?>
 		
-		<span class="meet_team_header">Meet the Attorneys</span><!-- meet_team_header -->
-		
-		<div class="meet_team_inner">
-			
-			<div class="single_att">
+			<div class="meet_team_section">
+		 
+			<?php while(has_sub_field('meet_the_team')): ?>
+		 
+				<span class="meet_team_header">Meet the Attorneys</span><!-- meet_team_header -->
 				
-				<a href="">
-				
-					<div class="single_att_img">
+				<div class="meet_team_inner">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/att-03.jpg"/>
+					<?php $posts = get_sub_field('attorneys_and_staff');
+					
+					if( $posts ): ?>
+					    
+					    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+					        <?php setup_postdata($post); ?>
+									
+									<div class="single_att">
+				
+										<a href="<?php the_permalink();?>">
+				
+											<div class="single_att_img">
+					
+												<?php $attorney_profile_image = get_field( 'attorney_profile_image' ); ?>
+				
+													<?php if ( $attorney_profile_image ) : ?>
+				
+														<img src="<?php echo $attorney_profile_image['url']; ?>" alt="<?php echo $attorney_profile_image['alt']; ?>" />
+					
+														<?php else: ?>
+					
+														<img src="<?php bloginfo('template_directory');?>/images/placeholder.jpg" alt="Picture Coming Soon"/>
+				
+													<?php endif; ?>
 						
-						<div class="att_overlay"></div><!-- att_overlay -->
+												<div class="att_overlay"></div><!-- att_overlay -->
 					
-					</div><!-- single_att_img -->
+											</div><!-- single_att_img -->
 					
-					<span class="single_att_title">Heather E. Harris</span><!-- single_att_title -->
+											<span class="single_att_title"><?php the_title();?></span><!-- single_att_title -->
 					
-					<span class="single_att_position">Managing Partner</span><!-- single_att_position -->
+											<span class="single_att_position"><?php the_field( 'attorney_position' ); ?></span><!-- single_att_position -->
 				
-				</a>
+										</a>
 				
-			</div><!-- single_att -->
+									</div><!-- single_att -->
+									
+								 <?php endforeach; ?>
+					    
+					    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+					<?php endif; ?>
+					
+				</div><!-- meet_team_inner -->
+		    
+			<?php endwhile; ?>
 			
-			<div class="single_att">
-				
-				<a href="">
-				
-					<div class="single_att_img">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/att-03.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- single_att_img -->
-					
-					<span class="single_att_title">Heather E. Harris</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Managing Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			<div class="single_att">
-				
-				<a href="">
-				
-					<div class="single_att_img">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/att-03.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- single_att_img -->
-					
-					<span class="single_att_title">Heather E. Harris</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Managing Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			<div class="single_att">
-				
-				<a href="">
-				
-					<div class="single_att_img">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/att-03.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- single_att_img -->
-					
-					<span class="single_att_title">Heather E. Harris</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Managing Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			<div class="single_att">
-				
-				<a href="">
-				
-					<div class="single_att_img">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/att-03.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- single_att_img -->
-					
-					<span class="single_att_title">Heather E. Harris</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Managing Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-		</div><!-- meet_team_inner -->
-		
-		</div><!-- meet_team_section -->
-		
-		<div class="meet_team_section">
-		
-		<span class="meet_team_header">Meet the Staff</span><!-- meet_team_header -->
-		
-		<div class="meet_team_inner">
-			
-			<div class="single_att">
-				
-				<a href="">
-				
-					<div class="single_att_img">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/att-03.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- single_att_img -->
-					
-					<span class="single_att_title">Heather E. Harris</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Managing Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			<div class="single_att">
-				
-				<a href="">
-				
-					<div class="single_att_img">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/att-03.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- single_att_img -->
-					
-					<span class="single_att_title">Heather E. Harris</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Managing Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			<div class="single_att">
-				
-				<a href="">
-				
-					<div class="single_att_img">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/att-03.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- single_att_img -->
-					
-					<span class="single_att_title">Heather E. Harris</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Managing Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			<div class="single_att">
-				
-				<a href="">
-				
-					<div class="single_att_img">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/att-03.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- single_att_img -->
-					
-					<span class="single_att_title">Heather E. Harris</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Managing Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			<div class="single_att">
-				
-				<a href="">
-				
-					<div class="single_att_img">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/att-03.jpg"/>
-						
-						<div class="att_overlay"></div><!-- att_overlay -->
-					
-					</div><!-- single_att_img -->
-					
-					<span class="single_att_title">Heather E. Harris</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Managing Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-		</div><!-- meet_team_inner -->
-		
-		</div><!-- meet_team_section -->
+			</div><!-- meet_team_section -->
+		 
+		<?php endif; ?>
 		
 	</div><!-- meet_team_wrapper -->
 	

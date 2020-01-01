@@ -186,6 +186,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/att-bio-2.jpg": {
+		"ft": 16384,
+		"iS": 95820,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/att-bio-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/att-bio-3.jpg": {
+		"ft": 16384,
+		"iS": 103536,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/att-bio-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/aw-01.jpg": {
 		"ft": 16384,
 		"iS": 6790,
@@ -923,6 +945,61 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/staff-1.jpg": {
+		"ft": 16384,
+		"iS": 130979,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/staff-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/staff-2.jpg": {
+		"ft": 16384,
+		"iS": 129986,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/staff-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/staff-3.jpg": {
+		"ft": 16384,
+		"iS": 130162,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/staff-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/staff-4.jpg": {
+		"ft": 16384,
+		"iS": 130684,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/staff-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/staff-5.jpg": {
+		"ft": 16384,
+		"iS": 127840,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/staff-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/test-bg-bottom.png": {
