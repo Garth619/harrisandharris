@@ -20,7 +20,7 @@ get_header(); ?>
 		 
 			<?php while(has_sub_field('meet_the_team')): ?>
 		 
-				<span class="meet_team_header">Meet the Attorneys</span><!-- meet_team_header -->
+				<span class="meet_team_header"><?php the_sub_field( 'title' ); ?></span><!-- meet_team_header -->
 				
 				<div class="meet_team_inner">
 					
