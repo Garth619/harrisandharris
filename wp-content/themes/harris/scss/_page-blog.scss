@@ -34,6 +34,7 @@ body:not(.page-template-default) {
 	h2 {
 		a {
 			color:$red;
+			border:none;
 			transition: all 200ms ease-in-out;
 			&:hover {
 				color:$yellow;
@@ -138,6 +139,7 @@ a.blog_read_more {
 		ul {
 			display: flex;
 			flex-wrap: wrap;
+			margin-bottom:0;
 			li {
 				padding:0;
 				margin:0 0 0 7px;
@@ -180,6 +182,14 @@ a.blog_read_more {
 }
 
 
+	.single {
+		.single_blog_post {
+			border:none;
+			padding-bottom: 0;
+		}
+	}
+
+
 @media screen and (max-width: 1330px) {
 	
 	
@@ -191,6 +201,13 @@ a.blog_read_more {
 	.sidebar_wrapper {
 		margin-bottom: 20px;
 	}
+	
+	body.single {
+		.sidebar_wrapper {
+			margin-top: 55px;
+		}
+	}
+		
 	    	
 } /* Media Query */
 

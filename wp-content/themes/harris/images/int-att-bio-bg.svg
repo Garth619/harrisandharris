@@ -1,0 +1,20 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 456.14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="959.99" y1="-303.69" x2="959.99" y2="677.44" gradientTransform="matrix(1, 0, 0, -1, 0, 143.03)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0c1321"/>
+      <stop offset="1" stop-color="#29293e"/>
+    </linearGradient>
+  </defs>
+  <title>int-att-bio-bg</title>
+  <rect class="cls-1" y="42.94" width="1920" height="413.21"/>
+  <path class="cls-2" d="M.35-42.63,0,25.54S102.72,3.47,180.37,3.47,431.32,20.72,665.55,196c203.52,152.3,361.14,233.94,687,212.66C1629.19,390.61,1920,262.93,1920,262.93L1918.59-8.94Z" transform="translate(0 42.63)"/>
+</svg>

@@ -9,7 +9,7 @@ get_header(); ?>
 	
 	<div class="bio_wave_wrapper">
 	
-		<img class="bio_internal_wave" src="<?php bloginfo('template_directory');?>/images/bio-temp.jpg"/>
+		<img class="bio_internal_wave" src="<?php bloginfo('template_directory');?>/images/new-02.svg"/>
 	
 		<div class="bio_content">
 	
