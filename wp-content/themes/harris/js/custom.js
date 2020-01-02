@@ -586,6 +586,8 @@ $('.menu_wrapper').on('click', function(e) {
   
   $('nav.nav_tablet').toggleClass('active');
   
+  $('.menu_wrapper').toggleClass('active');
+  
 });
 
 

@@ -490,7 +490,6 @@ body.page-template-default {
 		justify-content: center;
 		align-items: center;
 		cursor: pointer;
-		//margin-left:72px;
 		.menu_inner {
 			span.menu_bar {
 				display: block;
@@ -498,11 +497,41 @@ body.page-template-default {
 				height:3px;
 				background: #fff;
 				margin-bottom:9px;
+				transform-origin: 0 0 0;
+				transition: all 300ms ease-in-out;
+				&:nth-of-type(1) {
+					transform: rotate(0deg);
+					transform-origin: 7px 8px 0px;
+				}
 				&:nth-of-type(2) {
 					width:27px;
+					transform: scaleX(1);
+					transform-origin: 0 0 0;
+					transition: all 300ms cubic-bezier(.17,.66,.34,.98);
+				}
+				&:nth-of-type(3) {
+					transform: rotate(0deg);
+					transform-origin: 3px -6px 0px;
 				}
 				&:last-of-type {
 					margin-bottom:0;
+				}
+			}
+		}
+	}
+	
+	
+	.menu_wrapper.active {
+		.menu_inner {
+			span.menu_bar {
+				&:nth-of-type(1) {
+					transform: rotate(45deg);
+				}
+				&:nth-of-type(2) {
+					transform: scaleX(0);
+				}
+				&:nth-of-type(3) {
+					transform: rotate(-45deg);
 				}
 			}
 		}
@@ -659,9 +688,16 @@ body.page-template-default {
 		height:100%;
 		width:calc(100% - 306px);
 		box-shadow: 0px 5px 19.6px 0.4px rgba(0, 0, 0, 0.2);
+		transform: translateX(100%);
+		transition: all 700ms cubic-bezier(.17,.66,.34,.98);
 	}
 	
-	
+	nav.nav_tablet.active {
+		.menu-header {
+			transform: translateX(0%);
+			transition-delay: 200ms;
+		}
+	}
 	
 	
 	body:not(.page-template-template-home) {
@@ -846,16 +882,38 @@ body.page-template-default {
 		}
 	}
 	
-	
+	nav {
+		.menu-header{
+			transform: translateX(0);
+			opacity: 1;
+			visibility: visible;
+		}
+	}
 	
 	
 	nav.nav_tablet {
 		top: 76px;
 		background: transparent;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 200ms ease-in-out;
+		.menu_wrapper {
+			
+		}
 		ul {
 			li {
 				font-size: 16px;
 			}
+		}
+	}
+	
+	nav.nav_tablet.active {
+		opacity: 1;
+		visibility: visible;
+		.menu-header {
+			transform: translateX(0);
+			opacity: 1;
+			visibility: visible;
 		}
 	}
 	
@@ -894,6 +952,33 @@ body.page-template-default {
 			background: $blueone;
 		}
 	}
+	
+	
+	.menu_wrapper {
+		
+		.menu_inner {
+			span.menu_bar {
+				
+				&:nth-of-type(1) {
+					transform-origin: -1px 8px 0px;
+				}
+				&:nth-of-type(2) {
+					
+				}
+				&:nth-of-type(3) {
+					transform-origin: 1px -5px 0px;
+				}
+				&:last-of-type {
+					
+				}
+			}
+		}
+	}
+	
+
+	
+	
+	
 	
 	
 } /* Media Query */
