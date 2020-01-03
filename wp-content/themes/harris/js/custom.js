@@ -504,6 +504,57 @@ $('span.go_back').on('click', function(e) {
 $("ul > li.menu-item-has-children > a[href='#']").removeAttr("href");
 
 
+// footer form
+
+
+function labelHide() {
+	
+	$('.form_wrapper .gform_wrapper ul li input, .form_wrapper .gform_wrapper ul li textarea').on('click', function(e) {
+  
+  	$(this).parent().siblings('label').hide();
+  
+	});
+
+}
+
+
+labelHide();
+
+
+function inputEmpty() {
+	
+	$('.form_wrapper .gform_wrapper ul li input, .form_wrapper .gform_wrapper ul li textarea').blur(function() {
+   
+   	if( !this.value ) {
+    
+    //$(this).parents('p').addClass('warning');
+    
+    	$(this).parent().siblings('label').show();
+   
+			}
+			
+		
+   
+	});
+	
+}
+
+
+inputEmpty();
+
+
+// loads functions again after ajax gform validation 
+
+$(document).bind('gform_post_render', function(){
+	
+	labelHide();
+	
+	//inputEmpty();
+	
+});
+
+
+
 
 // cr count text if it gets to be longer than three lines, if so add a class to adjust the height and disable flexbox
 
