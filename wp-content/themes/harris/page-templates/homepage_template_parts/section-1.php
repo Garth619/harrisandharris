@@ -28,7 +28,7 @@
 
 <picture>
 
-	<source media="(max-width: 700px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-mobile-2.png">
+	<source media="(max-width: 700px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-mobile.svg">
 	<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-tablet.svg">
 	<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-laptop.svg">
 	
@@ -39,6 +39,7 @@
 
 <picture>
 	
+	<source media="(max-width: 700px)" srcset="<?php bloginfo('template_directory');?>/images/hero-top-white-mobile.svg">
 	<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/hero-top-white-tablet.svg">
 	<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-top-white-laptop.svg">
 		
