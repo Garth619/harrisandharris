@@ -676,6 +676,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/hero-bg-laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg-laptop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/hero-bg-mobile-2.png": {
 		"ft": 32768,
 		"iS": 29254,
@@ -698,6 +708,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/hero-bg-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/hero-bg-tablet.png": {
 		"ft": 32768,
 		"iS": 29638,
@@ -708,6 +728,66 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/hero-bg-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/hero-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/hero-top-white-desktop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-top-white-desktop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/hero-top-white-laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-top-white-laptop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/hero-top-white-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-top-white-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/hero-top-white-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-top-white-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/ilawyer-logo.svg": {
 		"ft": 2097152,
@@ -729,6 +809,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/int-hero-bg-desktop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/int-hero-bg-desktop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/int-hero-bg.png": {
 		"ft": 32768,
 		"iS": 66998,
@@ -739,6 +829,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/int-hero-top-white-desktop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/int-hero-top-white-desktop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/logo.svg": {
 		"ft": 2097152,

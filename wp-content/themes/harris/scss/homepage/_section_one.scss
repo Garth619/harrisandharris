@@ -8,11 +8,19 @@
 	overflow: hidden;
 	img.hero_img {
 		position: absolute;
-		top:0;
+		top:-1px;
 		left:0;
 		width:100%;
 		height: 100%;
 		object-fit:cover;
+	}
+	img.hero_white {
+		position: absolute;
+		top: 460px;
+		left:0;
+		width:100%;
+		height: 100%;
+		z-index:3;
 	}
 }
 
@@ -122,10 +130,30 @@ a.consultation_button {
 	
 	#section_one {
 		img.hero_img {
-			height:1024px;
+			height:auto;
 			object-fit:inherit;
 		}
+		img.hero_white {
+			width:100%;
+		}
 	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1880px) {
+	
+	
+	
+	#section_one {
+		img.hero_white {
+			top: 445px;
+		}
+	}
+	
+	
 	
 	
 } /* Media Query */
@@ -137,6 +165,10 @@ a.consultation_button {
 	#section_one {
 		img.hero_img {
 			object-position:70% 0%;
+		}
+		img.hero_white {
+			width:1900px;
+			left:-130px;
 		}
 	}
 	
@@ -215,6 +247,7 @@ a.consultation_button {
 		margin-top:10px;
 		img.att_one {
 			width:390px;
+			left: 13px;
 		}
 		img.att_two {
 			width:490px;
@@ -222,6 +255,21 @@ a.consultation_button {
 			top: -12px;
 		}
 	}
+	
+	
+	#section_one {
+		img.hero_white {
+			width: 1670px;
+			top: 383px;
+			left: -240px;
+		}
+	}
+	
+
+	img.hero_white {
+		
+	}
+
 	
 	
 } /* Media Query */
@@ -243,6 +291,13 @@ a.consultation_button {
 	.sec_one_left {
 		flex-basis: 510px;
 	}
+	
+	
+	#section_one {
+		img.hero_white {
+			left: -340px;
+		}
+	}
 
 	
 	
@@ -256,6 +311,10 @@ a.consultation_button {
 	#section_one {
 		margin-top:92px;
 		height: 780px;
+		img.hero_white {
+			top: 343px;
+			left: -440px;
+		}
 	}
 	
 		.sec_one_content {
@@ -273,6 +332,10 @@ a.consultation_button {
 		height:auto;
 		img.hero_img {
 			top: -58px;
+		}
+		img.hero_white {
+			top: 313px;
+			width: 1560px;
 		}
 	}
 	
@@ -314,7 +377,18 @@ a.consultation_button {
 	
 } /* Media Query */
 
-
+@media screen and (max-width: 1010px) {
+	
+	
+	#section_one {
+		img.hero_white {
+    	top: 333px;
+    }
+	}
+	
+	
+	
+} /* Media Query */
 
 @media screen and (max-width: 920px) {
 	
@@ -322,11 +396,15 @@ a.consultation_button {
 	#section_one {
 		img.hero_img {
 			top:0;
-			left: -175px;
+			left: -375px;
+			//right:0;
 			object-fit:inherit;
 			height:527px;
-			width: 125%;  
+			width: 175%;  
 		}
+		img.hero_white {
+    	top: 303px;
+    }
 	}
 	
 	.sec_one_content {
@@ -361,6 +439,35 @@ a.consultation_button {
 	
 	
 } /* Media Query */
+
+
+
+	
+	
+	
+@media screen and (max-width: 820px) {
+	
+	
+	#section_one {
+		img.hero_img {
+			top:0;
+			left: -300px;
+			//right:0px;
+			//height:527px;
+			width: 1165px; 
+			height:auto;
+		}
+		img.hero_white {
+    	top: 300px;
+    }
+	}
+	
+	
+	
+	
+} /* Media Query */
+	
+
 
 
 @media screen and (max-width: 767px) {
