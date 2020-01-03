@@ -549,7 +549,21 @@ $(document).bind('gform_post_render', function(){
 	
 	labelHide();
 	
-	//inputEmpty();
+	inputEmpty();
+	
+	var inputCheck = $('.form_wrapper .gform_wrapper ul li input, .form_wrapper .gform_wrapper ul li textarea');
+	
+	
+	$(inputCheck).each(function(){
+   
+   if($(this).val() ) {
+    
+    $(this).parent().siblings('label').hide();
+   
+   }
+	
+	});
+
 	
 });
 
