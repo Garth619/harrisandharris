@@ -661,7 +661,9 @@ body.page-template-template-contact {
 
 @media screen and (max-width: 767px) {
 	
-	
+	footer {
+		margin-top: 89px;
+	}
 	
 	.footer_inner {
 		max-width: 625px;
@@ -729,6 +731,7 @@ body.page-template-template-contact {
 	
 	.social_media {
 		margin-top: 0px;
+		margin-left: 45px;
 	}
 	
 	.location_tagline {
@@ -743,6 +746,14 @@ body.page-template-template-contact {
 			a.ilawyer {
 				margin-top: 25px;
 			}
+		}
+	}
+	
+	
+	
+	.footer_right {
+		span.footer_right_subheader {
+			margin-top: -148px;
 		}
 	}
 	
