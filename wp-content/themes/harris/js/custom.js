@@ -312,9 +312,21 @@ $('.sec_two_slider').slick({
   slidesToScroll: 1,
   mobileFirst:true,
 	dots:true,
+	arrows:false,
 	autoplay: true,
   autoplaySpeed: 4500,
 	responsive: [
+		{
+      breakpoint: 768,
+      settings: {
+      slidesToShow: 1,
+      arrows:true,
+      dots:true,
+      prevArrow:".sec_two_arrow_left",
+			nextArrow:".sec_two_arrow_right",
+      slidesToScroll: 1,
+     }
+   },
     {
       breakpoint: 1040,
       settings: {

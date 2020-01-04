@@ -286,6 +286,24 @@ span.sec_two_slide_description {
 } /* Media Query */
 
 
+@media screen and (max-width: 820px) {
+	
+	
+	
+	.sec_two_inner {
+    margin: -103px auto 0;
+	}
+	
+	
+	.sec_two_arrow {
+		margin: 214px 0 0;
+	}
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 767px) {
 	
 	#section_two {
