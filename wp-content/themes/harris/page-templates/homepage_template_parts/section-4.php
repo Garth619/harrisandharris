@@ -30,7 +30,7 @@
 					
 						<div class="sec_four_hov">
 							
-							<span class="large_header">$3.77 million Motor Vehicle Accidents</span><!-- large_header -->
+							<span class="large_header">$4.95 million Motor Vehicle Accidents</span><!-- large_header -->
 							
 							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
 							
@@ -52,7 +52,7 @@
 					
 						<div class="sec_four_hov">
 							
-							<span class="large_header">$3.77 million Motor Vehicle Accidents</span><!-- large_header -->
+							<span class="large_header">$4.95 million Motor Vehicle Accidents</span><!-- large_header -->
 							
 							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
 							
@@ -66,15 +66,15 @@
 						
 						<img src="<?php bloginfo('template_directory');?>/images/cr-02-01.svg"/>
 						
-						<span class="amount">$4.95m</span>
+						<span class="amount">$3.05m</span>
 						
-						<span class="type">Motor Vehicle Accidents</span><!-- type -->
+						<span class="type">Commercial Vehicle Accidents</span><!-- type -->
 						
 					</div><!-- sec_four_reg -->
 					
 						<div class="sec_four_hov">
 							
-							<span class="large_header">$3.77 million Motor Vehicle Accidents</span><!-- large_header -->
+							<span class="large_header">$3.05 million Commercial Vehicle Accidents</span><!-- large_header -->
 							
 							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
 							
@@ -88,15 +88,15 @@
 						
 						<img src="<?php bloginfo('template_directory');?>/images/cr-03-01.svg"/>
 						
-						<span class="amount">$4.95m</span>
+						<span class="amount">$2.2m</span>
 						
-						<span class="type">Motor Vehicle Accidents</span><!-- type -->
+						<span class="type">Taxicab & Limosine</span><!-- type -->
 						
 					</div><!-- sec_four_reg -->
 					
 						<div class="sec_four_hov">
 							
-							<span class="large_header">$3.77 million Motor Vehicle Accidents</span><!-- large_header -->
+							<span class="large_header">$2.2 million Taxicab & Limosine Accidents</span><!-- large_header -->
 							
 							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
 							
@@ -110,7 +110,7 @@
 						
 						<img src="<?php bloginfo('template_directory');?>/images/cr-04-01.svg"/>
 						
-						<span class="amount">$4.95m</span>
+						<span class="amount">$1.45m</span>
 						
 						<span class="type">Motor Vehicle Accidents</span><!-- type -->
 						
@@ -118,7 +118,7 @@
 					
 						<div class="sec_four_hov">
 							
-							<span class="large_header">$3.77 million Motor Vehicle Accidents</span><!-- large_header -->
+							<span class="large_header">$1.45 Defective Products Accidents</span><!-- large_header -->
 							
 							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
 							
@@ -132,15 +132,15 @@
 						
 						<img src="<?php bloginfo('template_directory');?>/images/cr-05-01.svg"/>
 						
-						<span class="amount">$4.95m</span>
+						<span class="amount">$1.2m</span>
 						
-						<span class="type">Motor Vehicle Accidents</span><!-- type -->
+						<span class="type">Motorcycle Accidents</span><!-- type -->
 						
 					</div><!-- sec_four_reg -->
 					
 						<div class="sec_four_hov">
 							
-							<span class="large_header">$3.77 million Motor Vehicle Accidents</span><!-- large_header -->
+							<span class="large_header">$1.2 million Motorcycle Accidents</span><!-- large_header -->
 							
 							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
 							
