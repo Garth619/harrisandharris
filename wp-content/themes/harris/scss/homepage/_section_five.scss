@@ -116,6 +116,7 @@
 		padding:0;
 		span.sec_five_header {
 			max-width:100%;
+			margin-bottom: 51px;
 		}
 	}
 	
@@ -133,13 +134,15 @@
 	
 	
 	.sec_five_quote_wrapper {
-		margin-top:126px;
+		margin-top:117px;
 		.sec_five_quote {
 			&:before {
 				margin-bottom: 16px;
 			}
 		}
 	}
+	
+	   
 	
 	
 } /* Media Query */

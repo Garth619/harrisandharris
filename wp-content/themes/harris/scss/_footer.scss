@@ -383,11 +383,6 @@ body.page-template-template-contact {
 @media screen and (max-width: 1585px) {
 	
 	
-	.footer_right {
-		
-	}
-	
-	
 	.footer_inner {
 		flex-direction: column;
 		padding:0;
@@ -403,7 +398,7 @@ body.page-template-template-contact {
 	.footer_right {
 		order:1;
 		padding:0;
-		
+		margin-top: 107px;
 	}
 	
 	span.contact_us_title{
@@ -470,6 +465,10 @@ body.page-template-template-contact {
 		margin: 142px 0 0;
 		padding: 0 90px 85px;
 	}
+	
+	.form_wrapper {
+    margin-top: 32px;
+   }
 	
 	
 } /* Media Query */
