@@ -405,7 +405,7 @@ span.bio_description {
 	
 	
 	.bio_bottom_content {
-		padding:0 30px;
+		padding:0 60px;
 	}
 	
 	.bio_bottom_right {
@@ -457,6 +457,11 @@ span.bio_description {
 	span.bio_description {
 		font-size: 24px;
 		line-height: 36px;
+	}
+	
+	.bio_bottom_content {
+		padding-left:30px;
+		padding-right:30px;
 	}
 	
 } /* Media Query */
