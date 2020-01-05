@@ -227,7 +227,22 @@ span.meet_team_header {
 	.single_att {
 		margin-bottom: 55px;
 		.single_att_img {
-			height: 390px;
+			height: 520px;
+		}
+	}
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 490px) {
+	
+	.single_att {
+		
+		.single_att_img {
+			height: auto;
+			img {
+				position: relative;
+			}
 		}
 	}
 	

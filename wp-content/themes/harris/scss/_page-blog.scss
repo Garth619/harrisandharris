@@ -198,13 +198,19 @@ a.blog_read_more {
 		line-height: 65px;
 	}
 	
+	body:not(.page-template-default), body:not(.single) {
+		.sidebar_wrapper {
+			margin-top:50px;
+		}
+	}
+	
 	.sidebar_wrapper {
 		margin-bottom: 20px;
 	}
 	
 	body.single {
 		.sidebar_wrapper {
-			margin-top: 55px;
+			margin-top: 60px;
 		}
 	}
 		
