@@ -353,6 +353,15 @@ body.page-template-default {
 	}
 	nav.nav_desktop {
 		margin-top:28px;
+		ul.menu {
+			> li.menu-item-has-children {
+				> a {
+					&:after {
+						color:$blueone;
+					}
+				}
+			}
+		}
 	}
 }
 

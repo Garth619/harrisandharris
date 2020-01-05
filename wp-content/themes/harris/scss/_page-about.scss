@@ -49,7 +49,7 @@ body.page-template-template-about {
 
 .about_quote_wrapper {
 	display: flex;
-	margin-top:40px;
+	margin-top: 43px;
 	justify-content: flex-end;
 }
 
@@ -130,7 +130,7 @@ span.about_slider_title {
 		width: 100px;
 		height:4px;
 		background: $red;
-		margin:46px auto 0;
+		margin: 46px auto 0;
 	}
 }
 
@@ -203,6 +203,7 @@ span.about_slider_title {
 
 .about_bottom {
 	padding:0 120px;
+	margin-bottom: -34px;
 	position: relative;
 	z-index:1;
 }
@@ -218,7 +219,7 @@ span.about_slider_title {
 .about_bottom_left {
 	flex-basis: 515px;
 	flex-shrink: 0;
-	margin-top: 74px;
+	margin-top: 104px;
 }
 
 .about_bottom_image {
@@ -232,7 +233,7 @@ span.about_slider_title {
 
 .about_bottom_right {
 	padding-left:215px;
-	margin-top: 161px;
+	margin-top: 209px;
 }
 
 
@@ -355,6 +356,10 @@ span.about_slider_title {
 		}
 	}
 	
+	.about_bottom {
+		margin-bottom: -100px;
+	}
+	
 	.about_bottom_inner {
 		flex-direction: column;
 	}
@@ -456,6 +461,7 @@ span.about_slider_title {
 	
 	.about_bottom {
 		padding:0 60px;
+		margin-bottom:-50px;
 	}
 	
 	.about_bottom_left {
