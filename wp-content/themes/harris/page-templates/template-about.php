@@ -16,31 +16,8 @@ get_header(); ?>
 		
 			<div class="about_content">
 				
-				<p>At Harris & Harris Injury Lawyers, we have been helping the Las Vegas community for over 15 years, and it is our goal to provide every client with exceptional legal representation and excellent service. As personal injury attorneys, we represent clients who have survived serious car accidents, lost family members as a result of a wrongful death accident and experienced other life-changing accidents. We are committed to supporting our clients as they rebuild their lives, and to giving every case the attention necessary to recover maximum compensation on our client’s behalf.</p>
-
-				<p>Contact Harris & Harris Injury Lawyers online or call <a href="tel:7023841414">(702) 384-1414</a> or toll free 
-<a href="tel:18003932350">1-800 393-2350</a>. Your consultation is free.</p>
-
-			<h2>Professional Accomplishments</h2>
-			
-			<p>Harris & Harris Injury Lawyers have been recognized by national and regional associations for their knowledge, skill, and professionalism in personal injury law through the following memberships and awards:</p>
-			
-			<ul>
-				<li>Super Lawyers-Nevada</li>
-				<li>ATLA Top 100 Trial Lawyers</li>
-				<li>Multimillion Dollar Advocates Forum</li>
-				<li>The Million Dollar Advocates Forum</li>
-				<li>American Association for Justice</li>
-				<li>Nevada Trial Lawyers Association</li>
-				<li>MyVegas Magazine Top 100 Lawyers in Las Vegas</li>
-				<li>Super Lawyers</li>
-				<li>Verdicts Club (Platinum Member)</li>
-				<li>American Trial Lawyers Association Top 100 Trial Lawyers</li>
-				<li>Vegas, Inc. Top Lawyers “The Best of the Best in Southern Nevada”</li>
-				<li>Bar Registry of Preeminent Lawyers</li>
-				<li>MyVegas Magazine “Top 100 Woman Of The Year – Readers Choice Awards</li>
-			</ul>
-			
+				<?php the_field( 'top_content' ); ?>
+								
 			</div><!-- about_content -->
 		
 		</div><!-- about_left -->
@@ -49,7 +26,13 @@ get_header(); ?>
 			
 			<div class="about_image">
 			
-				<img src="<?php bloginfo('template_directory');?>/images/content-atts-01.png"/>
+				<?php $about_picture = get_field( 'about_picture' ); ?>
+				
+				<?php if ( $about_picture ) { ?>
+					
+					<img src="<?php echo $about_picture['url']; ?>" alt="<?php echo $about_picture['alt']; ?>" />
+				
+				<?php } ?>
 			
 			</div><!-- about_image -->
 
@@ -57,7 +40,7 @@ get_header(); ?>
 				
 				<div class="about_quote">
 					
-					<span>At Harris & Harris, our <strong>20+ years</strong> of personal injury experience allow us to accurately assess the value of your personal injury or wrongful death claim.</span>
+					<span><?php the_field( 'about_top_quote' ); ?></span>
 					
 				</div><!-- about_quote -->
 				
@@ -81,110 +64,40 @@ get_header(); ?>
 		
 		<div class="about_slider_inner">
 		
-		<span class="about_slider_title">Awards & Recognition</span><!-- about_slider_title -->
+		<span class="about_slider_title"><?php the_field( 'awards_title' ); ?></span><!-- about_slider_title -->
 		
 		
 			
 			<div class="about_slider">
 				
-				<div class="about_single_slide">
+				<?php if(get_field('awards_slider')): ?>
+				 
+					<?php while(has_sub_field('awards_slider')): ?>
+				 
+						<div class="about_single_slide">
 					
-					<div class="about_slide_inner">
+							<div class="about_slide_inner">
 						
-						<div class="about_slide_img_wrapper">
+								<div class="about_slide_img_wrapper">
 					
-							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
+									<?php $award_image = get_sub_field( 'award_image' ); ?>
+									
+									<?php if ( $award_image ) { ?>
+										
+										<img src="<?php echo $award_image['url']; ?>" alt="<?php echo $award_image['alt']; ?>" />
+									
+									<?php } ?>
 						
-						</div><!-- about_slide_img_wrapper -->
+								</div><!-- about_slide_img_wrapper -->
 					
-					</div><!-- about_slide_inner -->
+							</div><!-- about_slide_inner -->
 					
-				</div><!-- about_single_slide -->
-				
-				<div class="about_single_slide">
-					
-					<div class="about_slide_inner">
-					
-						<div class="about_slide_img_wrapper">
-					
-							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
-						
-						</div><!-- about_slide_img_wrapper -->
-					
-					</div><!-- about_slide_inner -->
-					
-				</div><!-- about_single_slide -->
-				
-				<div class="about_single_slide">
-					
-					<div class="about_slide_inner">
-					
-						<div class="about_slide_img_wrapper">
-					
-							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
-						
-						</div><!-- about_slide_img_wrapper -->
-					
-					</div><!-- about_slide_inner -->
-					
-				</div><!-- about_single_slide -->
-				
-				<div class="about_single_slide">
-					
-					<div class="about_slide_inner">
-					
-						<div class="about_slide_img_wrapper">
-					
-							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
-						
-						</div><!-- about_slide_img_wrapper -->
-					
-					</div><!-- about_slide_inner -->
-					
-				</div><!-- about_single_slide -->
-				
-				<div class="about_single_slide">
-					
-					<div class="about_slide_inner">
-					
-						<div class="about_slide_img_wrapper">
-					
-							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
-						
-						</div><!-- about_slide_img_wrapper -->
-					
-					</div><!-- about_slide_inner -->
-					
-				</div><!-- about_single_slide -->
-				
-				<div class="about_single_slide">
-					
-					<div class="about_slide_inner">
-					
-						<div class="about_slide_img_wrapper">
-					
-							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
-						
-						</div><!-- about_slide_img_wrapper -->
-					
-					</div><!-- about_slide_inner -->
-					
-				</div><!-- about_single_slide -->
-				
-				<div class="about_single_slide">
-					
-					<div class="about_slide_inner">
-					
-						<div class="about_slide_img_wrapper">
-					
-							<img src="<?php bloginfo('template_directory');?>/images/aw-02.jpg"/>
-						
-						</div><!-- about_slide_img_wrapper -->
-					
-					</div><!-- about_slide_inner -->
-					
-				</div><!-- about_single_slide -->
-								
+						</div><!-- about_single_slide -->
+				    
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
+												
 			</div><!-- about_slider -->
 			
 		</div><!-- about_slider_inner -->
@@ -207,7 +120,13 @@ get_header(); ?>
 		
 		<div class="about_bottom_image">
 			
-				<img src="<?php bloginfo('template_directory');?>/images/pa-no-win-no-fee-img.png"/>
+				<?php $about_bottom_image = get_field( 'about_bottom_image' ); ?>
+				
+				<?php if ( $about_bottom_image ) { ?>
+				
+					<img src="<?php echo $about_bottom_image['url']; ?>" alt="<?php echo $about_bottom_image['alt']; ?>" />
+				
+				<?php } ?>
 			
 			</div><!-- about_bottom_image -->
 
@@ -215,7 +134,7 @@ get_header(); ?>
 				
 				<div class="about_bottom_quote">
 					
-					<span>No Win No Fee Policy</span>
+					<span><?php the_field( 'about_bottom_quote' ); ?></span>
 					
 				</div><!-- about_bottom_quote -->
 				
@@ -225,15 +144,7 @@ get_header(); ?>
 	
 	<div class="about_bottom_right content">
 		
-		<h2>Hire An Attorney Who Cares</h2>
-		
-		<p>Our personal injury attorneys develop close relationships with our clients. If we accept your case, our law firm will work closely with you through the entire process. We make sure to have an open line of contact with our clients as we know the legal process can be daunting, but regular points of contact can create transparency and add peace of mind.</p>
-
-		<h2>Settle Or Go To Trial?</h2>
-		
-		<p>Our attorneys do not hesitate to take a case to trial, spare no expense in preparation and have an impressive record of success. As your counsel, we will never recommend you settle for less than we feel your case is worth, and you will have full confidence that we are doing everything possible to obtain a favorable verdict or settlement. Insurance companies throughout Nevada, California and Utah are aware of our reputation as thorough, tenacious and successful advocates, a record that puts us in a strong negotiating position.</p>
-
-		<p>Contact Harris & Harris Injury Lawyers online or call (702) 384-1414 or toll free<br/> 1800 393-2350. Your consultation is free.</p>
+		<?php the_field( 'about_bottom_content' ); ?>
 		
 	</div><!-- about_bottom_right -->
 	

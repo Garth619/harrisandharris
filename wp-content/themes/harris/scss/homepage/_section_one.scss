@@ -542,9 +542,12 @@ a.consultation_button {
 	
 	.sec_one_right {
 		margin:27px auto 0;
-		max-width:500px;
+		max-width: 380px;
+		display: block;
+/*
 		display: flex;
 		justify-content: center;
+*/
 		img {
 			position: relative;
 		}

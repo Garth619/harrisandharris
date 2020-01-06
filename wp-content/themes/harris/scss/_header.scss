@@ -110,6 +110,13 @@ nav.nav_desktop {
 	ul.menu {
 		display: flex;
 		justify-content: flex-end;
+		> li.current-menu-item {
+				> a {
+					&:before {
+						opacity: 1;
+					}
+				}
+		}
 		> li {
 			margin: 0 0px 0 27px;
 			font-size: 17px;
@@ -316,6 +323,13 @@ body:not(.page-template-template-home){
 		   font-size: 16px;
 		   margin: 0 0px 0 25px;
 	   }
+	   > li.current-menu-ancestor {
+		   	> a {
+			   		&:before {
+				   		opacity: 1;
+			   		}
+		   	}
+	   }
 	   > li.menu-item-has-children {
 		     padding-bottom: 34px;
 		     > a {
@@ -426,7 +440,7 @@ body.page-template-default {
 				}
 				> li.menu-item-has-children {
 						> ul.sub-menu {
-								top: 41px;
+								top: 42px;
 						}
 				}
 			}

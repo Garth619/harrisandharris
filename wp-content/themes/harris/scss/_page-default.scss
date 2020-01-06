@@ -537,6 +537,16 @@ a.banner_button {
    left: -400px;
 	}
 	
+	.internal_container {
+    padding: 224px 120px 0;
+	}
+	
+	
+	body:not(.page-template-default) {
+		.default_container {
+    	padding: 224px 120px 0;
+		}
+	}
 	
 } /* Media Query */
 
@@ -548,6 +558,9 @@ a.banner_button {
 	img.internal_banner_img {
    left: -430px;
 	}
+	
+	
+
 
 	
 } /* Media Query */

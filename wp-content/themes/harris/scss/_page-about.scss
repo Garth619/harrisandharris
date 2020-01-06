@@ -293,6 +293,10 @@ span.about_slider_title {
 	.about_bottom_right {
     padding-left: 145px;
   }
+  
+  .about_bottom {
+    margin-bottom: 0px;
+  }
 	
 	
 	
@@ -396,6 +400,10 @@ span.about_slider_title {
 			font-size: 60px;
 			line-height: 65px;
 		}
+	}
+	
+	.about_container {
+    padding: 224px 0 0;
 	}
 	
 } /* Media Query */
