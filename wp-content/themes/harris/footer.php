@@ -14,7 +14,7 @@
 			
 			<div class="footer_left">
 				
-				<span class="contact_us_title">Contact Us</span><!-- contact_us_title -->
+				<span class="contact_us_title"><?php the_field( 'footer_contact_title','option'); ?></span><!-- contact_us_title -->
 				
 				<div class="footer_contact_wrapper">
 					
@@ -31,8 +31,8 @@
 						<img src="<?php bloginfo('template_directory');?>/images/footer-address-01.svg"/>
 						
 						<span class="contact_content address">
-							1645 Village Center Circle, Suite 60<br/> Las Vegas, NV 89134
-							<a class="map_button" href="">Map</a>
+							<?php the_field( 'firm_street_address','option'); ?>
+							<a class="map_button" href="<?php the_field( 'firm_directions_link','option'); ?>" target="_blank" rel="noopener">Map</a>
 						</span>
 						
 					</div><!-- footer_contact_row -->
@@ -42,9 +42,17 @@
 						<img src="<?php bloginfo('template_directory');?>/images/footer-hours-01.svg"/>
 						
 						<div class="hours_wrapper">
-						
-							<span class="contact_content">Monday - Friday</span><!-- contact_content -->
-							<span class="contact_content">8:00 am - 5:00 pm</span><!-- contact_content -->
+							
+							<?php if(get_field('firm_hours','option')): ?>
+							 
+								<?php while(has_sub_field('firm_hours','option')): ?>
+							 
+									<span class="contact_content"><?php the_sub_field( 'days' ); ?></span><!-- contact_content -->
+									<span class="contact_content"><?php the_sub_field( 'hours' ); ?></span><!-- contact_content -->
+							    
+								<?php endwhile; ?>
+							 
+							<?php endif; ?>
 						
 						</div><!-- hours_wrapper -->
 						
@@ -56,35 +64,51 @@
 				
 				<div class="social_media">
 					
-					<a class="" href="">
-						
-						<?php echo file_get_contents("wp-content/themes/harris/images/social-fb.svg"); ?>
-						
-					</a>
+					<?php if(get_field('facebook_link','option')) { ?>
 					
-					<a class="" href="">
+						<a class="" href="<?php the_field( 'facebook_link','option'); ?>" target="_blank" rel="noopener">
 						
-						<?php echo file_get_contents("wp-content/themes/harris/images/social-twitter.svg"); ?>
+							<?php echo file_get_contents("wp-content/themes/harris/images/social-fb.svg"); ?>
 						
-					</a>
+						</a>
 					
-					<a class="" href="">
-						
-						<?php echo file_get_contents("wp-content/themes/harris/images/social-linked.svg"); ?>
-						
-					</a>
+					<?php } ?>
 					
-					<a class="" href="">
+					<?php if(get_field('twitter_link','option')) { ?>
+					
+						<a class="" href="<?php the_field( 'twitter_link','option'); ?>" target="_blank" rel="noopener">
 						
-						<?php echo file_get_contents("wp-content/themes/harris/images/social-insta.svg"); ?>
+							<?php echo file_get_contents("wp-content/themes/harris/images/social-twitter.svg"); ?>
 						
-					</a>
+						</a>
+					
+					<?php } ?>
+					
+					<?php if(get_field('linked_in_link','option')) { ?>
+					
+						<a class="" href="<?php the_field( 'linked_in_link','option'); ?>" target="_blank" rel="noopener">
+						
+							<?php echo file_get_contents("wp-content/themes/harris/images/social-linked.svg"); ?>
+						
+						</a>
+					
+					<?php } ?>
+					
+					<?php if(get_field('instagram_link','option')) { ?>
+					
+						<a class="" href="<?php the_field( 'instagram_link','option'); ?>" target="_blank" rel="noopener">
+						
+							<?php echo file_get_contents("wp-content/themes/harris/images/social-insta.svg"); ?>
+						
+						</a>
+					
+					<?php } ?>
 					
 				</div><!-- social_media -->
 				
 				<div class="location_tagline">
 					
-					<span>Fighting for the injured<br/> in Nevada, Utah and Arizona.</span>
+					<span><?php the_field( 'footer_tagline','option'); ?></span>
 					
 				</div><!-- location_tagline -->
 				
@@ -97,9 +121,11 @@
 			
 			<div class="footer_right">
 				
-				<span class="footer_right_subheader">Get help now. No win, no fee policy.</span><!-- footer_right_subheader -->
+				<span class="footer_right_subheader"><?php the_field( 'footer_form_subheader','option'); ?></span><!-- footer_right_subheader -->
 				
-				<span class="footer_right_large_header">request<br class="mobile"/> your<br class="desktop"/> free consultation</span><!-- footer_right_large_header -->
+				<span class="footer_right_large_header"><?php the_field( 'footer_form_header','option'); ?></span>
+				
+<!-- 				<span class="footer_right_large_header">request<br class="mobile"/> your<br class="desktop"/> free consultation</span> -->
 				
 				<div id="consultation" class="form_wrapper">
 					
@@ -118,9 +144,20 @@
 			<div class="copyright_inner">
 				
 				<ul>
-					<li>&copy; <?php echo date("Y"); ?> Harris & Harris Injury Lawyers</li>
-					<li><a href="">Terms & Conditions</a></li>
-					<li><a href="">Privacy Policy</a></li>
+					<li>&copy; <?php echo date("Y"); ?> <?php the_field( 'copyright','option'); ?></li>
+					
+					<?php if(get_field('terms_and_conditions','options')) { ?>
+					
+						<li><a href="<?php the_field( 'terms_and_conditions','option'); ?>">Terms & Conditions</a></li>
+						
+					<?php } ?>
+					
+					<?php if(get_field('privacy_policy','options')) { ?>
+					
+						<li><a href="<?php the_field( 'privacy_policy','option'); ?>">Privacy Policy</a></li>
+					
+					<?php } ?>
+					
 				</ul>
 				
 				<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
