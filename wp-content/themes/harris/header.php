@@ -66,12 +66,19 @@
 				
 				<div class="tagline_wrapper">
 					
-					<ul class="tagline">
-						<li>No win</li>
-						<li>No fee</li>
-						<li>Free Consultation</li>
-					</ul>
+					<?php if(get_field('tagline','option')): ?>
 					
+						<ul class="tagline">
+					 
+						<?php while(has_sub_field('tagline', 'option')): ?>
+					 
+							<li><?php the_sub_field( 'list_item' ); ?></li>
+					    
+						<?php endwhile; ?>
+						
+						</ul>
+					 
+					<?php endif; ?>					
 					
 					<a class="phone" href="tel:<?php echo str_replace(['-', '(', ')', ' '], '', get_field('firm_phone', 'option')); ?>"><?php the_field( 'firm_phone','option'); ?></a>
 					

@@ -10,143 +10,75 @@
 		
 		<div class="sec_four_inner">
 			
-			<span class="sec_four_title">Case Results</span><!-- sec_four_title -->
+			<span class="sec_four_title"><?php the_field( 'section_four_title' ); ?></span><!-- sec_four_title -->
 			
-			<a class="view_cr top" href="">View All Results</a><!-- view_cr -->
+			<a class="view_cr top" href="<?php the_field( 'view_all_results_link' ); ?>">View All Results</a><!-- view_cr -->
 			
 			<div class="sec_four_cr_wrapper">
 				
-				<div class="sec_four_cr">
+				<?php if(get_field('section_four_case_results')): ?>
+				 
+					<?php while(has_sub_field('section_four_case_results')): ?>
+				 
+						<div class="sec_four_cr">
 					
-					<div class="sec_four_reg">
+							<div class="sec_four_reg">
 						
-						<img src="<?php bloginfo('template_directory');?>/images/cr-01-01.svg"/>
-						
-						<span class="amount">$4.95m</span>
-						
-						<span class="type">Motor Vehicle Accidents</span><!-- type -->
-						
-					</div><!-- sec_four_reg -->
+								<?php if(get_sub_field('svg_icon') == 'Car') { ?>
+			
+									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-01-01.svg"/>
 					
-						<div class="sec_four_hov">
-							
-							<span class="large_header">$4.95 million Motor Vehicle Accidents</span><!-- large_header -->
-							
-							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
-							
-						</div><!-- sec_four_hov -->
+								<?php } ?>
 					
-				</div><!-- sec_four_cr -->
-				
-				<div class="sec_four_cr">
+								<?php if(get_sub_field('svg_icon') == 'Truck') { ?>
+						
+									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-02-01.svg"/>
+								
+								<?php } ?>
+								
+								<?php if(get_sub_field('svg_icon') == 'Taxi') { ?>
+						
+									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-03-01.svg"/>
+								
+								<?php } ?>
+								
+								<?php if(get_sub_field('svg_icon') == 'Horse') { ?>
+						
+									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-04-01.svg"/>
+								
+								<?php } ?>
+								
+								<?php if(get_sub_field('svg_icon') == 'Motorcycle') { ?>
+						
+									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-05-01.svg"/>
+								
+								<?php } ?>
+								
+								<?php if(get_sub_field('svg_icon') == 'Cash') { ?>
+						
+									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
+								
+								<?php } ?>
+						
+								<span class="amount"><?php the_sub_field( 'amount' ); ?></span>
+						
+								<span class="type"><?php the_sub_field( 'type' ); ?></span><!-- type -->
+						
+							</div><!-- sec_four_reg -->
 					
-					<div class="sec_four_reg">
-						
-						<img src="<?php bloginfo('template_directory');?>/images/cr-01-01.svg"/>
-						
-						<span class="amount">$4.95m</span>
-						
-						<span class="type">Motor Vehicle Accidents</span><!-- type -->
-						
-					</div><!-- sec_four_reg -->
+							<div class="sec_four_hov">
+							
+								<span class="large_header"><?php the_sub_field( 'hover_title' ); ?></span><!-- large_header -->
+							
+								<span class="description"><?php the_sub_field( 'hover_description' ); ?></span>
+							
+							</div><!-- sec_four_hov -->
 					
-						<div class="sec_four_hov">
-							
-							<span class="large_header">$4.95 million Motor Vehicle Accidents</span><!-- large_header -->
-							
-							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
-							
-						</div><!-- sec_four_hov -->
-					
-				</div><!-- sec_four_cr -->
-				
-				<div class="sec_four_cr">
-					
-					<div class="sec_four_reg">
-						
-						<img src="<?php bloginfo('template_directory');?>/images/cr-02-01.svg"/>
-						
-						<span class="amount">$3.05m</span>
-						
-						<span class="type">Commercial Vehicle Accidents</span><!-- type -->
-						
-					</div><!-- sec_four_reg -->
-					
-						<div class="sec_four_hov">
-							
-							<span class="large_header">$3.05 million Commercial Vehicle Accidents</span><!-- large_header -->
-							
-							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
-							
-						</div><!-- sec_four_hov -->
-					
-				</div><!-- sec_four_cr -->
-				
-				<div class="sec_four_cr">
-					
-					<div class="sec_four_reg">
-						
-						<img src="<?php bloginfo('template_directory');?>/images/cr-03-01.svg"/>
-						
-						<span class="amount">$2.2m</span>
-						
-						<span class="type">Taxicab & Limosine</span><!-- type -->
-						
-					</div><!-- sec_four_reg -->
-					
-						<div class="sec_four_hov">
-							
-							<span class="large_header">$2.2 million Taxicab & Limosine Accidents</span><!-- large_header -->
-							
-							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
-							
-						</div><!-- sec_four_hov -->
-					
-				</div><!-- sec_four_cr -->
-				
-				<div class="sec_four_cr">
-					
-					<div class="sec_four_reg">
-						
-						<img src="<?php bloginfo('template_directory');?>/images/cr-04-01.svg"/>
-						
-						<span class="amount">$1.45m</span>
-						
-						<span class="type">Motor Vehicle Accidents</span><!-- type -->
-						
-					</div><!-- sec_four_reg -->
-					
-						<div class="sec_four_hov">
-							
-							<span class="large_header">$1.45 Defective Products Accidents</span><!-- large_header -->
-							
-							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
-							
-						</div><!-- sec_four_hov -->
-					
-				</div><!-- sec_four_cr -->
-				
-				<div class="sec_four_cr">
-					
-					<div class="sec_four_reg">
-						
-						<img src="<?php bloginfo('template_directory');?>/images/cr-05-01.svg"/>
-						
-						<span class="amount">$1.2m</span>
-						
-						<span class="type">Motorcycle Accidents</span><!-- type -->
-						
-					</div><!-- sec_four_reg -->
-					
-						<div class="sec_four_hov">
-							
-							<span class="large_header">$1.2 million Motorcycle Accidents</span><!-- large_header -->
-							
-							<span class="description">Our client suffered serious injuries to his neck and back when he was rear-ended on US 95. He underwent numerous medical procedures as a result of his injuries. Our firm negotiated this multi-million dollar settlement at mediation.</span>
-							
-						</div><!-- sec_four_hov -->
-					
-				</div><!-- sec_four_cr -->
+					</div><!-- sec_four_cr -->
+				    
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
 								
 			</div><!-- sec_four_cr_wrapper -->
 			

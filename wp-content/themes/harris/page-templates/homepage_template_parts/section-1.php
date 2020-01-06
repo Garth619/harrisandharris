@@ -4,13 +4,13 @@
 	
 	<div class="sec_one_left">
 		
-		<span class="sec_one_subheader">Las Vegas Personal Injury Lawyers</span><!-- sec_one_subheader -->
+		<span class="sec_one_subheader"><?php the_field( 'section_one_subheader' ); ?></span><!-- sec_one_subheader -->
 		
-		<span class="sec_one_header">$100+ Million Recovered our Clients</span><!-- sec_one_header -->
+		<span class="sec_one_header"><?php the_field( 'section_one_header' ); ?></span><!-- sec_one_header -->
 		
 		<a class="consultation_button" href="#consultation">
 			
-			<span>Get Your Free Consultation</span>
+			<span><?php the_field( 'free_consultation_verbiage' ); ?></span>
 		
 		</a><!-- consultation_button -->
 		
@@ -18,9 +18,21 @@
 	
 	<div class="sec_one_right">
 		
-		<img class="att_one" src="<?php bloginfo('template_directory');?>/images/hero-att-01.png"/>
-
-		<img class="att_two" src="<?php bloginfo('template_directory');?>/images/hero-att-02.png"/>
+		<?php $section_one_attorney_image_one = get_field( 'section_one_attorney_image_one' ); ?>
+		
+		<?php if ( $section_one_attorney_image_one ) { ?>
+			
+			<img class="att_one" src="<?php echo $section_one_attorney_image_one['url']; ?>" alt="<?php echo $section_one_attorney_image_one['alt']; ?>" />
+		
+		<?php } ?>
+		
+		<?php $section_one_attorney_image_two = get_field( 'section_one_attorney_image_two' ); ?>
+		
+		<?php if ( $section_one_attorney_image_two ) { ?>
+			
+			<img class="att_two" src="<?php echo $section_one_attorney_image_two['url']; ?>" alt="<?php echo $section_one_attorney_image_two['alt']; ?>" />
+		
+		<?php } ?>
 		
 	</div><!-- sec_one_right -->
 
@@ -47,9 +59,6 @@
 
 </picture>
 
-
-
-	
 </section><!-- section_one -->
 
 
