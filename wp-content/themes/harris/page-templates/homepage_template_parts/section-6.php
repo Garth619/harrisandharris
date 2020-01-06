@@ -10,63 +10,39 @@
 		
 		<div class="sec_six_inner">
 			
-			<span class="sec_six_title">Client Reviews</span><!-- sec_six_title -->
+			<span class="sec_six_title"><?php the_field( 'section_six_title' ); ?></span><!-- sec_six_title -->
 			
-			<a class="view_cr top" href="">View All Results</a><!-- view_cr -->
+			<a class="view_cr top" href="<?php the_field( 'view_all_results_page_link_cr' ); ?>">View All Results</a><!-- view_cr -->
 			
 			<div class="sec_six_test_wrapper">
 				
-				<div class="sec_six_test">
+				<?php if(get_field('section_six_client_reviews')): ?>
+				 
+					<?php while(has_sub_field('section_six_client_reviews')): ?>
+				 
+						<div class="sec_six_test">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
+							<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
 					
-					<span class="test_large_quote">Exceptional service to someone needing help.</span><!-- test_large_quote -->
+							<span class="test_large_quote"><?php the_sub_field( 'title' ); ?></span><!-- test_large_quote -->
 					
-					<div class="testi_description">
+							<div class="testi_description">
 						
-						<p>Exceptional service to someone needing help. I never felt like a name and case number alone like I've heard sometimes happens when dealing with larger firms. With Mr. Harris I knew I would be taken care of and was very pleased with my settlement.</p>
+								<?php the_sub_field( 'description' ); ?>
 						
-					</div><!-- testi_description -->
+						</div><!-- testi_description -->
 					
-					<span class="name">Personal Injury Client</span>
+						<span class="name"><?php the_sub_field( 'name' ); ?></span>
 					
-				</div><!-- sec_six_test -->
-				
-				<div class="sec_six_test">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
-					
-					<span class="test_large_quote">I highly recommend them!</span><!-- test_large_quote -->
-					
-					<div class="testi_description">
-						
-						<p>What an amazing firm. I felt completely taken care of, and safe with them. They worked diligently, and efficiently to help me with my case. I highly recommend them!</p>
-						
-					</div><!-- testi_description -->
-					
-					<span class="name">Cassandra S.</span>
-					
-				</div><!-- sec_six_test -->
-				
-				<div class="sec_six_test">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
-					
-					<span class="test_large_quote">I truly believe this is the law firm to employ.</span><!-- test_large_quote -->
-					
-					<div class="testi_description">
-						
-						<p>If you have been in an accident and are looking for truly genuine and honest professionals who can help you sort out all of the frustration, confusion, and pain of having to deal with an ordeal like this I truly believe this is the law firm to employ. The attorneys here are patient, kind, approachable, and knowledgeable.</p>
-												
-					</div><!-- testi_description -->
-					
-					<span class="name">Renée q.</span>
-					
-				</div><!-- sec_six_test -->
-				
+					</div><!-- sec_six_test -->
+				    
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
+								
 			</div><!-- sec_six_test_wrapper -->
 			
-			<a class="view_cr bottom" href="">View All Results</a><!-- view_cr -->
+			<a class="view_cr bottom" href="<?php the_field( 'view_all_results_page_link_cr' ); ?>">View All Results</a><!-- view_cr -->
 			
 		</div><!-- sec_six_inner -->
 	
