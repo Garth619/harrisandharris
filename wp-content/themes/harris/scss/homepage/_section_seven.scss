@@ -75,12 +75,12 @@ a.view_pa {
 	text-decoration: none;
 	display: inline-block;
 	width:335px;
-	height:82px;
+	height: 78px;
 	background: $red;
 	color:#fff;
 	text-align: center;
 	border-radius: 45px;
-	padding-top:28px;
+	padding-top: 26px;
 	@include barlow_bold;
 	transition: all 200ms ease-in-out;
 	&:hover {

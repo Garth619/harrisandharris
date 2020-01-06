@@ -98,6 +98,17 @@ span.sec_two_slide_description {
 }
 
 
+// ie hack - does not honor box model padding on flexed items
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   
+   .sec_two_slide {
+	   padding:65px 0 0;
+   } 
+   
+}
+
+
 @media screen and (max-width: 1670px) {
 	
 	

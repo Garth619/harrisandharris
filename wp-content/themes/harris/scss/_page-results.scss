@@ -81,6 +81,14 @@ img.cr_internal_wave {
 }
 
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+    
+    .single_cr_internal {
+	    padding:110px 0 0;
+    } 
+
+}
+
 
 @media screen and (min-width: 1920px) {
 	

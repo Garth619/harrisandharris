@@ -18,8 +18,8 @@ get_header(); ?>
 				
 				<p>At Harris & Harris Injury Lawyers, we have been helping the Las Vegas community for over 15 years, and it is our goal to provide every client with exceptional legal representation and excellent service. As personal injury attorneys, we represent clients who have survived serious car accidents, lost family members as a result of a wrongful death accident and experienced other life-changing accidents. We are committed to supporting our clients as they rebuild their lives, and to giving every case the attention necessary to recover maximum compensation on our client’s behalf.</p>
 
-				<p>Contact Harris & Harris Injury Lawyers online or call (702) 384-1414 or toll free 
-1-800 393-2350. Your consultation is free.</p>
+				<p>Contact Harris & Harris Injury Lawyers online or call <a href="tel:7023841414">(702) 384-1414</a> or toll free 
+<a href="tel:18003932350">1-800 393-2350</a>. Your consultation is free.</p>
 
 			<h2>Professional Accomplishments</h2>
 			

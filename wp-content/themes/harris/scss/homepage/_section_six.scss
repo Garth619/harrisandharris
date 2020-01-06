@@ -116,7 +116,15 @@
 
 
 
+// ie hack - does not honor box model padding on flexed items
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   
+   .sec_six_test {
+	   padding:70px 0 0;
+   } 
+   
+}
 
 
 
