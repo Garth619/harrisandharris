@@ -61,7 +61,7 @@
 					
 					<?php if ( $section_seven_image ) { ?>
 					
-						<img src="<?php echo $section_seven_image['url']; ?>" alt="<?php echo $section_seven_image['alt']; ?>" />
+						<img data-src="<?php echo $section_seven_image['url']; ?>" alt="<?php echo $section_seven_image['alt']; ?>" />
 					
 					<?php } ?>
 					

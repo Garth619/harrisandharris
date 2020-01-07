@@ -4,7 +4,7 @@
 		
 		<div class="sec_two_arrow sec_two_arrow_left">
 			
-			<?php echo file_get_contents("wp-content/themes/harris/images/arrow.svg"); ?>
+			<?php echo file_get_contents("wp-content/themes/harris/images/icon-arrow-02-01.svg"); ?>
 			
 		</div><!-- sec_two_arrow -->
 		
@@ -58,7 +58,7 @@
 		
 		<div class="sec_two_arrow sec_two_arrow_right">
 			
-			<?php echo file_get_contents("wp-content/themes/harris/images/arrow.svg"); ?>
+			<?php echo file_get_contents("wp-content/themes/harris/images/icon-arrow-02-01.svg"); ?>
 			
 		</div><!-- sec_two_arrow -->
 		

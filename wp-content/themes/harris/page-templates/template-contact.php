@@ -29,8 +29,8 @@
 						<img src="<?php bloginfo('template_directory');?>/images/footer-address-01.svg"/>
 						
 						<span class="contact_page_content contact_address">
-							1645 Village Center Circle, Suite 60<br/> Las Vegas, NV 89134
-							<a class="map_button_contact_page" href="">Map</a>
+							<?php the_field( 'firm_street_address','option'); ?>
+							<a class="map_button_contact_page" href="<?php the_field( 'firm_directions_link','option'); ?>" target="_blank" rel="noopener">Map</a>
 						</span>
 						
 					</div><!-- contact_page_row -->
@@ -41,8 +41,16 @@
 						
 						<div class="contact_page_hours_wrapper">
 						
-							<span class="contact_page_content">Monday - Friday</span><!-- contact_page_content -->
-							<span class="contact_page_content">8:00 am - 5:00 pm</span><!-- contact_page_content -->
+							<?php if(get_field('firm_hours','option')): ?>
+							 
+								<?php while(has_sub_field('firm_hours','option')): ?>
+							 
+									<span class="contact_content"><?php the_sub_field( 'days' ); ?></span><!-- contact_content -->
+									<span class="contact_content"><?php the_sub_field( 'hours' ); ?></span><!-- contact_content -->
+							    
+								<?php endwhile; ?>
+							 
+							<?php endif; ?>
 						
 						</div><!-- contact_page_hours_wrapper -->
 						
@@ -54,35 +62,51 @@
 				
 				<div class="social_media_contact_page">
 					
-					<a class="" href="">
-						
-						<?php echo file_get_contents("wp-content/themes/harris/images/social-fb.svg"); ?>
-						
-					</a>
+					<?php if(get_field('facebook_link','option')) { ?>
 					
-					<a class="" href="">
+						<a class="" href="<?php the_field( 'facebook_link','option'); ?>" target="_blank" rel="noopener">
 						
-						<?php echo file_get_contents("wp-content/themes/harris/images/social-twitter.svg"); ?>
+							<?php echo file_get_contents("wp-content/themes/harris/images/social-fb.svg"); ?>
 						
-					</a>
+						</a>
 					
-					<a class="" href="">
-						
-						<?php echo file_get_contents("wp-content/themes/harris/images/social-linked.svg"); ?>
-						
-					</a>
+					<?php } ?>
 					
-					<a class="" href="">
+					<?php if(get_field('twitter_link','option')) { ?>
+					
+						<a class="" href="<?php the_field( 'twitter_link','option'); ?>" target="_blank" rel="noopener">
 						
-						<?php echo file_get_contents("wp-content/themes/harris/images/social-insta.svg"); ?>
+							<?php echo file_get_contents("wp-content/themes/harris/images/social-twitter.svg"); ?>
 						
-					</a>
+						</a>
+					
+					<?php } ?>
+					
+					<?php if(get_field('linked_in_link','option')) { ?>
+					
+						<a class="" href="<?php the_field( 'linked_in_link','option'); ?>" target="_blank" rel="noopener">
+						
+							<?php echo file_get_contents("wp-content/themes/harris/images/social-linked.svg"); ?>
+						
+						</a>
+					
+					<?php } ?>
+					
+					<?php if(get_field('instagram_link','option')) { ?>
+					
+						<a class="" href="<?php the_field( 'instagram_link','option'); ?>" target="_blank" rel="noopener">
+						
+							<?php echo file_get_contents("wp-content/themes/harris/images/social-insta.svg"); ?>
+						
+						</a>
+					
+					<?php } ?>
 					
 				</div><!-- social_media_contact_page -->
 				
 				<div class="location_tagline_contact_page">
 					
-					<span>Fighting for the injured<br/> in Nevada, Utah and Arizona.</span>
+					<span><?php the_field( 'footer_tagline','option'); ?></span>
 					
 				</div><!-- location_tagline_contact_page -->
 				
@@ -92,7 +116,7 @@
 		
 		<div class="contact_right">
 			
-			<a class="" href="" target="_blank" rel="noopener">
+			<a href="<?php the_field( 'firm_directions_link','option'); ?>" target="_blank" rel="noopener">
 				
 				<img src="<?php bloginfo('template_directory');?>/images/map.png"/>
 				
@@ -108,6 +132,4 @@
 </div><!-- internal_main -->
 		
 
-
-			
 <?php get_footer(); ?>

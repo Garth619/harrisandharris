@@ -10,7 +10,7 @@
 				
 				<?php if ( $section_five_image ) { ?>
 					
-					<img src="<?php echo $section_five_image['url']; ?>" alt="<?php echo $section_five_image['alt']; ?>" />
+					<img data-src="<?php echo $section_five_image['url']; ?>" alt="<?php echo $section_five_image['alt']; ?>" />
 				
 				<?php } ?>
 				

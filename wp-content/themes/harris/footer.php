@@ -2,7 +2,7 @@
 	
 	<div class="footer_wave_top">
 		
-		<img class="footer_wave" src="<?php bloginfo('template_directory');?>/images/footer-bg-top.svg"/>
+		<img class="footer_wave" data-src="<?php bloginfo('template_directory');?>/images/footer-bg-top.svg"/>
 		
 	</div><!-- footer_wave_top -->
 	
@@ -20,7 +20,7 @@
 					
 					<div class="footer_contact_row">
 						
-						<img src="<?php bloginfo('template_directory');?>/images/footer-phone-01.svg"/>
+						<img data-src="<?php bloginfo('template_directory');?>/images/footer-phone-01.svg"/>
 						
 						<a class="contact_content" href="tel:<?php echo str_replace(['-', '(', ')', ' '], '', get_field('firm_phone', 'option')); ?>"><?php the_field( 'firm_phone','option'); ?></a>
 						
@@ -28,7 +28,7 @@
 					
 					<div class="footer_contact_row">
 						
-						<img src="<?php bloginfo('template_directory');?>/images/footer-address-01.svg"/>
+						<img data-src="<?php bloginfo('template_directory');?>/images/footer-address-01.svg"/>
 						
 						<span class="contact_content address">
 							<?php the_field( 'firm_street_address','option'); ?>
@@ -39,7 +39,7 @@
 					
 					<div class="footer_contact_row">
 						
-						<img src="<?php bloginfo('template_directory');?>/images/footer-hours-01.svg"/>
+						<img data-src="<?php bloginfo('template_directory');?>/images/footer-hours-01.svg"/>
 						
 						<div class="hours_wrapper">
 							
@@ -162,7 +162,7 @@
 				
 				<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/ilawyer-logo.svg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/ilawyer-logo.svg"/>
 					
 				</a>
 				

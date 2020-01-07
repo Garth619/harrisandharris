@@ -2,7 +2,7 @@
 	
 	<div class="sec_six_wave_top">
 		
-		<img class="wave top" src="<?php bloginfo('template_directory');?>/images/test-bg-top.svg"/>
+		<img class="wave top" data-src="<?php bloginfo('template_directory');?>/images/test-bg-top.svg"/>
 		
 	</div><!-- sec_six_wave_top -->
 	
@@ -22,7 +22,7 @@
 				 
 						<div class="sec_six_test">
 					
-							<img src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
+							<img data-src="<?php bloginfo('template_directory');?>/images/test-stars.svg"/>
 					
 							<span class="test_large_quote"><?php the_sub_field( 'title' ); ?></span><!-- test_large_quote -->
 					
@@ -50,7 +50,7 @@
 	
 	<div class="sec_six_wave_bottom">
 		
-		<img class="wave bottom"  src="<?php bloginfo('template_directory');?>/images/test-bg-bottom.svg"/>
+		<img class="wave bottom"  data-src="<?php bloginfo('template_directory');?>/images/test-bg-bottom.svg"/>
 		
 	</div><!-- sec_six_wave_bottom -->
 	

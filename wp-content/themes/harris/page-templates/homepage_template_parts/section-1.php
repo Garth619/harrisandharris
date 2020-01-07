@@ -40,11 +40,11 @@
 
 <picture>
 
-	<source media="(max-width: 700px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-mobile.svg">
-	<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-tablet.svg">
-	<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-laptop.svg">
+	<source media="(max-width: 700px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-flat-mobile-01.svg">
+	<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-flat-tablet-01.svg">
+	<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-flat-laptop-01.svg">
 	
-	<img class="hero_img" src="<?php bloginfo('template_directory');?>/images/hero-bg-desktop.svg"/>
+	<img class="hero_img" src="<?php bloginfo('template_directory');?>/images/hero-bg-flat-desktop-01.svg"/>
 
 </picture>
 

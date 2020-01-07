@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1018"
+	 style="enable-background:new 0 0 1920 1018;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{clip-path:url(#SVGID_4_);}
+	.st2{fill:url(#SVGID_5_);}
+	.st3{fill:#151521;}
+	.st4{fill:#B40D1A;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="2879.8" width="3887.7" x="-1180.2" y="-1368.9"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" width="1920" height="1018"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st0">
+				<g>
+					<defs>
+						<rect id="SVGID_3_" x="-300.9" y="-397.6" width="2286.3" height="1524.2"/>
+					</defs>
+					<clipPath id="SVGID_4_">
+						<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st1">
+						
+							<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-1195.9092" y1="-1286.2609" x2="2708.8308" y2="2429.9192" gradientTransform="matrix(1 0 0 -1 0 1018)">
+							<stop  offset="0" style="stop-color:#DBDBDB"/>
+							<stop  offset="0.22" style="stop-color:#E6E6E6"/>
+							<stop  offset="0.67" style="stop-color:#F9F9F9"/>
+							<stop  offset="1" style="stop-color:#FFFFFF"/>
+						</linearGradient>
+						<rect x="-382.6" y="-492.9" class="st2" width="2449.6" height="1714.7"/>
+						<path class="st3" d="M-442.3,329C-272,541.3,171.4,843.7,555.3,738.8S1275.8,204.9,1701.9,197
+							c395.1-7.3,764.4,274.7,640.8,745.3S1256.5,2386.9,1256.5,2386.9L-1180.2,843.2L-442.3,329z"/>
+						<path class="st4" d="M-320.7,1297.8c273.2,75.6,792.4-38.1,1094-318.3S1168.8,161,1562-66.1
+							c364.6-210.6,976.4-205.2,1114.8,222.4s-234.9,1679.3-234.9,1679.3L-663,1907.4L-320.7,1297.8z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

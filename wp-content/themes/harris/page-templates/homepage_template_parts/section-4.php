@@ -2,7 +2,7 @@
 	
 	<div class="sec_four_wave_top">
 		
-		<img class="wave top" src="<?php bloginfo('template_directory');?>/images/cr-bg-top.svg"/>
+		<img class="wave top" data-src="<?php bloginfo('template_directory');?>/images/cr-bg-top.svg"/>
 		
 	</div><!-- sec_four_wave_top -->
 	
@@ -26,37 +26,37 @@
 						
 								<?php if(get_sub_field('svg_icon') == 'Car') { ?>
 			
-									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-01-01.svg"/>
+									<img class="cr_svg" data-src="<?php bloginfo('template_directory');?>/images/cr-01-01.svg"/>
 					
 								<?php } ?>
 					
 								<?php if(get_sub_field('svg_icon') == 'Truck') { ?>
 						
-									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-02-01.svg"/>
+									<img class="cr_svg" data-src="<?php bloginfo('template_directory');?>/images/cr-02-01.svg"/>
 								
 								<?php } ?>
 								
 								<?php if(get_sub_field('svg_icon') == 'Taxi') { ?>
 						
-									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-03-01.svg"/>
+									<img class="cr_svg" data-src="<?php bloginfo('template_directory');?>/images/cr-03-01.svg"/>
 								
 								<?php } ?>
 								
 								<?php if(get_sub_field('svg_icon') == 'Horse') { ?>
 						
-									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-04-01.svg"/>
+									<img class="cr_svg" data-src="<?php bloginfo('template_directory');?>/images/cr-04-01.svg"/>
 								
 								<?php } ?>
 								
 								<?php if(get_sub_field('svg_icon') == 'Motorcycle') { ?>
 						
-									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-05-01.svg"/>
+									<img class="cr_svg" data-src="<?php bloginfo('template_directory');?>/images/cr-05-01.svg"/>
 								
 								<?php } ?>
 								
 								<?php if(get_sub_field('svg_icon') == 'Cash') { ?>
 						
-									<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
+									<img class="cr_svg" data-src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
 								
 								<?php } ?>
 						
@@ -90,7 +90,7 @@
 	
 	<div class="sec_four_wave_bottom">
 		
-		<img class="wave bottom"  src="<?php bloginfo('template_directory');?>/images/cr-bg-bottom.svg"/>
+		<img class="wave bottom"  data-src="<?php bloginfo('template_directory');?>/images/cr-bg-bottom.svg"/>
 		
 	</div><!-- sec_four_wave_bottom -->
 	

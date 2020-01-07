@@ -116,7 +116,7 @@ jQuery(document).ready(function($){
       console.log('images loaded');
     }
 
-    // createWaypoint('section_two', null, null, '100%', loadImages, false);
+    createWaypoint('section_one', null, null, -1, loadImages, false);
 
 
 

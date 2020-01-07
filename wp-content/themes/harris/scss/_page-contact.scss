@@ -44,6 +44,10 @@ body.page-template-template-contact {
 	align-items: center;
 	margin-bottom: 16px;
 	@include barlow_med;
+	img {
+		width:71px;
+		height:68px;
+	}
 	&:nth-of-type(2) {
 		img {
 			margin-top:-110px;
