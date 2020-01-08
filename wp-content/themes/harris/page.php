@@ -8,9 +8,9 @@
 		
 		<div class="banner_left">
 			
-			<span class="banner_subheader">$100+ Million Recovered for Our Clients</span><!-- banner_subheader -->
+			<span class="banner_subheader">Las Vegas Personal Injury Lawyers</span><!-- banner_subheader -->
 		
-			<span class="banner_largeheader">Las Vegas personal injury attorneys</span><!-- banner_largeheader -->
+			<span class="banner_largeheader">$100+ Million Recovered our Clients</span><!-- banner_largeheader -->
 		
 			<a class="banner_button" href="#consultation">Get Your Free Consultation</a><!-- banner_button -->
 
@@ -26,7 +26,19 @@
 		
 	</div><!-- internal_banner_content -->
 	
-	<img class="internal_banner_img" src="<?php bloginfo('template_directory');?>/images/int-hero-bg.png"/><!-- internal_banner_img -->
+	
+	<picture class="all_browsers_internal">
+
+<!--
+		<source media="(max-width: 700px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-mobile-02.svg">
+		<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-tablet-02.svg">
+		<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-laptop-02.svg">
+-->
+	
+		<img  class="internal_banner_img" src="<?php bloginfo('template_directory');?>/images/int-hero-bg-desktop.svg"/>
+
+	</picture>
+
 	
 </div><!-- internal_banner -->
 

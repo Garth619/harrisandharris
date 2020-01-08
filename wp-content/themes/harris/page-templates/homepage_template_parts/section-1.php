@@ -58,7 +58,6 @@
 
 </picture>
 
-
 <picture>
 	
 	<source media="(max-width: 700px)" srcset="<?php bloginfo('template_directory');?>/images/hero-top-white-mobile.svg">
