@@ -201,8 +201,13 @@ a.banner_button {
 }
 
 
-.sidebar_box.active {
+.sidebar_box.active, .sidebar_box.active.padding_hack {
 	padding:42px 0px 42px;
+}
+
+
+.sidebar_box.padding_hack {
+	padding-bottom:0;
 }
 
 .sidebar_box {
@@ -274,6 +279,13 @@ a.banner_button {
 						background: $offwhite;
 						display: none;
 						padding-left:37px;
+						&:last-of-type {
+							li {
+								&:last-of-type {
+									padding-bottom: 10px;
+								}
+							}
+						}
 				}
 				> a {
 					span.dropdown_arrow {
