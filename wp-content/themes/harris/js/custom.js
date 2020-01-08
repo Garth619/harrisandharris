@@ -117,6 +117,7 @@ jQuery(document).ready(function($){
     }
 
     createWaypoint('section_one', null, null, -1, loadImages, false);
+		createWaypoint('internal_main', null, null, -1, loadImages, false);
 
 
 

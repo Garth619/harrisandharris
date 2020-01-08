@@ -222,6 +222,9 @@ img.cr_internal_wave {
 	
 	.single_cr_internal {
 		padding: 60px 30px;
+		max-width: 512px;
+		margin-left:auto;
+		margin-right:auto;
 		span.amount {
 			font-size: 60px;
 			line-height: 65px;

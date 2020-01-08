@@ -21,42 +21,8 @@ get_header(); ?>
 			<?php while(has_sub_field('case_results_internal')): ?>
 		 
 				<div class="single_cr_internal">
-					
-					<?php if(get_sub_field('svg_choice') == 'Car') { ?>
-			
-						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-01-01.svg"/>
-					
-					<?php } ?>
-					
-					<?php if(get_sub_field('svg_choice') == 'Truck') { ?>
-			
-						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-02-01.svg"/>
-					
-					<?php } ?>
-					
-					<?php if(get_sub_field('svg_choice') == 'Taxi') { ?>
-			
-						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-03-01.svg"/>
-					
-					<?php } ?>
-					
-					<?php if(get_sub_field('svg_choice') == 'Horse') { ?>
-			
-						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-04-01.svg"/>
-					
-					<?php } ?>
-					
-					<?php if(get_sub_field('svg_choice') == 'Motorcycle') { ?>
-			
-						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-05-01.svg"/>
-					
-					<?php } ?>
-					
-					<?php if(get_sub_field('svg_choice') == 'Cash') { ?>
-			
-						<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
-					
-					<?php } ?>
+	
+					<img class="cr_svg" src="<?php bloginfo('template_directory');?>/images/cr-money-01.svg"/>
 			
 					<span class="amount"><?php the_sub_field( 'amount' ); ?></span>
 			

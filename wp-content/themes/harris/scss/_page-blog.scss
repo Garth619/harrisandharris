@@ -200,7 +200,7 @@ a.blog_read_more {
 	
 	body:not(.page-template-default), body:not(.single) {
 		.sidebar_wrapper {
-			margin-top:50px;
+			margin-top:100px;
 		}
 	}
 	
@@ -243,6 +243,13 @@ a.blog_read_more {
 					margin: 10px 9px 0 2px;
 				}
 			}
+		}
+	}
+	
+	
+	body:not(.page-template-default), body:not(.single) {
+		.sidebar_wrapper {
+			margin-top:70px;
 		}
 	}
 	
