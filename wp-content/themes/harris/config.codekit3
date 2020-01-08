@@ -644,6 +644,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/hero-bg-desktop-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg-desktop-02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/hero-bg-desktop.png": {
 		"ft": 32768,
 		"iS": 68674,
@@ -675,11 +685,31 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/hero-bg-flat-desktop-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg-flat-desktop-02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/hero-bg-flat-laptop-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/hero-bg-flat-laptop-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/hero-bg-flat-laptop-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg-flat-laptop-02.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -695,11 +725,41 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/hero-bg-flat-mobile-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg-flat-mobile-02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/hero-bg-flat-tablet-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/hero-bg-flat-tablet-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/hero-bg-flat-tablet-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg-flat-tablet-02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/hero-bg-laptop-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg-laptop-02.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -721,6 +781,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/hero-bg-laptop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/hero-bg-mobile-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg-mobile-02.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -753,6 +823,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/hero-bg-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/hero-bg-tablet-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hero-bg-tablet-02.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,

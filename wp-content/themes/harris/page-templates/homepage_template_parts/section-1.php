@@ -38,13 +38,23 @@
 
 </div><!-- sec_one_content -->
 
-<picture>
+<picture class="ie_hack">
 
 	<source media="(max-width: 700px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-flat-mobile-01.svg">
-	<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-flat-tablet-01.svg">
-	<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-flat-laptop-01.svg">
+	<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-flat-tablet-02.svg">
+	<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-flat-laptop-02.svg">
 	
-	<img class="hero_img" src="<?php bloginfo('template_directory');?>/images/hero-bg-flat-desktop-01.svg"/>
+	<img class="hero_img" src="<?php bloginfo('template_directory');?>/images/hero-bg-flat-desktop-02.svg"/>
+
+</picture>
+
+<picture class="all_browsers">
+
+	<source media="(max-width: 700px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-mobile-02.svg">
+	<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-tablet-02.svg">
+	<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-laptop-02.svg">
+	
+	<img class="hero_img" src="<?php bloginfo('template_directory');?>/images/hero-bg-desktop-02.svg"/>
 
 </picture>
 

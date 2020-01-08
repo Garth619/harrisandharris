@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1420 945" style="enable-background:new 0 0 1420 945;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{clip-path:url(#SVGID_4_);}
+	.st2{fill:url(#SVGID_5_);}
+	.st3{fill:#151521;}
+	.st4{fill:#B40D1A;}
+	.st5{fill:#DE3639;}
+</style>
+<g>
+	<g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_1_" x="0" width="1420" height="945"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st0">
+					<g>
+						<g>
+							<defs>
+								<rect id="SVGID_3_" x="-729.3" y="-347.2" width="2286.3" height="1524.2"/>
+							</defs>
+							<clipPath id="SVGID_4_">
+								<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st1">
+								
+									<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-1624.3271" y1="1664.5612" x2="2280.4131" y2="-2051.6289" gradientTransform="matrix(1 0 0 1 0 690)">
+									<stop  offset="0" style="stop-color:#DBDBDB"/>
+									<stop  offset="0.22" style="stop-color:#E6E6E6"/>
+									<stop  offset="0.67" style="stop-color:#F9F9F9"/>
+									<stop  offset="1" style="stop-color:#FFFFFF"/>
+								</linearGradient>
+								<rect x="-811" y="-442.5" class="st2" width="2449.6" height="1714.7"/>
+								<path class="st3" d="M-870.7,379.4C-700.3,591.6-257,894,126.9,789.1s720.6-533.9,1146.7-541.8
+									C1668.7,240,2038,522,1914.4,992.6S828.1,2437.3,828.1,2437.3L-1608.6,893.5L-870.7,379.4z"/>
+								<path class="st4" d="M-749.1,1348.1c273.2,75.6,792.4-38.1,1094-318.3S740.4,211.4,1133.6-15.8
+									C1498.2-226.4,2110-221,2248.4,206.6s-234.8,1679.3-234.8,1679.3l-3104.9,71.8L-749.1,1348.1z"/>
+								<path class="st5" d="M-531.3,1129.6c243.3,145.4,772.5,172.7,1137.7-17.3S1195.5,435.3,1646,314.7
+									c407.4-106.2,995.8,61.5,1015.7,510.5s-672.4,1556.6-672.4,1556.6l-3012.5-755.4L-531.3,1129.6z"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

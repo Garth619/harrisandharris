@@ -25,6 +25,55 @@
 }
 
 
+
+
+.ie_hack {
+	display: none;
+}
+
+.all_browsers {
+	display: block;
+}
+
+
+
+
+
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+    
+	.ie_hack {
+		display: block;
+	} 
+	
+	#section_one img.hero_img {
+		top:-92px;
+	}
+
+	.all_browsers {
+		display: none;
+	}
+
+}
+
+
+@supports (-ms-ime-align: auto) {
+  
+  .ie_hack {
+		display: block;
+	} 
+	
+	
+	.all_browsers {
+		display: none;
+	}
+
+  
+  
+}
+
+
 .sec_one_content {
 	position: relative;
 	z-index:1;
@@ -342,7 +391,7 @@ a.consultation_button {
 		margin-top:92px;
 		height: 780px;
 		img.hero_white {
-			top: 343px;
+			top: 593px;
 			left: -290px;
 		}
 	}
