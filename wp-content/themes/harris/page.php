@@ -35,8 +35,14 @@
 		<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-laptop-02.svg">
 -->
 	
-		<img  class="internal_banner_img" src="<?php bloginfo('template_directory');?>/images/int-hero-bg-desktop.svg"/>
+		<img class="internal_banner_img" src="<?php bloginfo('template_directory');?>/images/int-hero-bg-desktop.svg"/>
 
+	</picture>
+	
+	<picture>
+	
+		<img class="internal_banner_white" src="<?php bloginfo('template_directory');?>/images/int-hero-top-white-desktop.svg"/>
+	
 	</picture>
 
 	
