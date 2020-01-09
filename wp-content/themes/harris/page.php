@@ -29,15 +29,6 @@
 	
 	<picture class="all_browsers_internal">
 
-<!--
-		<source media="(max-width: 700px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-mobile-02.svg">
-		<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-tablet-02.svg">
-		<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-laptop-02.svg">
--->
-		
-		
-		
-		
 		<source media="(max-width: 767px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-bg-mobile.svg">
 		
 		<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-bg-tablet.svg">
@@ -49,6 +40,8 @@
 	</picture>
 	
 	<picture>
+	
+		<source media="(max-width: 767px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-top-white-mobile.svg">
 	
 		<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-top-white-tablet.svg">
 	
