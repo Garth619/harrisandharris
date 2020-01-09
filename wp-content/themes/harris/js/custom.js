@@ -616,6 +616,8 @@ $('.sidebar_box ul > li.menu-item-has-children > a').on('click', function(e) {
 	$(this).next('ul.sub-menu').slideToggle(300);
 	
 	$(this).parent().parent().parent().parent().parent().toggleClass('padding_hack');
+	
+	$(this).parent().parent().parent().parent().toggleClass('padding_hack');
 
 });
 

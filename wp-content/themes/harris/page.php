@@ -39,6 +39,18 @@
 
 	</picture>
 	
+	<picture class="ie_hack_internal">
+
+		<source media="(max-width: 767px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-flat-bg-mobile.svg">
+		
+		<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-flat-bg-tablet.svg">
+		
+		<source media="(max-width: 1330px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-flat-bg-laptop.svg">
+	
+		<img class="internal_banner_img" src="<?php bloginfo('template_directory');?>/images/int-hero-flat-bg-desktop.svg"/>
+
+	</picture>
+	
 	<picture>
 	
 		<source media="(max-width: 767px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-top-white-mobile.svg">

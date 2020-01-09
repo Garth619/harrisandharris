@@ -27,7 +27,13 @@ body:not(.page-template-default) {
 
 
 
+.all_browsers_internal {
+	display: block;
+}
 
+.ie_hack_internal {
+	display: none;
+}
 
 .internal_banner_content {
 	position: relative;
@@ -361,6 +367,37 @@ a.banner_button {
 			background: linear-gradient(-35deg,  #eda31a 0%,#ed5b1a 100%);
 		}
 	}
+	
+
+
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   
+   
+   .all_browsers_internal {
+	 	display: none;
+	}
+
+	.ie_hack_internal {
+		display: block;
+	}  
+}
+
+
+
+@supports (-ms-ime-align: auto) {
+	
+	.all_browsers_internal {
+	 	display: none;
+	}
+
+	.ie_hack_internal {
+		display: block;
+	}  
+	
+	
+}
 
 
 
