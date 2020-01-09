@@ -10,7 +10,7 @@
 			
 			<span class="banner_subheader">Las Vegas Personal Injury Lawyers</span><!-- banner_subheader -->
 		
-			<span class="banner_largeheader">$100+ Million Recovered our Clients</span><!-- banner_largeheader -->
+			<span class="banner_largeheader">$100+ Million Recovered our&nbsp;Clients</span><!-- banner_largeheader -->
 		
 			<a class="banner_button" href="#consultation">Get Your Free Consultation</a><!-- banner_button -->
 
@@ -35,6 +35,8 @@
 		<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-laptop-02.svg">
 -->
 		
+		<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-bg-tablet.svg">
+		
 		<source media="(max-width: 1330px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-bg-laptop.svg">
 	
 		<img class="internal_banner_img" src="<?php bloginfo('template_directory');?>/images/int-hero-bg-desktop.svg"/>
@@ -42,6 +44,8 @@
 	</picture>
 	
 	<picture>
+	
+		<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-top-white-tablet.svg">
 	
 		<source media="(max-width: 1330px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-top-white-laptop.svg">
 	
