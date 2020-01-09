@@ -34,12 +34,16 @@
 		<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-tablet-02.svg">
 		<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-laptop-02.svg">
 -->
+		
+		<source media="(max-width: 1330px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-bg-laptop.svg">
 	
 		<img class="internal_banner_img" src="<?php bloginfo('template_directory');?>/images/int-hero-bg-desktop.svg"/>
 
 	</picture>
 	
 	<picture>
+	
+		<source media="(max-width: 1330px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-top-white-laptop.svg">
 	
 		<img class="internal_banner_white" src="<?php bloginfo('template_directory');?>/images/int-hero-top-white-desktop.svg"/>
 	
