@@ -452,7 +452,20 @@ body.page-template-default {
 	
 } /* Media Query */
 
-
+@media screen and (max-width: 1330px) {
+	
+	
+	
+	body.page-template-default {
+		a.phone {
+			color:$red;
+			font-size: 32px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
 
 @media screen and (max-width: 1190px) {
 	
@@ -1017,7 +1030,11 @@ body.page-template-default {
 	
 
 	
-	
+	body.page-template-default {
+		a.phone {
+			font-size: 20px;
+		}
+	}
 	
 	
 	

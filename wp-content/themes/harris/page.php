@@ -35,6 +35,11 @@
 		<source media="(max-width: 1355px)" srcset="<?php bloginfo('template_directory');?>/images/hero-bg-laptop-02.svg">
 -->
 		
+		
+		
+		
+		<source media="(max-width: 767px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-bg-mobile.svg">
+		
 		<source media="(max-width: 1010px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-bg-tablet.svg">
 		
 		<source media="(max-width: 1330px)" srcset="<?php bloginfo('template_directory');?>/images/int-hero-bg-laptop.svg">
