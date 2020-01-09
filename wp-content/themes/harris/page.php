@@ -8,9 +8,9 @@
 		
 		<div class="banner_left">
 			
-			<span class="banner_subheader">Las Vegas Personal Injury Lawyers</span><!-- banner_subheader -->
+			<span class="banner_subheader"><?php the_field( 'internal_sub_banner_title_global','option'); ?></span><!-- banner_subheader -->
 		
-			<span class="banner_largeheader">$100+ Million Recovered our&nbsp;Clients</span><!-- banner_largeheader -->
+			<span class="banner_largeheader"><?php the_field( 'internal_banner_title_global_copy','option'); ?></span><!-- banner_largeheader -->
 		
 			<a class="banner_button" href="#consultation">Get Your Free Consultation</a><!-- banner_button -->
 

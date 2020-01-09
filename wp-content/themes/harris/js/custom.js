@@ -230,12 +230,15 @@ jQuery(document).ready(function($){
     }
 		
 		
+		createWaypoint('sec_three_ani', '#sec_three_ani', 'visible', 200, null, true);
 		
-
-    // createWaypoint('section_one', '.sticky_header', 'visible', -300, null, true);
+		createWaypoint('sec_five_ani', '#sec_five_ani', 'visible', 300, null, true);
+		
+		createWaypoint('sec_seven_ani', '#sec_seven_ani', 'visible', 300, null, true);
     
-   
-
+    createWaypoint('about_right_ani', '#about_right_ani', 'visible', 200, null, true);
+		
+		
 
 		
 		/* Live Chat - Call function when script needs to be loaded either by hover, click or waypoints

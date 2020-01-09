@@ -3,8 +3,84 @@
 	
 	
 	.sec_two_slide {
-		
+		transform: translateY(0);
+		transition: all 900ms cubic-bezier(.17,.66,.34,.98);
+		&:hover {
+			transform: translateY(-35px);
+		}
 	}
+	
+
+	
+	.sec_three_img {
+		transform: translateY(-65px);
+		transition: all 1200ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	.sec_three_quote_wrapper {
+		transform: translateY(65px);
+		transition: all 1200ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	.sec_three_right.visible {
+		.sec_three_img,.sec_three_quote_wrapper {
+			transform: translateY(0px);
+		}
+	}
+	
+	
+	.sec_five_img {
+		transform: translateY(-65px);
+		transition: all 1200ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	.sec_five_quote_wrapper {
+		transform: translateY(65px);
+		transition: all 1200ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	
+	.sec_five_left.visible {
+		.sec_five_img, .sec_five_quote_wrapper {
+			transform: translateY(0px);
+		}
+	}
+	
+	.sec_seven_img {
+		transform: translateY(-65px);
+		transition: all 1200ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	.sec_seven_quote_wrapper {
+		transform: translateY(65px);
+		transition: all 1200ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	
+	.sec_seven_right.visible {
+		.sec_seven_img, .sec_seven_quote_wrapper {
+			transform: translateY(0px);
+		}
+	}
+	
+	
+	.about_image {
+		transform: translateY(-65px);
+		transition: all 1200ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	.about_quote_wrapper {
+		transform: translateY(65px);
+		transition: all 1200ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	
+	.about_right.visible {
+		.about_image, .about_quote_wrapper {
+			transform: translateY(0px);
+		}
+	}
+	
 	
 	
 } /* Media Query */

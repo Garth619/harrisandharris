@@ -22,7 +22,7 @@ get_header(); ?>
 		
 		</div><!-- about_left -->
 			
-		<div class="about_right">
+		<div id="about_right_ani" class="about_right">
 			
 			<div class="about_image">
 			

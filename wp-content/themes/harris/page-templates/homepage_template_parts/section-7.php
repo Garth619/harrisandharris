@@ -53,7 +53,7 @@
 				
 			</div><!-- sec_seven_left -->
 			
-			<div class="sec_seven_right">
+			<div id="sec_seven_ani" class="sec_seven_right">
 				
 				<div class="sec_seven_img">
 					

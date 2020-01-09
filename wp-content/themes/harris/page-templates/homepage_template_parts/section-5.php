@@ -2,7 +2,7 @@
 	
 	<div class="sec_five_inner content">
 		
-		<div class="sec_five_left">
+		<div id="sec_five_ani" class="sec_five_left">
 			
 			<div class="sec_five_img">
 				

@@ -12,7 +12,7 @@
 
 			</div><!-- sec_three_left -->
 			
-			<div class="sec_three_right">
+			<div id="sec_three_ani" class="sec_three_right">
 				
 				<div class="sec_three_img">
 				
