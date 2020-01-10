@@ -622,6 +622,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/hero-att-01.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/hero-att-01.webp",
+		"oF": 0
+		},
 	"/images/hero-att-02.png": {
 		"ft": 32768,
 		"iS": 149356,
@@ -632,6 +640,14 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/hero-att-02.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/hero-att-02.webp",
+		"oF": 0
 		},
 	"/images/hero-atts.png": {
 		"ft": 32768,
@@ -1623,6 +1639,14 @@
 		"oAP": "/page-templates/homepage_template_parts/section-3.php",
 		"oF": 0
 		},
+	"/page-templates/homepage_template_parts/section-4 copy.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-templates/homepage_template_parts/section-4 copy.php",
+		"oF": 0
+		},
 	"/page-templates/homepage_template_parts/section-4.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1637,6 +1661,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/page-templates/homepage_template_parts/section-5.php",
+		"oF": 0
+		},
+	"/page-templates/homepage_template_parts/section-6 copy.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-templates/homepage_template_parts/section-6 copy.php",
 		"oF": 0
 		},
 	"/page-templates/homepage_template_parts/section-6.php": {
@@ -2014,6 +2046,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/homepage/_section_four copy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/homepage/_section_four copy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/homepage/_section_four.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2049,6 +2094,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/homepage/_section_seven.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/homepage/_section_six copy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/homepage/_section_six copy.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

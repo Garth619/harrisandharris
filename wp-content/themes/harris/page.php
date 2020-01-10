@@ -8,11 +8,47 @@
 		
 		<div class="banner_left">
 			
-			<span class="banner_subheader"><?php the_field( 'internal_sub_banner_title_global','option'); ?></span><!-- banner_subheader -->
+			<?php if(get_field('internal_sub_banner_title')) : ?>
+			
+				<span class="banner_subheader"><?php the_field( 'internal_sub_banner_title'); ?></span><!-- banner_subheader -->
+			
+			<?php else:?>
+			
+				<span class="banner_subheader"><?php the_field( 'internal_sub_banner_title_global','option'); ?></span><!-- banner_subheader -->
+			
+			<?php endif;?>
+			
+			<?php if(get_field('internal_banner_large_title')) : ?>
+			
+				<?php if(get_field('make_banner_title_an_h1')) : ?>
+				
+					<h1 class="banner_largeheader"><?php the_field( 'internal_banner_large_title'); ?></h1><!-- banner_largeheader -->
+				
+					<?php else:?> 
+			
+					<span class="banner_largeheader"><?php the_field( 'internal_banner_large_title'); ?></span><!-- banner_largeheader -->
+				
+					<?php endif;?> 
+				
+			<?php else:?>
+			
+				<?php if(get_field('make_banner_title_an_h1')) : ?> 
+				
+					<h1 class="banner_largeheader"><?php the_field( 'internal_banner_title_global_copy','option'); ?></h1><!-- banner_largeheader -->                                                  
+				
+				<?php else:?> 
 		
-			<span class="banner_largeheader"><?php the_field( 'internal_banner_title_global_copy','option'); ?></span><!-- banner_largeheader -->
+					<span class="banner_largeheader"><?php the_field( 'internal_banner_title_global_copy','option'); ?></span><!-- banner_largeheader -->
+				
+				<?php endif;?>
+			
+			<?php endif;?>
+			
+			<?php if(!get_field('turn_off_button')) : ?>
 		
-			<a class="banner_button" href="#consultation">Get Your Free Consultation</a><!-- banner_button -->
+				<a class="banner_button" href="#consultation">Get Your Free Consultation</a><!-- banner_button -->
+			
+			<?php endif; ?>
 
 		</div><!-- banner_left -->
 		
@@ -70,7 +106,15 @@
 	
 	<div class="content_left content">
 		
-		<h1 class="default_header"><?php the_title();?></h1><!-- default_header -->
+		<?php if(get_field('make_banner_title_an_h1')) : ?> 
+			
+				<h2 class="default_header"><?php the_title();?></h2><!-- default_header -->
+			
+			<?php else:?>
+			
+				<h1 class="default_header"><?php the_title();?></h1><!-- default_header -->
+			
+			<?php endif;?>
 		
 		<?php get_template_part( 'loop', 'page' ); ?>
 				

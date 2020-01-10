@@ -2,7 +2,7 @@
 	
 	<div class="sec_four_wave_top">
 		
-		<img class="wave top" src="<?php bloginfo('template_directory');?>/images/cr-bg-top.svg"/>
+		<img class="wave top" data-src="<?php bloginfo('template_directory');?>/images/cr-bg-top.svg"/>
 		
 	</div><!-- sec_four_wave_top -->
 	
@@ -90,7 +90,7 @@
 	
 	<div class="sec_four_wave_bottom">
 		
-		<img class="wave bottom"  src="<?php bloginfo('template_directory');?>/images/cr-bg-bottom.svg"/>
+		<img class="wave bottom"  data-src="<?php bloginfo('template_directory');?>/images/cr-bg-bottom.svg"/>
 		
 	</div><!-- sec_four_wave_bottom -->
 	

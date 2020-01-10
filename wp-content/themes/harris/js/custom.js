@@ -232,9 +232,9 @@ jQuery(document).ready(function($){
 		
 		createWaypoint('sec_three_ani', '#sec_three_ani', 'visible', 200, null, true);
 		
-		createWaypoint('sec_five_ani', '#sec_five_ani', 'visible', 300, null, true);
+		createWaypoint('sec_five_ani', '#sec_five_ani', 'visible', 400, null, true);
 		
-		createWaypoint('sec_seven_ani', '#sec_seven_ani', 'visible', 300, null, true);
+		createWaypoint('sec_seven_ani', '#sec_seven_ani', 'visible', 400, null, true);
     
     createWaypoint('about_right_ani', '#about_right_ani', 'visible', 200, null, true);
 		
@@ -744,7 +744,7 @@ $(window).resize(_.debounce(function() {
 	
 	}
 
-}, 100)); // timeouts functions
+}, 50)); // timeouts functions
 
   
 }); // document ready

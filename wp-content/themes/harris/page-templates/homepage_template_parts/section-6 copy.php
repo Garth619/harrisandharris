@@ -2,7 +2,7 @@
 	
 	<div class="sec_six_wave_top">
 		
-		<img class="wave top" src="<?php bloginfo('template_directory');?>/images/test-bg-top.svg"/>
+		<img class="wave top" data-src="<?php bloginfo('template_directory');?>/images/test-bg-top.svg"/>
 		
 	</div><!-- sec_six_wave_top -->
 	
@@ -50,7 +50,7 @@
 	
 	<div class="sec_six_wave_bottom">
 		
-		<img class="wave bottom"  src="<?php bloginfo('template_directory');?>/images/test-bg-bottom.svg"/>
+		<img class="wave bottom"  data-src="<?php bloginfo('template_directory');?>/images/test-bg-bottom.svg"/>
 		
 	</div><!-- sec_six_wave_bottom -->
 	

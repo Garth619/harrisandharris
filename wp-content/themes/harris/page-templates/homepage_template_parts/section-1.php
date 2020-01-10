@@ -18,21 +18,30 @@
 	
 	<div class="sec_one_right">
 		
-		<?php $section_one_attorney_image_one = get_field( 'section_one_attorney_image_one' ); ?>
-		
-		<?php if ( $section_one_attorney_image_one ) { ?>
-			
+		<picture>
+					
+			<?php $section_one_attorney_image_one = get_field( 'section_one_attorney_image_one' ); ?>
+						
+			<?php $section_one_attorney_image_one_webp = get_field( 'section_one_attorney_image_one_webp' ); ?>
+
+			<source srcset="<?php echo $section_one_attorney_image_one_webp['url']; ?>" type="image/webp">
+						
 			<img class="att_one" src="<?php echo $section_one_attorney_image_one['url']; ?>" alt="<?php echo $section_one_attorney_image_one['alt']; ?>" />
+						
+		</picture>
 		
-		<?php } ?>
-		
-		<?php $section_one_attorney_image_two = get_field( 'section_one_attorney_image_two' ); ?>
-		
-		<?php if ( $section_one_attorney_image_two ) { ?>
-			
+		<picture>
+					
+			<?php $section_one_attorney_image_two = get_field( 'section_one_attorney_image_two' ); ?>
+						
+			<?php $section_one_attorney_image_two_webp = get_field( 'section_one_attorney_image_two_webp' ); ?>
+
+			<source srcset="<?php echo $section_one_attorney_image_two_webp['url']; ?>" type="image/webp">
+						
 			<img class="att_two" src="<?php echo $section_one_attorney_image_two['url']; ?>" alt="<?php echo $section_one_attorney_image_two['alt']; ?>" />
+						
+		</picture>
 		
-		<?php } ?>
 		
 	</div><!-- sec_one_right -->
 
