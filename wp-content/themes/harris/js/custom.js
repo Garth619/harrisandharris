@@ -6,7 +6,7 @@
 
 jQuery(document).ready(function($){
 	
-
+	$('body').addClass('ready');
 	
 	 /* Modernizr - check if browser supports webp for section_one. 
      --------------------------------------------------------------------------------------- */
