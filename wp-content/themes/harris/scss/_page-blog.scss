@@ -11,7 +11,12 @@
 	@include barlow_black;
 }
 
-
+body.single {
+	.large_internal_header {
+		font-size: 60px;
+		line-height: 70px;
+	}
+}
 
 body:not(.page-template-default) {
 	.sidebar_wrapper {
@@ -193,6 +198,14 @@ a.blog_read_more {
 @media screen and (max-width: 1330px) {
 	
 	
+body.single {
+	.large_internal_header {
+		font-size: 60px;
+		line-height: 65px;
+	}
+}
+	
+	
 	.large_internal_header {
 		font-size: 60px;
 		line-height: 65px;
@@ -219,6 +232,16 @@ a.blog_read_more {
 
 
 @media screen and (max-width: 767px) {
+	
+	
+	
+	body.single {
+	.large_internal_header {
+		font-size: 55px;
+		line-height: 60px;
+	}
+}
+	
 	
 	
 	.large_internal_header {
